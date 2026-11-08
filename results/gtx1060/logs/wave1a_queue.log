@@ -1,0 +1,18 @@
+2026-11-07 16:33:07.95 START simclr
+2026-11-07 16:33:07.95 END simclr exit 3
+2026-11-07 16:33:07.95 START byol
+2026-11-07 16:33:07.95 END byol exit 0
+2026-11-07 16:33:07.95 STOP file - queue ends before vicreg
+2026-11-07 17:17:11.69 START simclr
+2026-11-07 20:15:07.48 EXTRA started, waiting for the first queue
+2026-11-07 17:17:11.69 END simclr exit 0
+2026-11-07 17:17:11.69 START byol
+2026-11-07 17:17:11.69 END byol exit 0
+2026-11-07 17:17:11.69 START vicreg
+2026-11-07 17:17:11.69 END vicreg exit 0
+2026-11-07 17:17:11.69 START dino
+2026-11-07 17:17:11.69 END dino exit 0
+2026-11-08 17:06:38.98 QUEUE DONE
+2026-11-08 17:10:07.21 START simsiam
+2026-11-08 17:12:02.45 END simsiam exit 0
+2026-11-08 17:12:02.45 STOP file - extra queue ends

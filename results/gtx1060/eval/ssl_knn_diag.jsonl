@@ -1,0 +1,2 @@
+{"backbone": "random", "knn_stored_bn": 0.7789, "knn_bn_recomputed": 0.6326}
+{"backbone": "C:\\SSL_Wave1\\runs\\ssl_simclr\\backbone_e005.pth", "knn_stored_bn": 0.724, "knn_bn_recomputed": 0.7328}

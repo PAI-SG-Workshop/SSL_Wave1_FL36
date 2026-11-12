@@ -1,0 +1,244 @@
+2026-11-08 09:49:11  queue start: cutoff 2026-11-09 06:00, hard stop 2026-11-09 06:10, python /home/minsoogo/miniforge3/envs/ssl_env/bin/python
+2026-11-08 09:49:11  START simsiam (~90 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method simsiam --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 10:06:12  DONE simsiam in 17 min
+2026-11-08 10:06:12  START barlow (~55 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method barlow --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 10:22:52  DONE barlow in 16 min
+2026-11-08 10:22:52  START simclr (~55 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method simclr --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 10:38:53  DONE simclr in 16 min
+2026-11-08 10:38:53  START byol (~65 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method byol --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 10:59:33  DONE byol in 20 min
+2026-11-08 10:59:33  START vicreg (~60 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method vicreg --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 11:16:14  DONE vicreg in 16 min
+2026-11-08 11:16:14  START dino (~70 min): cd ~/SSL_Wave1/code/ssl && python ssl_train_ext.py --method dino --epochs 50 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-08 11:37:14  DONE dino in 21 min
+2026-11-08 11:37:14  START supervised (~20 min): cd ~/SSL_Wave1/code/ssl && python sup_ref.py
+2026-11-08 11:41:35  DONE supervised in 4 min
+2026-11-08 11:41:35  START final_eval (~30 min): cd ~/SSL_Wave1/code/ssl && python final_eval.py
+2026-11-08 11:43:15  DONE final_eval in 1 min
+2026-11-08 11:43:15  START cn_scratch (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet.py
+2026-11-08 12:31:16  DONE cn_scratch in 48 min
+2026-11-08 12:31:16  START cn_simclr (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_simclr/backbone_final.pth
+2026-11-08 13:19:17  DONE cn_simclr in 48 min
+2026-11-08 13:19:17  START cn_vicreg (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_vicreg/backbone_final.pth
+2026-11-08 14:07:18  DONE cn_vicreg in 48 min
+2026-11-08 14:07:18  START cn_dino (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_dino/backbone_final.pth
+2026-11-08 14:55:19  DONE cn_dino in 48 min
+2026-11-08 14:55:19  START cn_barlow (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_barlow/backbone_final.pth
+2026-11-08 15:43:20  DONE cn_barlow in 48 min
+2026-11-08 15:43:20  START cn_simsiam (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_simsiam/backbone_final.pth
+2026-11-08 16:31:21  DONE cn_simsiam in 48 min
+2026-11-08 16:31:21  START cn_byol (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_byol/backbone_final.pth
+2026-11-08 17:19:22  DONE cn_byol in 48 min
+2026-11-08 17:19:22  START cn_supervised (~60 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_supervised/backbone_final.pth
+2026-11-08 18:07:23  DONE cn_supervised in 48 min
+2026-11-08 18:07:23  START cn_scratch2 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_rerun2.py
+2026-11-08 18:55:24  DONE cn_scratch2 in 48 min
+2026-11-08 18:55:24  START cn_vicreg_rerun2 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1/runs/ssl_vicreg/backbone_rerun2.pth
+2026-11-08 19:43:25  DONE cn_vicreg_rerun2 in 48 min
+2026-11-08 19:43:25  START byol200 (~260 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python ssl_train_ext.py --method byol --epochs 200 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-08 21:05:48  DONE byol200 in 82 min
+2026-11-08 21:05:48  START simclr200 (~220 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python ssl_train_ext.py --method simclr --epochs 200 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-08 22:08:10  DONE simclr200 in 62 min
+2026-11-08 22:08:10  START vicreg200 (~100 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python ssl_train_ext.py --method vicreg --epochs 200 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-08 23:13:31  DONE vicreg200 in 65 min
+2026-11-08 23:13:31  START simsiam200 (~95 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python ssl_train_ext.py --method simsiam --epochs 200 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-09 00:17:53  DONE simsiam200 in 64 min
+2026-11-09 00:17:53  START final_eval_1b (~15 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python final_eval.py
+2026-11-09 00:18:53  DONE final_eval_1b in 1 min
+2026-11-09 00:18:53  START cn_byol_e200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1b/runs/ssl_byol/backbone_e200.pth
+2026-11-09 01:06:54  DONE cn_byol_e200 in 48 min
+2026-11-09 01:06:55  START cn_vicreg_e200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-09 01:54:56  DONE cn_vicreg_e200 in 48 min
+2026-11-09 01:54:56  START cn_simclr_e200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1b/runs/ssl_simclr/backbone_e200.pth
+2026-11-09 02:42:57  DONE cn_simclr_e200 in 48 min
+2026-11-09 02:42:57  START cn_simsiam_e200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1b/runs/ssl_simsiam/backbone_e200.pth
+2026-11-09 03:30:58  DONE cn_simsiam_e200 in 48 min
+2026-11-09 05:10:03  STOP file - queue ends
+2026-11-09 07:31:22  queue start: cutoff 2026-11-12 15:45, hard stop 2026-11-12 16:40, python /home/minsoogo/miniforge3/envs/ssl_env/bin/python
+2026-11-09 07:31:22  START barlow200 (~90 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python ssl_train_ext.py --method barlow --epochs 200 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-09 08:42:45  DONE barlow200 in 71 min
+2026-11-09 08:42:45  START cn_barlow_e200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_ssl.py --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-09 09:38:27  DONE cn_barlow_e200 in 55 min
+2026-11-09 09:38:27  START final_eval_1b_v2 (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1b python final_eval.py
+2026-11-09 09:39:47  DONE final_eval_1b_v2 in 1 min
+2026-11-09 09:39:47  START lab_p10_scratch (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_scratch
+2026-11-09 10:35:49  DONE lab_p10_scratch in 56 min
+2026-11-09 10:35:49  START lab_p10_vicreg200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_vicreg200 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-09 11:31:32  DONE lab_p10_vicreg200 in 55 min
+2026-11-09 11:31:32  START lab_p10_simclr200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_simclr200 --pretrained ~/SSL_Wave1b/runs/ssl_simclr/backbone_e200.pth
+2026-11-09 12:27:14  DONE lab_p10_simclr200 in 55 min
+2026-11-09 12:27:14  START lab_p01_scratch (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_scratch
+2026-11-09 13:22:56  DONE lab_p01_scratch in 55 min
+2026-11-09 13:22:56  START lab_p01_vicreg200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_vicreg200 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-09 14:18:18  DONE lab_p01_vicreg200 in 55 min
+2026-11-09 14:18:18  START lab_p01_simclr200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_simclr200 --pretrained ~/SSL_Wave1b/runs/ssl_simclr/backbone_e200.pth
+2026-11-09 15:14:01  DONE lab_p01_simclr200 in 55 min
+2026-11-09 15:14:01  START lab_p05_scratch (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_scratch
+2026-11-09 16:10:23  DONE lab_p05_scratch in 56 min
+2026-11-09 16:10:23  START lab_p05_vicreg200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_vicreg200 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-09 17:06:25  DONE lab_p05_vicreg200 in 56 min
+2026-11-09 17:06:25  START lab_p05_simclr200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_simclr200 --pretrained ~/SSL_Wave1b/runs/ssl_simclr/backbone_e200.pth
+2026-11-09 18:02:27  DONE lab_p05_simclr200 in 56 min
+2026-11-09 18:02:27  START lab_p25_scratch (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_scratch
+2026-11-09 18:58:10  DONE lab_p25_scratch in 55 min
+2026-11-09 18:58:10  START lab_p25_vicreg200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_vicreg200 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-09 19:53:32  DONE lab_p25_vicreg200 in 55 min
+2026-11-09 19:53:32  START lab_p25_simclr200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_simclr200 --pretrained ~/SSL_Wave1b/runs/ssl_simclr/backbone_e200.pth
+2026-11-09 20:48:54  DONE lab_p25_simclr200 in 55 min
+2026-11-09 20:48:54  START s778_vicreg (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s778 python ssl_train_ext.py --method vicreg --epochs 50 --seed 778 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-09 21:06:55  DONE s778_vicreg in 18 min
+2026-11-09 21:06:55  START cn_s778_vicreg (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_vicreg_s778 --pretrained ~/SSL_Wave1s/s778/runs/ssl_vicreg/backbone_final.pth
+2026-11-09 22:02:17  DONE cn_s778_vicreg in 55 min
+2026-11-09 22:02:17  START s778_barlow (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s778 python ssl_train_ext.py --method barlow --epochs 50 --seed 778 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-09 22:20:38  DONE s778_barlow in 18 min
+2026-11-09 22:20:38  START cn_s778_barlow (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_barlow_s778 --pretrained ~/SSL_Wave1s/s778/runs/ssl_barlow/backbone_final.pth
+2026-11-09 23:16:00  DONE cn_s778_barlow in 55 min
+2026-11-09 23:16:00  START s778_simclr (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s778 python ssl_train_ext.py --method simclr --epochs 50 --seed 778 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-09 23:33:41  DONE s778_simclr in 17 min
+2026-11-09 23:33:41  START cn_s778_simclr (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_simclr_s778 --pretrained ~/SSL_Wave1s/s778/runs/ssl_simclr/backbone_final.pth
+2026-11-10 00:29:03  DONE cn_s778_simclr in 55 min
+2026-11-10 00:29:03  START s779_vicreg (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s779 python ssl_train_ext.py --method vicreg --epochs 50 --seed 779 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-10 00:47:24  DONE s779_vicreg in 18 min
+2026-11-10 00:47:24  START cn_s779_vicreg (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_vicreg_s779 --pretrained ~/SSL_Wave1s/s779/runs/ssl_vicreg/backbone_final.pth
+2026-11-10 01:42:46  DONE cn_s779_vicreg in 55 min
+2026-11-10 01:42:46  START s779_barlow (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s779 python ssl_train_ext.py --method barlow --epochs 50 --seed 779 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-10 02:01:07  DONE s779_barlow in 18 min
+2026-11-10 02:01:07  START cn_s779_barlow (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_barlow_s779 --pretrained ~/SSL_Wave1s/s779/runs/ssl_barlow/backbone_final.pth
+2026-11-10 02:56:29  DONE cn_s779_barlow in 55 min
+2026-11-10 02:56:29  START s779_simclr (~25 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s779 python ssl_train_ext.py --method simclr --epochs 50 --seed 779 --workers 8 --gate-margin -1 --knn-every 10
+2026-11-10 03:14:10  DONE s779_simclr in 17 min
+2026-11-10 03:14:10  START cn_s779_simclr (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_simclr_s779 --pretrained ~/SSL_Wave1s/s779/runs/ssl_simclr/backbone_final.pth
+2026-11-10 04:09:32  DONE cn_s779_simclr in 55 min
+2026-11-10 04:09:32  START final_eval_s778 (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s778 python final_eval.py
+2026-11-10 04:10:32  DONE final_eval_s778 in 1 min
+2026-11-10 04:10:32  START final_eval_s779 (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1s/s779 python final_eval.py
+2026-11-10 04:11:32  DONE final_eval_s779 in 1 min
+2026-11-10 04:11:32  START cls_p10_supervised_scratch (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p10 --init scratch --tag cls_p10_supervised_scratch
+2026-11-10 04:15:12  DONE cls_p10_supervised_scratch in 3 min
+2026-11-10 04:15:12  START cls_p10_pseudolabel_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p10 --init scratch --tag cls_p10_pseudolabel_scratch
+2026-11-10 04:22:13  DONE cls_p10_pseudolabel_scratch in 7 min
+2026-11-10 04:22:13  START cls_p10_meanteacher_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p10 --init scratch --tag cls_p10_meanteacher_scratch
+2026-11-10 04:29:53  DONE cls_p10_meanteacher_scratch in 7 min
+2026-11-10 04:29:53  START cls_p10_fixmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p10 --init scratch --tag cls_p10_fixmatch_scratch
+2026-11-10 05:08:34  DONE cls_p10_fixmatch_scratch in 38 min
+2026-11-10 05:08:34  START cls_p10_flexmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p10 --init scratch --tag cls_p10_flexmatch_scratch
+2026-11-10 05:47:16  DONE cls_p10_flexmatch_scratch in 38 min
+2026-11-10 05:47:16  START cls_p10_supervised_vicreg200 (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p10 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p10_supervised_vicreg200
+2026-11-10 05:50:56  DONE cls_p10_supervised_vicreg200 in 3 min
+2026-11-10 05:50:56  START cls_p10_pseudolabel_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p10 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p10_pseudolabel_vicreg200
+2026-11-10 05:57:36  DONE cls_p10_pseudolabel_vicreg200 in 6 min
+2026-11-10 05:57:36  START cls_p10_meanteacher_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p10 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p10_meanteacher_vicreg200
+2026-11-10 06:05:17  DONE cls_p10_meanteacher_vicreg200 in 7 min
+2026-11-10 06:05:17  START cls_p10_fixmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p10 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p10_fixmatch_vicreg200
+2026-11-10 06:43:38  DONE cls_p10_fixmatch_vicreg200 in 38 min
+2026-11-10 06:43:38  START cls_p10_flexmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p10 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p10_flexmatch_vicreg200
+2026-11-10 07:22:39  DONE cls_p10_flexmatch_vicreg200 in 39 min
+2026-11-10 07:22:39  START cls_p01_supervised_scratch (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p01 --init scratch --tag cls_p01_supervised_scratch
+2026-11-10 07:26:20  DONE cls_p01_supervised_scratch in 3 min
+2026-11-10 07:26:20  START cls_p01_pseudolabel_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p01 --init scratch --tag cls_p01_pseudolabel_scratch
+2026-11-10 07:33:20  DONE cls_p01_pseudolabel_scratch in 7 min
+2026-11-10 07:33:20  START cls_p01_meanteacher_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p01 --init scratch --tag cls_p01_meanteacher_scratch
+2026-11-10 07:41:20  DONE cls_p01_meanteacher_scratch in 8 min
+2026-11-10 07:41:20  START cls_p01_fixmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p01 --init scratch --tag cls_p01_fixmatch_scratch
+2026-11-10 08:20:22  DONE cls_p01_fixmatch_scratch in 39 min
+2026-11-10 08:20:22  START cls_p01_flexmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p01 --init scratch --tag cls_p01_flexmatch_scratch
+2026-11-10 08:59:23  DONE cls_p01_flexmatch_scratch in 39 min
+2026-11-10 08:59:23  START cls_p01_supervised_vicreg200 (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p01 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p01_supervised_vicreg200
+2026-11-10 09:03:03  DONE cls_p01_supervised_vicreg200 in 3 min
+2026-11-10 09:03:03  START cls_p01_pseudolabel_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p01 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p01_pseudolabel_vicreg200
+2026-11-10 09:10:04  DONE cls_p01_pseudolabel_vicreg200 in 7 min
+2026-11-10 09:10:04  START cls_p01_meanteacher_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p01 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p01_meanteacher_vicreg200
+2026-11-10 09:17:44  DONE cls_p01_meanteacher_vicreg200 in 7 min
+2026-11-10 09:17:44  START cls_p01_fixmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p01 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p01_fixmatch_vicreg200
+2026-11-10 09:56:45  DONE cls_p01_fixmatch_vicreg200 in 39 min
+2026-11-10 09:56:46  START cls_p01_flexmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p01 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p01_flexmatch_vicreg200
+2026-11-10 10:35:27  DONE cls_p01_flexmatch_vicreg200 in 38 min
+2026-11-10 10:35:27  START cls_p05_supervised_scratch (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p05 --init scratch --tag cls_p05_supervised_scratch
+2026-11-10 10:39:07  DONE cls_p05_supervised_scratch in 3 min
+2026-11-10 10:39:07  START cls_p05_pseudolabel_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p05 --init scratch --tag cls_p05_pseudolabel_scratch
+2026-11-10 10:45:47  DONE cls_p05_pseudolabel_scratch in 6 min
+2026-11-10 10:45:47  START cls_p05_meanteacher_scratch (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p05 --init scratch --tag cls_p05_meanteacher_scratch
+2026-11-10 10:53:28  DONE cls_p05_meanteacher_scratch in 7 min
+2026-11-10 10:53:28  START cls_p05_fixmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p05 --init scratch --tag cls_p05_fixmatch_scratch
+2026-11-10 11:32:29  DONE cls_p05_fixmatch_scratch in 39 min
+2026-11-10 11:32:29  START cls_p05_flexmatch_scratch (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p05 --init scratch --tag cls_p05_flexmatch_scratch
+2026-11-10 12:11:31  DONE cls_p05_flexmatch_scratch in 39 min
+2026-11-10 12:11:31  START cls_p05_supervised_vicreg200 (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p05 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p05_supervised_vicreg200
+2026-11-10 12:15:11  DONE cls_p05_supervised_vicreg200 in 3 min
+2026-11-10 12:15:11  START cls_p05_pseudolabel_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method pseudolabel --ratio p05 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p05_pseudolabel_vicreg200
+2026-11-10 12:22:11  DONE cls_p05_pseudolabel_vicreg200 in 7 min
+2026-11-10 12:22:11  START cls_p05_meanteacher_vicreg200 (~20 min): cd ~/SSL_Wave2 && python semisl_cls.py --method meanteacher --ratio p05 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p05_meanteacher_vicreg200
+2026-11-10 12:29:52  DONE cls_p05_meanteacher_vicreg200 in 7 min
+2026-11-10 12:29:52  START cls_p05_fixmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method fixmatch --ratio p05 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p05_fixmatch_vicreg200
+2026-11-10 13:08:53  DONE cls_p05_fixmatch_vicreg200 in 39 min
+2026-11-10 13:08:53  START cls_p05_flexmatch_vicreg200 (~60 min): cd ~/SSL_Wave2 && python semisl_cls.py --method flexmatch --ratio p05 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p05_flexmatch_vicreg200
+2026-11-10 13:47:54  DONE cls_p05_flexmatch_vicreg200 in 39 min
+2026-11-10 13:47:54  START cls_p100_supervised_scratch (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p100 --init scratch --tag cls_p100_supervised_scratch
+2026-11-10 13:51:35  DONE cls_p100_supervised_scratch in 3 min
+2026-11-10 13:51:35  START cls_p100_supervised_vicreg200 (~12 min): cd ~/SSL_Wave2 && python semisl_cls.py --method supervised --ratio p100 --init ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth --tag cls_p100_supervised_vicreg200
+2026-11-10 13:55:15  DONE cls_p100_supervised_vicreg200 in 3 min
+2026-11-10 13:55:15  START lab_p10_barlow200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow200 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-10 14:50:57  DONE lab_p10_barlow200 in 55 min
+2026-11-10 14:50:57  START lab_p01_barlow200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_barlow200 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-10 15:47:19  DONE lab_p01_barlow200 in 56 min
+2026-11-10 15:47:20  START lab_p05_barlow200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_barlow200 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-10 16:43:42  DONE lab_p05_barlow200 in 56 min
+2026-11-10 16:43:42  START det_p10_ut_scratch (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p10 --init scratch --tag det_p10_ut_scratch
+2026-11-10 18:20:06  DONE det_p10_ut_scratch in 96 min
+2026-11-10 18:20:06  START det_p10_ut_barlow200 (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p10 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det_p10_ut_barlow200
+2026-11-10 19:56:29  DONE det_p10_ut_barlow200 in 96 min
+2026-11-10 19:56:29  START det_p01_ut_scratch (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p01 --init scratch --tag det_p01_ut_scratch
+2026-11-10 21:32:33  DONE det_p01_ut_scratch in 96 min
+2026-11-10 21:32:33  START det_p01_ut_barlow200 (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p01 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det_p01_ut_barlow200
+2026-11-10 23:08:57  DONE det_p01_ut_barlow200 in 96 min
+2026-11-10 23:08:57  START det_p05_ut_scratch (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p05 --init scratch --tag det_p05_ut_scratch
+2026-11-11 00:44:01  DONE det_p05_ut_scratch in 95 min
+2026-11-11 00:44:01  START det_p05_ut_barlow200 (~120 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det.py --ratio p05 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det_p05_ut_barlow200
+2026-11-11 02:19:45  DONE det_p05_ut_barlow200 in 95 min
+2026-11-11 07:25:24  START b200_s778 (~85 min): mkdir -p ~/SSL_Wave1bs/s778/datasets && ln -sfn ~/SSL_Wave1/datasets/ssl ~/SSL_Wave1bs/s778/datasets/ssl && cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s778 python ssl_train_ext.py --method barlow --epochs 200 --seed 778 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-11 08:36:06  DONE b200_s778 in 70 min
+2026-11-11 08:36:06  START cn_b200_s778 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_barlow_e200_s778 --pretrained ~/SSL_Wave1bs/s778/runs/ssl_barlow/backbone_e200.pth
+2026-11-11 09:31:29  DONE cn_b200_s778 in 55 min
+2026-11-11 09:31:29  START b200_s779 (~85 min): mkdir -p ~/SSL_Wave1bs/s779/datasets && ln -sfn ~/SSL_Wave1/datasets/ssl ~/SSL_Wave1bs/s779/datasets/ssl && cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s779 python ssl_train_ext.py --method barlow --epochs 200 --seed 779 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-11 10:42:31  DONE b200_s779 in 71 min
+2026-11-11 10:42:31  START cn_b200_s779 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_barlow_e200_s779 --pretrained ~/SSL_Wave1bs/s779/runs/ssl_barlow/backbone_e200.pth
+2026-11-11 11:37:53  DONE cn_b200_s779 in 55 min
+2026-11-11 11:37:54  START v200_s778 (~85 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s778 python ssl_train_ext.py --method vicreg --epochs 200 --seed 778 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-11 12:49:56  DONE v200_s778 in 72 min
+2026-11-11 12:49:56  START cn_v200_s778 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_vicreg_e200_s778 --pretrained ~/SSL_Wave1bs/s778/runs/ssl_vicreg/backbone_e200.pth
+2026-11-11 13:45:38  DONE cn_v200_s778 in 55 min
+2026-11-11 13:45:38  START v200_s779 (~85 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s779 python ssl_train_ext.py --method vicreg --epochs 200 --seed 779 --workers 8 --gate-margin -1 --knn-every 25
+2026-11-11 14:57:01  DONE v200_s779 in 71 min
+2026-11-11 14:57:01  START cn_v200_s779 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_vicreg_e200_s779 --pretrained ~/SSL_Wave1bs/s779/runs/ssl_vicreg/backbone_e200.pth
+2026-11-11 15:53:03  DONE cn_v200_s779 in 56 min
+2026-11-11 15:53:03  START det2_p10_scratch (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init scratch --tag det2_p10_scratch
+2026-11-11 17:32:27  DONE det2_p10_scratch in 99 min
+2026-11-11 17:32:27  START det2_p10_barlow200 (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det2_p10_barlow200
+2026-11-11 19:12:11  DONE det2_p10_barlow200 in 99 min
+2026-11-11 19:12:11  START det2_p05_scratch (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p05 --init scratch --tag det2_p05_scratch
+2026-11-11 20:50:15  DONE det2_p05_scratch in 98 min
+2026-11-11 20:50:15  START det2_p05_barlow200 (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p05 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det2_p05_barlow200
+2026-11-11 22:28:59  DONE det2_p05_barlow200 in 98 min
+2026-11-11 22:28:59  START det2_p01_scratch (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p01 --init scratch --tag det2_p01_scratch
+2026-11-12 00:08:03  DONE det2_p01_scratch in 99 min
+2026-11-12 00:08:03  START det2_p01_barlow200 (~110 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p01 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --tag det2_p01_barlow200
+2026-11-12 01:47:07  DONE det2_p01_barlow200 in 99 min
+2026-11-12 01:47:07  START final_eval_b200_s778 (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s778 python final_eval.py
+2026-11-12 01:48:07  DONE final_eval_b200_s778 in 1 min
+2026-11-12 01:48:07  START final_eval_b200_s779 (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1bs/s779 python final_eval.py
+2026-11-12 01:49:07  DONE final_eval_b200_s779 in 1 min
+2026-11-12 01:49:07  START lab_p100_scratch_e90 (~160 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_scratch_e90 --epochs 90
+2026-11-12 04:33:54  DONE lab_p100_scratch_e90 in 164 min
+2026-11-12 04:33:54  START lab_p100_barlow200_e90 (~160 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_barlow200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-12 07:18:20  DONE lab_p100_barlow200_e90 in 164 min
+2026-11-12 07:18:20  START lab_p10_scratch_e90 (~160 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_scratch_e90 --epochs 90
+2026-11-12 10:03:27  DONE lab_p10_scratch_e90 in 165 min
+2026-11-12 10:03:27  START lab_p10_barlow200_e90 (~160 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-12 12:51:33  DONE lab_p10_barlow200_e90 in 168 min
+2026-11-12 12:51:33  START lab_p25_barlow200 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_barlow200 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-12 13:47:35  DONE lab_p25_barlow200 in 56 min
+2026-11-12 13:47:36  SKIP lab_p100_vicreg200_e90: needs ~160 min, would end after the cutoff
+2026-11-12 13:47:36  START det2_p10_scratch_bi60 (~105 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init scratch --burnin 0.6 --tag det2_p10_scratch_bi60
+2026-11-12 15:09:19  DONE det2_p10_scratch_bi60 in 81 min
+2026-11-12 15:45:24  cutoff reached - queue ends
+2026-11-12 15:45:24  queue end

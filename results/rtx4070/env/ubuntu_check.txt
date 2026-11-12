@@ -1,0 +1,72 @@
+=== ssl_ubuntu_check 2026-11-08 09:29:17  host minsoogo-Predator-PHN16-72
+--- GPU
+name, driver_version, memory.total [MiB], memory.used [MiB], temperature.gpu, power.draw [W], power.limit [W], clocks.current.sm [MHz], clocks.max.sm [MHz]
+NVIDIA GeForce RTX 4070 Laptop GPU, 595.99.02, 8188 MiB, 13 MiB, 36, 590.01 W, [N/A], 1980 MHz, 3105 MHz
+compute processes on the GPU (empty = free):
+--- tmux sessions / python processes
+watch: 1 windows (created Fri Nov  6 07:12:33 2026)
+wk: 1 windows (created Thu Nov  5 18:21:24 2026)
+wk2: 1 windows (created Fri Nov  6 16:52:21 2026)
+2176 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+2475 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+37905 python3 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+--- machine
+Model name:                              Intel(R) Core(TM) i9-14900HX
+threads 32
+               total        used        free      shared  buff/cache   available
+Mem:              61           5          32           1          25          56
+/dev/nvme0n1p2  1.8T  262G  1.5T  16% /
+--- existing work (vseg / OD) locations
+PHYSICAL_AI_ROOT=
+/home/minsoogo/Physical_AI/datasets/FashionLetters36
+/home/minsoogo/Physical_AI/repos/OD_Image_1-Stage_CenterNet/train_image_centernet.py
+/home/minsoogo/Physical_AI/publish_v111/MOT_Detectors_KITTIMOTS/train_image_centernet.py
+/home/minsoogo/Physical_AI/publish_c36/OD_Image_1-Stage_CenterNet/train_image_centernet.py
+/home/minsoogo/Physical_AI/projects/dev3_fl36_detr_c36/train_image_centernet.py
+/home/minsoogo/Physical_AI/projects/Physical_AI_Detection_dev3/train_image_centernet.py
+--- conda envs and their torch
+conda base: /home/minsoogo/miniforge3
+base           py 3.14.6 | 2.13.0+cu130 cuda 13.0 avail True | 
+complex_yolo   py 3.10.21 | 2.5.1+cu124 cuda 12.4 avail True | torchvision cv2 scipy
+crafter        py 3.10.21 | 2.13.0+cu130 cuda 13.0 avail True | torchvision
+dmc            py 3.10.21 | no torch | scipy
+gymnasium      py 3.11.16 | 2.13.0+cu130 cuda 13.0 avail True | torchvision cv2
+hypersim_dl    py 3.11.16 | no torch | 
+mot_sam2       py 3.11.18 | 2.5.1+cu124 cuda 12.4 avail True | torchvision cv2 scipy
+object_det     py 3.10.21 | 2.5.1+cu124 cuda 12.4 avail True | torchvision cv2 scipy
+--- extracted SSL files
+/home/minsoogo/SSL_Wave1:
+total 28
+drwxrwxr-x  6 minsoogo minsoogo 4096 Nov  8 09:29 .
+drwxr-x--- 32 minsoogo minsoogo 4096 Nov  8 09:26 ..
+drwxrwxr-x  4 minsoogo minsoogo 4096 Nov  8 09:27 code
+drwxrwxr-x  3 minsoogo minsoogo 4096 Nov  8 09:27 datasets
+drwxrwxr-x  2 minsoogo minsoogo 4096 Nov  8 09:27 downloads
+drwxrwxr-x  2 minsoogo minsoogo 4096 Nov  8 09:27 logs
+-rw-rw-r--  1 minsoogo minsoogo 2790 Nov  8 09:28 ssl_ubuntu_check.sh
+
+/home/minsoogo/SSL_Wave1/code/ssl:
+total 76
+drwxrwxr-x 2 minsoogo minsoogo  4096 Nov  7 19:45 .
+drwxrwxr-x 4 minsoogo minsoogo  4096 Nov  8 09:27 ..
+-rw-rw-r-- 1 minsoogo minsoogo  3110 Nov  7 10:44 final_eval.py
+-rw-rw-r-- 1 minsoogo minsoogo  1991 Nov  7 17:06 knn_diag.py
+-rw-rw-r-- 1 minsoogo minsoogo  4763 Nov  7 15:52 prep_ssl_data.py
+-rwxrwxr-x 1 minsoogo minsoogo   905 Nov  7 17:07 run_wave1a.bat
+-rwxrwxr-x 1 minsoogo minsoogo  1497 Nov  7 10:44 run_wave1a_extra.bat
+-rw-rw-r-- 1 minsoogo minsoogo 25074 Nov  7 17:06 ssl_train.py
+-rw-rw-r-- 1 minsoogo minsoogo  4790 Nov  7 10:44 ssl_train_ext.py
+-rw-rw-r-- 1 minsoogo minsoogo  4462 Nov  7 10:44 sup_ref.py
+
+/home/minsoogo/SSL_Wave1/datasets/ssl:
+total 1779680
+drwxrwxr-x 2 minsoogo minsoogo       4096 Nov  7 15:59 .
+drwxrwxr-x 3 minsoogo minsoogo       4096 Nov  8 09:27 ..
+-rw-rw-r-- 1 minsoogo minsoogo   61792066 Nov  7 15:59 crop36_test.npz
+-rw-rw-r-- 1 minsoogo minsoogo  246428874 Nov  7 15:58 crop36_train.npz
+-rw-rw-r-- 1 minsoogo minsoogo 1514143872 Nov  7 15:58 fl36_train_gray.npy
+-rw-rw-r-- 1 minsoogo minsoogo       1456 Nov  7 15:59 ssl_data.json
+crop36_train.npz: MATCH  (383ff369 vs Windows 383ff369)
+crop36_test.npz: MATCH  (8d4e98e4 vs Windows 8d4e98e4)
+fl36_train_gray.npy: MATCH  (101adf3a vs Windows 101adf3a)
+=== done

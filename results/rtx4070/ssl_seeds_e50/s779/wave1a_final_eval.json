@@ -1,0 +1,54 @@
+[
+ {
+  "backbone": "random",
+  "knn_stored": 0.785,
+  "knn_bn": 0.6422,
+  "probe_top1": 0.6047,
+  "probe_f1": 0.6012
+ },
+ {
+  "backbone": "simclr",
+  "knn_stored": 0.8342,
+  "knn_bn": 0.838,
+  "probe_top1": 0.8873,
+  "probe_f1": 0.8848,
+  "train_info": {
+   "knn_top1": 0.8341543513957307,
+   "probe_top1": 0.8895357516047171,
+   "probe_macro_f1": 0.8876457866256889,
+   "method": "simclr",
+   "epochs": 50,
+   "hours": 0.29
+  }
+ },
+ {
+  "backbone": "vicreg",
+  "knn_stored": 0.8719,
+  "knn_bn": 0.8695,
+  "probe_top1": 0.9091,
+  "probe_f1": 0.9077,
+  "train_info": {
+   "knn_top1": 0.8719211822660099,
+   "probe_top1": 0.9093894611135991,
+   "probe_macro_f1": 0.9081998035146336,
+   "method": "vicreg",
+   "epochs": 50,
+   "hours": 0.3
+  }
+ },
+ {
+  "backbone": "barlow",
+  "knn_stored": 0.8648,
+  "knn_bn": 0.8673,
+  "probe_top1": 0.8954,
+  "probe_f1": 0.8937,
+  "train_info": {
+   "knn_top1": 0.864457381698761,
+   "probe_top1": 0.9011792804896254,
+   "probe_macro_f1": 0.8996935733043409,
+   "method": "barlow",
+   "epochs": 50,
+   "hours": 0.3
+  }
+ }
+]

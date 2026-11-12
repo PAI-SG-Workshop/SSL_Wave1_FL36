@@ -1,0 +1,59 @@
+2026-11-10 01:42:51  start barlow: epochs 50, steps/epoch 128, batch 256, recipe {'lr': 0.3, 'wd': 0.0001, 'aug': 'asymmetric'}, aug [(0.08, 0.4, 0.4, 0.8, 0.0, 0.0), (0.08, 0.4, 0.4, 0.8, 0.0, 0.2)], workers 8
+2026-11-10 01:43:12  epoch 1/50 loss 119.0980 lr 0.0298 collapse 0.57 time 0.4 min (1559 samples/s) gpu[T,MHz,W,MiB] 84, 2295, 85.36, 3053
+2026-11-10 01:43:32  epoch 2/50 loss 98.2965 lr 0.0598 collapse 0.51 time 0.3 min (1627 samples/s) gpu[T,MHz,W,MiB] 87, 2160, 85.28, 3053
+2026-11-10 01:43:53  epoch 3/50 loss 89.8600 lr 0.0898 collapse 0.51 time 0.3 min (1598 samples/s) gpu[T,MHz,W,MiB] 91, 2295, 96.99, 3053
+2026-11-10 01:44:14  epoch 4/50 loss 83.3530 lr 0.1198 collapse 0.51 time 0.3 min (1574 samples/s) gpu[T,MHz,W,MiB] 86, 2220, 75.26, 3053
+2026-11-10 01:44:35  epoch 5/50 loss 78.7960 lr 0.1498 collapse 0.50 time 0.3 min (1582 samples/s) gpu[T,MHz,W,MiB] 88, 1830, 97.83, 3053
+2026-11-10 01:44:39  gate kNN top1 0.7331  (random init None)
+2026-11-10 01:45:00  epoch 6/50 loss 75.9600 lr 0.1798 collapse 0.50 time 0.3 min (1571 samples/s) gpu[T,MHz,W,MiB] 86, 1740, 74.63, 3053
+2026-11-10 01:45:21  epoch 7/50 loss 73.5678 lr 0.2098 collapse 0.51 time 0.3 min (1575 samples/s) gpu[T,MHz,W,MiB] 86, 1770, 75.34, 3053
+2026-11-10 01:45:42  epoch 8/50 loss 71.3858 lr 0.2398 collapse 0.52 time 0.3 min (1571 samples/s) gpu[T,MHz,W,MiB] 90, 2175, 77.49, 3053
+2026-11-10 01:46:03  epoch 9/50 loss 70.2952 lr 0.2698 collapse 0.52 time 0.3 min (1567 samples/s) gpu[T,MHz,W,MiB] 86, 2025, 73.92, 3053
+2026-11-10 01:46:24  epoch 10/50 loss 67.6983 lr 0.2998 collapse 0.54 time 0.3 min (1569 samples/s) gpu[T,MHz,W,MiB] 87, 2100, 77.59, 3053
+2026-11-10 01:46:28  knn epoch 10 top1 0.7971
+2026-11-10 01:46:49  epoch 11/50 loss 66.7544 lr 0.2995 collapse 0.54 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 85, 1980, 74.17, 3629
+2026-11-10 01:47:10  epoch 12/50 loss 64.5231 lr 0.2982 collapse 0.55 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 87, 1695, 79.41, 3629
+2026-11-10 01:47:31  epoch 13/50 loss 62.7915 lr 0.2959 collapse 0.55 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 88, 1980, 74.07, 3629
+2026-11-10 01:47:52  epoch 14/50 loss 62.3766 lr 0.2927 collapse 0.56 time 0.3 min (1564 samples/s) gpu[T,MHz,W,MiB] 85, 1740, 65.28, 3629
+2026-11-10 01:48:14  epoch 15/50 loss 60.8497 lr 0.2886 collapse 0.56 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 84, 2130, 72.15, 3629
+2026-11-10 01:48:35  epoch 16/50 loss 60.5193 lr 0.2837 collapse 0.57 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 87, 1860, 74.01, 3629
+2026-11-10 01:48:56  epoch 17/50 loss 59.2741 lr 0.2779 collapse 0.58 time 0.3 min (1581 samples/s) gpu[T,MHz,W,MiB] 87, 1935, 80.42, 3629
+2026-11-10 01:49:17  epoch 18/50 loss 59.1207 lr 0.2714 collapse 0.58 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 86, 2130, 76.82, 3629
+2026-11-10 01:49:38  epoch 19/50 loss 58.4781 lr 0.2641 collapse 0.58 time 0.3 min (1566 samples/s) gpu[T,MHz,W,MiB] 84, 2055, 74.70, 3629
+2026-11-10 01:49:59  epoch 20/50 loss 58.0782 lr 0.2561 collapse 0.59 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 87, 1815, 79.87, 3629
+2026-11-10 01:50:03  knn epoch 20 top1 0.8339
+2026-11-10 01:50:24  epoch 21/50 loss 56.8338 lr 0.2475 collapse 0.59 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 83, 2055, 73.83, 3629
+2026-11-10 01:50:45  epoch 22/50 loss 56.3942 lr 0.2382 collapse 0.60 time 0.3 min (1576 samples/s) gpu[T,MHz,W,MiB] 87, 1695, 79.07, 3629
+2026-11-10 01:51:06  epoch 23/50 loss 55.2534 lr 0.2285 collapse 0.60 time 0.3 min (1573 samples/s) gpu[T,MHz,W,MiB] 88, 2130, 76.51, 3629
+2026-11-10 01:51:27  epoch 24/50 loss 54.7136 lr 0.2182 collapse 0.61 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 87, 1980, 78.57, 3629
+2026-11-10 01:51:48  epoch 25/50 loss 54.9474 lr 0.2075 collapse 0.61 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 83, 1980, 74.58, 3629
+2026-11-10 01:52:09  epoch 26/50 loss 52.9583 lr 0.1964 collapse 0.61 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 83, 1860, 72.98, 3629
+2026-11-10 01:52:30  epoch 27/50 loss 53.2565 lr 0.1851 collapse 0.63 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 86, 1950, 76.30, 3629
+2026-11-10 01:52:51  epoch 28/50 loss 53.3449 lr 0.1736 collapse 0.62 time 0.3 min (1573 samples/s) gpu[T,MHz,W,MiB] 88, 2085, 70.20, 3629
+2026-11-10 01:53:13  epoch 29/50 loss 52.3837 lr 0.1619 collapse 0.62 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 86, 2070, 75.11, 3629
+2026-11-10 01:53:34  epoch 30/50 loss 51.9287 lr 0.1501 collapse 0.63 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 88, 2175, 70.99, 3629
+2026-11-10 01:53:37  knn epoch 30 top1 0.8521
+2026-11-10 01:53:58  epoch 31/50 loss 51.3299 lr 0.1383 collapse 0.63 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 82, 1980, 39.56, 3629
+2026-11-10 01:54:19  epoch 32/50 loss 51.2099 lr 0.1266 collapse 0.63 time 0.3 min (1565 samples/s) gpu[T,MHz,W,MiB] 88, 1890, 75.24, 3629
+2026-11-10 01:54:41  epoch 33/50 loss 50.4362 lr 0.1151 collapse 0.63 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 87, 2010, 78.28, 3629
+2026-11-10 01:55:02  epoch 34/50 loss 50.4730 lr 0.1037 collapse 0.63 time 0.3 min (1569 samples/s) gpu[T,MHz,W,MiB] 85, 1860, 70.54, 3629
+2026-11-10 01:55:23  epoch 35/50 loss 49.2845 lr 0.0927 collapse 0.63 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 86, 1695, 71.99, 3629
+2026-11-10 01:55:44  epoch 36/50 loss 49.5780 lr 0.0820 collapse 0.63 time 0.3 min (1575 samples/s) gpu[T,MHz,W,MiB] 89, 2070, 74.14, 3629
+2026-11-10 01:56:05  epoch 37/50 loss 48.9213 lr 0.0717 collapse 0.63 time 0.3 min (1568 samples/s) gpu[T,MHz,W,MiB] 86, 1875, 76.75, 3629
+2026-11-10 01:56:26  epoch 38/50 loss 47.9916 lr 0.0619 collapse 0.63 time 0.3 min (1571 samples/s) gpu[T,MHz,W,MiB] 88, 1905, 76.53, 3629
+2026-11-10 01:56:47  epoch 39/50 loss 47.6926 lr 0.0527 collapse 0.63 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 88, 1755, 77.24, 3629
+2026-11-10 01:57:08  epoch 40/50 loss 48.0247 lr 0.0440 collapse 0.64 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 87, 1725, 56.40, 3629
+2026-11-10 01:57:12  knn epoch 40 top1 0.8549
+2026-11-10 01:57:33  epoch 41/50 loss 47.0273 lr 0.0360 collapse 0.63 time 0.3 min (1566 samples/s) gpu[T,MHz,W,MiB] 87, 2115, 77.34, 3629
+2026-11-10 01:57:54  epoch 42/50 loss 46.8542 lr 0.0287 collapse 0.64 time 0.3 min (1574 samples/s) gpu[T,MHz,W,MiB] 88, 1860, 80.11, 3629
+2026-11-10 01:58:15  epoch 43/50 loss 46.8080 lr 0.0222 collapse 0.64 time 0.3 min (1571 samples/s) gpu[T,MHz,W,MiB] 88, 2010, 78.26, 3629
+2026-11-10 01:58:36  epoch 44/50 loss 46.6537 lr 0.0164 collapse 0.63 time 0.3 min (1571 samples/s) gpu[T,MHz,W,MiB] 88, 2085, 75.91, 3629
+2026-11-10 01:58:57  epoch 45/50 loss 46.5806 lr 0.0115 collapse 0.63 time 0.3 min (1574 samples/s) gpu[T,MHz,W,MiB] 86, 1770, 74.17, 3629
+2026-11-10 01:59:19  epoch 46/50 loss 46.1821 lr 0.0074 collapse 0.63 time 0.3 min (1566 samples/s) gpu[T,MHz,W,MiB] 91, 2355, 82.17, 3629
+2026-11-10 01:59:40  epoch 47/50 loss 45.8345 lr 0.0042 collapse 0.63 time 0.3 min (1575 samples/s) gpu[T,MHz,W,MiB] 85, 1950, 77.43, 3629
+2026-11-10 02:00:01  epoch 48/50 loss 46.5824 lr 0.0019 collapse 0.63 time 0.3 min (1572 samples/s) gpu[T,MHz,W,MiB] 84, 2055, 77.20, 3629
+2026-11-10 02:00:22  epoch 49/50 loss 46.2326 lr 0.0005 collapse 0.64 time 0.3 min (1569 samples/s) gpu[T,MHz,W,MiB] 87, 1830, 75.57, 3629
+2026-11-10 02:00:43  epoch 50/50 loss 45.9996 lr 0.0000 collapse 0.63 time 0.3 min (1570 samples/s) gpu[T,MHz,W,MiB] 87, 1965, 78.75, 3629
+2026-11-10 02:00:47  knn epoch 50 top1 0.8645
+2026-11-10 02:00:53  final kNN 0.8645 probe top1 0.9012 macro F1 0.8997
+2026-11-10 02:00:53  DONE barlow

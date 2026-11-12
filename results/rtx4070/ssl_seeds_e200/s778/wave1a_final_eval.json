@@ -1,0 +1,39 @@
+[
+ {
+  "backbone": "random",
+  "knn_stored": 0.785,
+  "knn_bn": 0.6422,
+  "probe_top1": 0.6047,
+  "probe_f1": 0.6012
+ },
+ {
+  "backbone": "vicreg",
+  "knn_stored": 0.8964,
+  "knn_bn": 0.8946,
+  "probe_top1": 0.9116,
+  "probe_f1": 0.9103,
+  "train_info": {
+   "knn_top1": 0.8964024481265861,
+   "probe_top1": 0.9143155694879833,
+   "probe_macro_f1": 0.9129630871526488,
+   "method": "vicreg",
+   "epochs": 200,
+   "hours": 1.2
+  }
+ },
+ {
+  "backbone": "barlow",
+  "knn_stored": 0.8831,
+  "knn_bn": 0.8849,
+  "probe_top1": 0.9106,
+  "probe_f1": 0.9091,
+  "train_info": {
+   "knn_top1": 0.8831168831168831,
+   "probe_top1": 0.9134199134199135,
+   "probe_macro_f1": 0.9120871332294678,
+   "method": "barlow",
+   "epochs": 200,
+   "hours": 1.17
+  }
+ }
+]

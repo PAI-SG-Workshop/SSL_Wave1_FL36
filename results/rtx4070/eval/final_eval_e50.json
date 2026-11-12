@@ -1,0 +1,111 @@
+[
+ {
+  "backbone": "random",
+  "knn_stored": 0.785,
+  "knn_bn": 0.6422,
+  "probe_top1": 0.6047,
+  "probe_f1": 0.6012
+ },
+ {
+  "backbone": "simclr",
+  "knn_stored": 0.8361,
+  "knn_bn": 0.8439,
+  "probe_top1": 0.8897,
+  "probe_f1": 0.8879,
+  "train_info": {
+   "knn_top1": 0.8360949395432155,
+   "probe_top1": 0.8890879235706822,
+   "probe_macro_f1": 0.8869763605437353,
+   "method": "simclr",
+   "epochs": 50,
+   "hours": 0.26
+  }
+ },
+ {
+  "backbone": "byol",
+  "knn_stored": 0.627,
+  "knn_bn": 0.5608,
+  "probe_top1": 0.7688,
+  "probe_f1": 0.7668,
+  "train_info": {
+   "knn_top1": 0.6263621436035229,
+   "probe_top1": 0.793402000298552,
+   "probe_macro_f1": 0.7905827706944438,
+   "method": "byol",
+   "epochs": 50,
+   "hours": 0.34
+  }
+ },
+ {
+  "backbone": "dino",
+  "knn_stored": 0.7606,
+  "knn_bn": 0.7076,
+  "probe_top1": 0.7541,
+  "probe_f1": 0.753,
+  "train_info": {
+   "knn_top1": 0.7607105538140021,
+   "probe_top1": 0.7951933124346917,
+   "probe_macro_f1": 0.7942241001821646,
+   "method": "dino",
+   "epochs": 50,
+   "hours": 0.35
+  }
+ },
+ {
+  "backbone": "vicreg",
+  "knn_stored": 0.8745,
+  "knn_bn": 0.8709,
+  "probe_top1": 0.9054,
+  "probe_f1": 0.9043,
+  "train_info": {
+   "knn_top1": 0.8744588744588745,
+   "probe_top1": 0.9065532168980445,
+   "probe_macro_f1": 0.9054230630557439,
+   "method": "vicreg",
+   "epochs": 50,
+   "hours": 0.28
+  }
+ },
+ {
+  "backbone": "simsiam",
+  "knn_stored": 0.7183,
+  "knn_bn": 0.7055,
+  "probe_top1": 0.844,
+  "probe_f1": 0.8417,
+  "train_info": {
+   "knn_top1": 0.7183161665920287,
+   "probe_top1": 0.8468428123600538,
+   "probe_macro_f1": 0.8442986892240244,
+   "method": "simsiam",
+   "epochs": 50,
+   "hours": 0.28
+  }
+ },
+ {
+  "backbone": "barlow",
+  "knn_stored": 0.8609,
+  "knn_bn": 0.8668,
+  "probe_top1": 0.8957,
+  "probe_f1": 0.8935,
+  "train_info": {
+   "knn_top1": 0.8608747574264816,
+   "probe_top1": 0.8990894163307956,
+   "probe_macro_f1": 0.8977129221366581,
+   "method": "barlow",
+   "epochs": 50,
+   "hours": 0.27
+  }
+ },
+ {
+  "backbone": "supervised",
+  "knn_stored": 0.9339,
+  "knn_bn": 0.9345,
+  "probe_top1": 0.9266,
+  "probe_f1": 0.9256,
+  "train_info": {
+   "classifier_top1": 0.9301388266905508,
+   "classifier_macro_f1": 0.9292749306460925,
+   "hours": 0.07
+  }
+ }
+]

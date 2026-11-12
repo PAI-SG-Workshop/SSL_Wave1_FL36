@@ -1,0 +1,1069 @@
+Log file     : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/logs/train_image_centernet_ssl_barlow_e200_20261109_084247.log
+================================================================
+ IMAGE centernet_ssl_barlow_e200  |  train
+================================================================
+Device       : cuda
+Profile      : OD-Small v1.1  seed=777  img_size=608
+Parameters   : 14,434,489
+SSL backbone : /home/minsoogo/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth  (120 tensors, 11,186,112 values -> net.*; 51 tensors keep their init: deconv + heads)
+Pretrained   : /home/minsoogo/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+Recipe       : controlled
+Train images : 4096
+Batches/epoch: 2048  (micro batch 2 x accum 4 = effective 8)
+Optimizer    : Adam  lr=0.0001  schedule=constant
+
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 140.981 | 17.3 it/s | left 01:52 | total left 59:04
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 114.862 | 18.3 it/s | left 01:40 | total left 55:45
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 88.390 | 18.7 it/s | left 01:33 | total left 54:32
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 70.148 | 18.9 it/s | left 01:27 | total left 53:50
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 58.091 | 19.1 it/s | left 01:21 | total left 53:18
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 49.662 | 19.1 it/s | left 01:15 | total left 53:03
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 43.496 | 19.2 it/s | left 01:10 | total left 52:48
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 38.803 | 19.2 it/s | left 01:04 | total left 52:33
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 35.106 | 19.3 it/s | left 00:59 | total left 52:24
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 32.120 | 19.3 it/s | left 00:54 | total left 52:13
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 29.660 | 19.3 it/s | left 00:49 | total left 52:07
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 27.585 | 19.3 it/s | left 00:43 | total left 52:01
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 25.818 | 19.3 it/s | left 00:38 | total left 51:55
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 24.288 | 19.3 it/s | left 00:33 | total left 51:48
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 22.949 | 19.3 it/s | left 00:28 | total left 51:42
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 21.764 | 19.3 it/s | left 00:23 | total left 51:36
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███████████████████░░░░░ 1700/2048  83% | loss 20.707 | 19.3 it/s | left 00:18 | total left 51:31
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | █████████████████████░░░ 1800/2048  88% | loss 19.760 | 19.3 it/s | left 00:12 | total left 51:26
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ██████████████████████░░ 1900/2048  93% | loss 18.908 | 19.3 it/s | left 00:07 | total left 51:21
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ███████████████████████░ 2000/2048  98% | loss 18.133 | 19.3 it/s | left 00:02 | total left 51:14
+IMAGE centernet_ssl_barlow_e200 | epoch 01/30 | ████████████████████████ 2048/2048 100% | loss 17.786 | 19.3 it/s | left 00:00 | total left 51:11
+Epoch 01 done  loss=17.7864  time=105.9s  conf_obj=0.0681  conf_noobj=0.0369  cls_acc=2.8044
+Elapsed 0.03 h  |  ETA for remaining 29 epoch(s): 0.85 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 3.270 | 18.5 it/s | left 01:45 | total left 53:31
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 3.242 | 18.9 it/s | left 01:38 | total left 52:19
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 3.218 | 19.1 it/s | left 01:31 | total left 51:40
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 3.184 | 19.1 it/s | left 01:26 | total left 51:29
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 3.155 | 19.2 it/s | left 01:20 | total left 51:13
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 3.129 | 19.2 it/s | left 01:15 | total left 51:03
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 3.108 | 19.2 it/s | left 01:10 | total left 50:57
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 3.086 | 19.2 it/s | left 01:05 | total left 50:52
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 3.066 | 19.2 it/s | left 00:59 | total left 50:43
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 3.048 | 19.3 it/s | left 00:54 | total left 50:33
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 3.031 | 19.3 it/s | left 00:49 | total left 50:27
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 3.012 | 19.2 it/s | left 00:44 | total left 50:24
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.997 | 19.3 it/s | left 00:38 | total left 50:16
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.981 | 19.3 it/s | left 00:33 | total left 50:12
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.967 | 19.2 it/s | left 00:28 | total left 50:08
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.951 | 19.2 it/s | left 00:23 | total left 50:03
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.934 | 19.2 it/s | left 00:18 | total left 49:59
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | █████████████████████░░░ 1800/2048  88% | loss 2.918 | 19.2 it/s | left 00:12 | total left 49:52
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ██████████████████████░░ 1900/2048  93% | loss 2.903 | 19.3 it/s | left 00:07 | total left 49:45
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ███████████████████████░ 2000/2048  98% | loss 2.889 | 19.3 it/s | left 00:02 | total left 49:40
+IMAGE centernet_ssl_barlow_e200 | epoch 02/30 | ████████████████████████ 2048/2048 100% | loss 2.883 | 19.3 it/s | left 00:00 | total left 49:38
+Epoch 02 done  loss=2.8830  time=106.4s  conf_obj=0.1065  conf_noobj=0.0114  cls_acc=3.0541
+Elapsed 0.06 h  |  ETA for remaining 28 epoch(s): 0.83 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.615 | 18.5 it/s | left 01:45 | total left 51:28
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.577 | 19.0 it/s | left 01:37 | total left 50:07
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.589 | 19.1 it/s | left 01:31 | total left 49:48
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.591 | 19.2 it/s | left 01:25 | total left 49:30
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.585 | 19.2 it/s | left 01:20 | total left 49:18
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.570 | 19.2 it/s | left 01:15 | total left 49:12
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.559 | 19.2 it/s | left 01:10 | total left 49:08
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.554 | 19.2 it/s | left 01:04 | total left 49:00
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.551 | 19.2 it/s | left 00:59 | total left 48:52
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.547 | 19.3 it/s | left 00:54 | total left 48:43
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.544 | 19.3 it/s | left 00:49 | total left 48:37
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.537 | 19.3 it/s | left 00:43 | total left 48:30
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.534 | 19.3 it/s | left 00:38 | total left 48:23
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.532 | 19.3 it/s | left 00:33 | total left 48:18
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.527 | 19.3 it/s | left 00:28 | total left 48:14
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.522 | 19.3 it/s | left 00:23 | total left 48:10
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.520 | 19.3 it/s | left 00:18 | total left 48:05
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | █████████████████████░░░ 1800/2048  88% | loss 2.516 | 19.3 it/s | left 00:12 | total left 47:59
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ██████████████████████░░ 1900/2048  93% | loss 2.513 | 19.3 it/s | left 00:07 | total left 47:52
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ███████████████████████░ 2000/2048  98% | loss 2.509 | 19.3 it/s | left 00:02 | total left 47:48
+IMAGE centernet_ssl_barlow_e200 | epoch 03/30 | ████████████████████████ 2048/2048 100% | loss 2.507 | 19.3 it/s | left 00:00 | total left 47:44
+Epoch 03 done  loss=2.5069  time=106.1s  conf_obj=0.1396  conf_noobj=0.0077  cls_acc=3.1837
+Elapsed 0.09 h  |  ETA for remaining 27 epoch(s): 0.80 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.469 | 18.6 it/s | left 01:44 | total left 49:28
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.433 | 19.0 it/s | left 01:37 | total left 48:25
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.422 | 19.0 it/s | left 01:31 | total left 48:11
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.424 | 19.1 it/s | left 01:26 | total left 47:53
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.421 | 19.2 it/s | left 01:20 | total left 47:39
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.407 | 19.2 it/s | left 01:15 | total left 47:32
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.404 | 19.2 it/s | left 01:10 | total left 47:22
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.405 | 19.2 it/s | left 01:05 | total left 47:18
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.401 | 19.2 it/s | left 00:59 | total left 47:11
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.397 | 19.2 it/s | left 00:54 | total left 47:06
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.392 | 19.2 it/s | left 00:49 | total left 47:00
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.390 | 19.2 it/s | left 00:44 | total left 46:58
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.388 | 19.2 it/s | left 00:38 | total left 46:54
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.387 | 19.2 it/s | left 00:33 | total left 46:48
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.388 | 19.2 it/s | left 00:28 | total left 46:45
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.382 | 19.2 it/s | left 00:23 | total left 46:37
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.378 | 19.2 it/s | left 00:18 | total left 46:33
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | █████████████████████░░░ 1800/2048  88% | loss 2.377 | 19.2 it/s | left 00:12 | total left 46:28
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ██████████████████████░░ 1900/2048  93% | loss 2.372 | 19.2 it/s | left 00:07 | total left 46:22
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ███████████████████████░ 2000/2048  98% | loss 2.369 | 19.2 it/s | left 00:02 | total left 46:17
+IMAGE centernet_ssl_barlow_e200 | epoch 04/30 | ████████████████████████ 2048/2048 100% | loss 2.370 | 19.2 it/s | left 00:00 | total left 46:14
+Epoch 04 done  loss=2.3699  time=106.7s  conf_obj=0.1552  conf_noobj=0.0061  cls_acc=3.2003
+Elapsed 0.12 h  |  ETA for remaining 26 epoch(s): 0.77 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.347 | 18.7 it/s | left 01:44 | total left 47:27
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.324 | 19.0 it/s | left 01:37 | total left 46:34
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.320 | 19.2 it/s | left 01:31 | total left 46:04
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.313 | 19.2 it/s | left 01:25 | total left 45:47
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.311 | 19.2 it/s | left 01:20 | total left 45:40
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.302 | 19.3 it/s | left 01:15 | total left 45:32
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.304 | 19.3 it/s | left 01:09 | total left 45:23
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.303 | 19.3 it/s | left 01:04 | total left 45:16
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.302 | 19.3 it/s | left 00:59 | total left 45:12
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.305 | 19.3 it/s | left 00:54 | total left 45:06
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.306 | 19.3 it/s | left 00:49 | total left 45:00
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.306 | 19.3 it/s | left 00:43 | total left 44:55
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.303 | 19.3 it/s | left 00:38 | total left 44:47
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.303 | 19.3 it/s | left 00:33 | total left 44:43
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.300 | 19.3 it/s | left 00:28 | total left 44:38
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.298 | 19.3 it/s | left 00:23 | total left 44:34
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.297 | 19.3 it/s | left 00:18 | total left 44:28
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | █████████████████████░░░ 1800/2048  88% | loss 2.292 | 19.3 it/s | left 00:12 | total left 44:23
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ██████████████████████░░ 1900/2048  93% | loss 2.289 | 19.3 it/s | left 00:07 | total left 44:18
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ███████████████████████░ 2000/2048  98% | loss 2.287 | 19.3 it/s | left 00:02 | total left 44:14
+IMAGE centernet_ssl_barlow_e200 | epoch 05/30 | ████████████████████████ 2048/2048 100% | loss 2.285 | 19.3 it/s | left 00:00 | total left 44:11
+Epoch 05 done  loss=2.2847  time=106.1s  conf_obj=0.1621  conf_noobj=0.0053  cls_acc=3.8202
+Elapsed 0.15 h  |  ETA for remaining 25 epoch(s): 0.74 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (14 s)
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 61.9 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 65.9 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 67.3 it/s | left 00:03
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 67.9 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 68.4 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 68.6 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.0018  0.0042  0.0287  0.0469     192     314
+trouser         0.0000  0.0000  0.0000  0.0000     181    2140
+pullover        0.0548  0.0868  0.0462  0.4821     168    1755
+dress           0.0058  0.0182  0.0825  0.0406     197      97
+coat            0.0061  0.0107  0.0151  0.2316     177    2710
+sandal          0.0076  0.0909  0.0361  0.0481     208     277
+shirt           0.0000  0.0000  0.0000  0.0000     179      10
+sneaker         0.0119  0.0127  0.0545  0.1919     172     606
+bag             0.0011  0.0027  0.0222  0.0391     179     316
+ankle_boot      0.0051  0.0909  0.0068  0.0051     198     146
+A               0.0015  0.0227  0.0769  0.0061     165      13
+B               0.0008  0.0152  0.0357  0.0051     198      28
+C               0.0002  0.0036  0.0345  0.0052     192      29
+D               0.0023  0.0130  0.0789  0.0169     178      38
+E               0.0000  0.0000  0.0000  0.0000     190      22
+F               0.0012  0.0076  0.0167  0.0229     175     240
+G               0.0000  0.0000  0.0000  0.0000     176       6
+H               0.0000  0.0000  0.0000  0.0000     195      37
+I               0.0028  0.0182  0.0148  0.0395     177     473
+J               0.0021  0.0227  0.0003  0.0227     176   13652
+K               0.0000  0.0000  0.0000  0.0000     190      16
+L               0.0000  0.0000  0.0000  0.0000     182     135
+M               0.0000  0.0002  0.0010  0.0063     158    1037
+N               0.0071  0.0112  0.0331  0.1190     210     756
+O               0.0063  0.0124  0.0314  0.1017     177     573
+P               0.0000  0.0000  0.0000  0.0000     190      41
+Q               0.0000  0.0000  0.0000  0.0000     196      19
+R               0.0052  0.0909  0.0256  0.0052     192      39
+S               0.0000  0.0000  0.0000  0.0000     205     122
+T               0.0000  0.0000  0.0000  0.0000     194      75
+U               0.0014  0.0182  0.0217  0.0110     181      92
+V               0.0000  0.0000  0.0000  0.0000     208     152
+W               0.0006  0.0053  0.0210  0.0152     198     143
+X               0.0000  0.0000  0.0000  0.0000     157      45
+Y               0.0003  0.0057  0.0032  0.0051     198     316
+Z               0.0000  0.0000  0.0000  0.0000     190       2
+mean            0.0035  0.0157  0.0191  0.0408
+Inference speed incl. post-process: 136.6 img/s
+Eval curve   : epoch 5  ap50=0.0035
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/eval_curve.json
+
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.161 | 18.4 it/s | left 01:45 | total left 46:16
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.177 | 18.8 it/s | left 01:38 | total left 45:14
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.194 | 18.9 it/s | left 01:32 | total left 44:48
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.185 | 19.0 it/s | left 01:26 | total left 44:34
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.183 | 19.1 it/s | left 01:21 | total left 44:19
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.175 | 19.1 it/s | left 01:15 | total left 44:13
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.162 | 19.1 it/s | left 01:10 | total left 44:05
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.157 | 19.1 it/s | left 01:05 | total left 43:58
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.145 | 19.1 it/s | left 01:00 | total left 43:53
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.135 | 19.1 it/s | left 00:54 | total left 43:46
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.126 | 19.1 it/s | left 00:49 | total left 43:39
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.120 | 19.1 it/s | left 00:44 | total left 43:31
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.116 | 19.1 it/s | left 00:39 | total left 43:27
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.106 | 19.2 it/s | left 00:33 | total left 43:19
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.100 | 19.2 it/s | left 00:28 | total left 43:12
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.093 | 19.2 it/s | left 00:23 | total left 43:07
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.087 | 19.2 it/s | left 00:18 | total left 43:01
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | █████████████████████░░░ 1800/2048  88% | loss 2.083 | 19.2 it/s | left 00:12 | total left 42:55
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ██████████████████████░░ 1900/2048  93% | loss 2.076 | 19.2 it/s | left 00:07 | total left 42:50
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ███████████████████████░ 2000/2048  98% | loss 2.071 | 19.2 it/s | left 00:02 | total left 42:45
+IMAGE centernet_ssl_barlow_e200 | epoch 06/30 | ████████████████████████ 2048/2048 100% | loss 2.069 | 19.2 it/s | left 00:00 | total left 42:43
+Epoch 06 done  loss=2.0690  time=106.8s  conf_obj=0.1810  conf_noobj=0.0050  cls_acc=6.8355
+Elapsed 0.18 h  |  ETA for remaining 24 epoch(s): 0.73 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.971 | 18.6 it/s | left 01:44 | total left 43:51
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.978 | 19.0 it/s | left 01:37 | total left 42:58
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.954 | 19.1 it/s | left 01:31 | total left 42:37
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.941 | 19.2 it/s | left 01:26 | total left 42:24
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.935 | 19.2 it/s | left 01:20 | total left 42:17
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.930 | 19.2 it/s | left 01:15 | total left 42:11
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.929 | 19.2 it/s | left 01:10 | total left 42:06
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.931 | 19.2 it/s | left 01:05 | total left 41:58
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.931 | 19.2 it/s | left 00:59 | total left 41:53
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.929 | 19.2 it/s | left 00:54 | total left 41:49
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.925 | 19.2 it/s | left 00:49 | total left 41:43
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.920 | 19.2 it/s | left 00:44 | total left 41:38
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.917 | 19.2 it/s | left 00:38 | total left 41:33
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.916 | 19.2 it/s | left 00:33 | total left 41:28
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.912 | 19.2 it/s | left 00:28 | total left 41:23
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.912 | 19.2 it/s | left 00:23 | total left 41:17
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.911 | 19.2 it/s | left 00:18 | total left 41:12
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | █████████████████████░░░ 1800/2048  88% | loss 1.907 | 19.2 it/s | left 00:12 | total left 41:05
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ██████████████████████░░ 1900/2048  93% | loss 1.903 | 19.2 it/s | left 00:07 | total left 40:59
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ███████████████████████░ 2000/2048  98% | loss 1.903 | 19.2 it/s | left 00:02 | total left 40:55
+IMAGE centernet_ssl_barlow_e200 | epoch 07/30 | ████████████████████████ 2048/2048 100% | loss 1.901 | 19.2 it/s | left 00:00 | total left 40:53
+Epoch 07 done  loss=1.9013  time=106.7s  conf_obj=0.2091  conf_noobj=0.0044  cls_acc=9.5298
+Elapsed 0.21 h  |  ETA for remaining 23 epoch(s): 0.70 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.860 | 18.3 it/s | left 01:46 | total left 42:46
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.836 | 18.7 it/s | left 01:38 | total left 41:44
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.835 | 18.8 it/s | left 01:33 | total left 41:32
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.845 | 18.9 it/s | left 01:27 | total left 41:14
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.853 | 18.9 it/s | left 01:21 | total left 41:04
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.849 | 18.9 it/s | left 01:16 | total left 40:55
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.847 | 19.0 it/s | left 01:10 | total left 40:43
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.843 | 19.0 it/s | left 01:05 | total left 40:36
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.838 | 19.0 it/s | left 01:00 | total left 40:29
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.835 | 19.1 it/s | left 00:54 | total left 40:17
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.834 | 19.1 it/s | left 00:49 | total left 40:10
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.831 | 19.1 it/s | left 00:44 | total left 40:04
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.827 | 19.1 it/s | left 00:39 | total left 39:57
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.826 | 19.1 it/s | left 00:33 | total left 39:50
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.822 | 19.1 it/s | left 00:28 | total left 39:43
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.817 | 19.1 it/s | left 00:23 | total left 39:39
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.813 | 19.1 it/s | left 00:18 | total left 39:34
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | █████████████████████░░░ 1800/2048  88% | loss 1.813 | 19.1 it/s | left 00:12 | total left 39:28
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ██████████████████████░░ 1900/2048  93% | loss 1.809 | 19.1 it/s | left 00:07 | total left 39:23
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ███████████████████████░ 2000/2048  98% | loss 1.805 | 19.1 it/s | left 00:02 | total left 39:17
+IMAGE centernet_ssl_barlow_e200 | epoch 08/30 | ████████████████████████ 2048/2048 100% | loss 1.804 | 19.1 it/s | left 00:00 | total left 39:14
+Epoch 08 done  loss=1.8038  time=107.0s  conf_obj=0.2249  conf_noobj=0.0041  cls_acc=11.3797
+Elapsed 0.24 h  |  ETA for remaining 22 epoch(s): 0.67 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.780 | 18.6 it/s | left 01:44 | total left 40:17
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.759 | 18.9 it/s | left 01:37 | total left 39:27
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.738 | 19.0 it/s | left 01:32 | total left 39:20
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.738 | 19.0 it/s | left 01:26 | total left 39:10
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.734 | 19.0 it/s | left 01:21 | total left 39:01
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.732 | 19.0 it/s | left 01:16 | total left 38:55
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.729 | 19.1 it/s | left 01:10 | total left 38:46
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.730 | 19.1 it/s | left 01:05 | total left 38:39
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.735 | 19.1 it/s | left 01:00 | total left 38:33
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.730 | 19.1 it/s | left 00:54 | total left 38:30
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.727 | 19.1 it/s | left 00:49 | total left 38:22
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.723 | 19.1 it/s | left 00:44 | total left 38:17
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.721 | 19.1 it/s | left 00:39 | total left 38:11
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.721 | 19.1 it/s | left 00:33 | total left 38:06
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.719 | 19.1 it/s | left 00:28 | total left 38:02
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.718 | 19.1 it/s | left 00:23 | total left 37:57
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.715 | 19.1 it/s | left 00:18 | total left 37:50
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | █████████████████████░░░ 1800/2048  88% | loss 1.713 | 19.1 it/s | left 00:12 | total left 37:43
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ██████████████████████░░ 1900/2048  93% | loss 1.710 | 19.1 it/s | left 00:07 | total left 37:38
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ███████████████████████░ 2000/2048  98% | loss 1.707 | 19.1 it/s | left 00:02 | total left 37:33
+IMAGE centernet_ssl_barlow_e200 | epoch 09/30 | ████████████████████████ 2048/2048 100% | loss 1.704 | 19.1 it/s | left 00:00 | total left 37:30
+Epoch 09 done  loss=1.7039  time=107.2s  conf_obj=0.2401  conf_noobj=0.0039  cls_acc=14.4232
+Elapsed 0.27 h  |  ETA for remaining 21 epoch(s): 0.64 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.648 | 18.3 it/s | left 01:46 | total left 38:59
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.659 | 18.8 it/s | left 01:38 | total left 38:02
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.651 | 18.9 it/s | left 01:32 | total left 37:40
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.651 | 19.0 it/s | left 01:26 | total left 37:26
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.642 | 19.0 it/s | left 01:21 | total left 37:18
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.639 | 19.0 it/s | left 01:16 | total left 37:12
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.634 | 19.0 it/s | left 01:11 | total left 37:08
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.626 | 19.0 it/s | left 01:05 | total left 37:03
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.622 | 19.0 it/s | left 01:00 | total left 36:59
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.618 | 19.0 it/s | left 00:55 | total left 36:53
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.617 | 19.0 it/s | left 00:49 | total left 36:45
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.616 | 19.0 it/s | left 00:44 | total left 36:40
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.613 | 19.0 it/s | left 00:39 | total left 36:34
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.611 | 19.0 it/s | left 00:34 | total left 36:28
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.610 | 19.0 it/s | left 00:28 | total left 36:22
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.609 | 19.0 it/s | left 00:23 | total left 36:16
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.608 | 19.0 it/s | left 00:18 | total left 36:10
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | █████████████████████░░░ 1800/2048  88% | loss 1.607 | 19.0 it/s | left 00:13 | total left 36:04
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ██████████████████████░░ 1900/2048  93% | loss 1.602 | 19.0 it/s | left 00:07 | total left 35:58
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ███████████████████████░ 2000/2048  98% | loss 1.601 | 19.0 it/s | left 00:02 | total left 35:53
+IMAGE centernet_ssl_barlow_e200 | epoch 10/30 | ████████████████████████ 2048/2048 100% | loss 1.600 | 19.0 it/s | left 00:00 | total left 35:50
+Epoch 10 done  loss=1.6004  time=107.6s  conf_obj=0.2593  conf_noobj=0.0037  cls_acc=19.1379
+Elapsed 0.30 h  |  ETA for remaining 20 epoch(s): 0.61 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (14 s)
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 66.4 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 68.8 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 69.6 it/s | left 00:03
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 70.2 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 70.5 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 70.6 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.0306  0.0909  0.0935  0.0521     192     107
+trouser         0.9475  0.8983  0.1293  0.9613     181    1346
+pullover        0.1727  0.1609  0.2137  0.5952     168     468
+dress           0.4565  0.4487  0.1838  0.7817     197     838
+coat            0.1007  0.1474  0.0952  0.2825     177     525
+sandal          0.0211  0.0455  0.0126  0.0577     208     956
+shirt           0.0019  0.0303  0.0064  0.0056     179     157
+sneaker         0.5796  0.5486  0.2511  0.9651     172     661
+bag             0.4908  0.4945  0.2397  0.5531     179     413
+ankle_boot      0.0709  0.1160  0.1538  0.1111     198     143
+A               0.0381  0.0503  0.1405  0.2061     165     242
+B               0.0553  0.1227  0.1170  0.2576     198     436
+C               0.0007  0.0130  0.0175  0.0052     192      57
+D               0.0016  0.0091  0.0566  0.0169     178      53
+E               0.0494  0.0833  0.1556  0.1474     190     180
+F               0.0347  0.0696  0.0762  0.1486     175     341
+G               0.0011  0.0182  0.0556  0.0057     176      18
+H               0.0437  0.0654  0.0735  0.2308     195     612
+I               0.2567  0.2634  0.1528  0.6328     177     733
+J               0.0019  0.0036  0.0015  0.0739     176    8412
+K               0.0496  0.0541  0.0830  0.4263     190     976
+L               0.0483  0.0680  0.0516  0.1813     182     640
+M               0.2036  0.1943  0.1363  0.7722     158     895
+N               0.0139  0.0455  0.0435  0.0381     210     184
+O               0.0523  0.1279  0.1152  0.3333     177     512
+P               0.1672  0.2144  0.1809  0.4474     190     470
+Q               0.0079  0.0165  0.0695  0.0663     196     187
+R               0.0182  0.0233  0.0552  0.0833     192     290
+S               0.0000  0.0000  0.0000  0.0000     205     107
+T               0.0144  0.0227  0.0947  0.0825     194     169
+U               0.1814  0.1843  0.1629  0.4751     181     528
+V               0.0072  0.0909  0.0106  0.0144     208     284
+W               0.0526  0.1149  0.1064  0.1515     198     282
+X               0.0076  0.0260  0.0142  0.0382     157     424
+Y               0.0527  0.0574  0.0820  0.3333     198     805
+Z               0.0528  0.0596  0.2279  0.1632     190     136
+mean            0.1190  0.1383  0.1017  0.2694
+Inference speed incl. post-process: 140.7 img/s
+Eval curve   : epoch 10  ap50=0.1190
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/eval_curve.json
+
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.551 | 18.5 it/s | left 01:45 | total left 36:46
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.558 | 18.8 it/s | left 01:38 | total left 36:05
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.552 | 18.9 it/s | left 01:32 | total left 35:48
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.540 | 18.9 it/s | left 01:27 | total left 35:45
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.536 | 18.9 it/s | left 01:21 | total left 35:37
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.538 | 18.9 it/s | left 01:16 | total left 35:31
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.531 | 18.9 it/s | left 01:11 | total left 35:26
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.527 | 19.0 it/s | left 01:05 | total left 35:18
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.522 | 19.0 it/s | left 01:00 | total left 35:10
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.515 | 19.0 it/s | left 00:55 | total left 35:01
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.515 | 19.0 it/s | left 00:49 | total left 34:56
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.512 | 19.0 it/s | left 00:44 | total left 34:49
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.510 | 19.0 it/s | left 00:39 | total left 34:42
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.506 | 19.1 it/s | left 00:34 | total left 34:36
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.505 | 19.1 it/s | left 00:28 | total left 34:30
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.502 | 19.1 it/s | left 00:23 | total left 34:24
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.500 | 19.1 it/s | left 00:18 | total left 34:18
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | █████████████████████░░░ 1800/2048  88% | loss 1.497 | 19.1 it/s | left 00:13 | total left 34:15
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ██████████████████████░░ 1900/2048  93% | loss 1.494 | 19.1 it/s | left 00:07 | total left 34:08
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ███████████████████████░ 2000/2048  98% | loss 1.491 | 19.1 it/s | left 00:02 | total left 34:02
+IMAGE centernet_ssl_barlow_e200 | epoch 11/30 | ████████████████████████ 2048/2048 100% | loss 1.490 | 19.1 it/s | left 00:00 | total left 33:59
+Epoch 11 done  loss=1.4897  time=107.4s  conf_obj=0.2848  conf_noobj=0.0035  cls_acc=26.4712
+Elapsed 0.34 h  |  ETA for remaining 19 epoch(s): 0.58 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.444 | 18.3 it/s | left 01:46 | total left 35:16
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.434 | 18.7 it/s | left 01:38 | total left 34:26
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.434 | 18.9 it/s | left 01:32 | total left 34:07
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.438 | 19.0 it/s | left 01:26 | total left 33:47
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.428 | 19.0 it/s | left 01:21 | total left 33:41
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.425 | 19.0 it/s | left 01:16 | total left 33:33
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.429 | 19.0 it/s | left 01:10 | total left 33:27
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.427 | 19.0 it/s | left 01:05 | total left 33:20
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.423 | 19.0 it/s | left 01:00 | total left 33:16
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.416 | 19.1 it/s | left 00:55 | total left 33:09
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.411 | 19.0 it/s | left 00:49 | total left 33:06
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.406 | 19.1 it/s | left 00:44 | total left 32:59
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.404 | 19.1 it/s | left 00:39 | total left 32:53
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.401 | 19.1 it/s | left 00:33 | total left 32:46
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.398 | 19.1 it/s | left 00:28 | total left 32:41
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.394 | 19.1 it/s | left 00:23 | total left 32:36
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.389 | 19.1 it/s | left 00:18 | total left 32:30
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | █████████████████████░░░ 1800/2048  88% | loss 1.383 | 19.1 it/s | left 00:12 | total left 32:25
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ██████████████████████░░ 1900/2048  93% | loss 1.380 | 19.1 it/s | left 00:07 | total left 32:18
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ███████████████████████░ 2000/2048  98% | loss 1.378 | 19.1 it/s | left 00:02 | total left 32:12
+IMAGE centernet_ssl_barlow_e200 | epoch 12/30 | ████████████████████████ 2048/2048 100% | loss 1.377 | 19.1 it/s | left 00:00 | total left 32:09
+Epoch 12 done  loss=1.3771  time=107.2s  conf_obj=0.3148  conf_noobj=0.0034  cls_acc=34.2903
+Elapsed 0.37 h  |  ETA for remaining 18 epoch(s): 0.55 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.303 | 18.5 it/s | left 01:45 | total left 33:04
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.297 | 18.8 it/s | left 01:38 | total left 32:28
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.297 | 18.9 it/s | left 01:32 | total left 32:12
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.295 | 19.0 it/s | left 01:26 | total left 32:02
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.297 | 19.0 it/s | left 01:21 | total left 31:56
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.289 | 19.0 it/s | left 01:16 | total left 31:45
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.285 | 19.1 it/s | left 01:10 | total left 31:38
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.284 | 19.1 it/s | left 01:05 | total left 31:31
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.282 | 19.1 it/s | left 01:00 | total left 31:26
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.281 | 19.1 it/s | left 00:54 | total left 31:18
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.279 | 19.1 it/s | left 00:49 | total left 31:12
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.277 | 19.1 it/s | left 00:44 | total left 31:06
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.275 | 19.1 it/s | left 00:39 | total left 31:01
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.274 | 19.1 it/s | left 00:33 | total left 30:54
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.271 | 19.1 it/s | left 00:28 | total left 30:49
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.266 | 19.1 it/s | left 00:23 | total left 30:43
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.262 | 19.1 it/s | left 00:18 | total left 30:37
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | █████████████████████░░░ 1800/2048  88% | loss 1.260 | 19.1 it/s | left 00:12 | total left 30:33
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ██████████████████████░░ 1900/2048  93% | loss 1.260 | 19.1 it/s | left 00:07 | total left 30:28
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ███████████████████████░ 2000/2048  98% | loss 1.259 | 19.1 it/s | left 00:02 | total left 30:22
+IMAGE centernet_ssl_barlow_e200 | epoch 13/30 | ████████████████████████ 2048/2048 100% | loss 1.259 | 19.1 it/s | left 00:00 | total left 30:19
+Epoch 13 done  loss=1.2592  time=107.1s  conf_obj=0.3441  conf_noobj=0.0033  cls_acc=42.1143
+Elapsed 0.40 h  |  ETA for remaining 17 epoch(s): 0.52 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.219 | 18.6 it/s | left 01:44 | total left 31:02
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.212 | 18.9 it/s | left 01:37 | total left 30:32
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.218 | 19.0 it/s | left 01:31 | total left 30:15
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.223 | 19.0 it/s | left 01:26 | total left 30:07
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.218 | 19.1 it/s | left 01:21 | total left 29:57
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.215 | 19.1 it/s | left 01:15 | total left 29:52
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.211 | 19.1 it/s | left 01:10 | total left 29:46
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.211 | 19.1 it/s | left 01:05 | total left 29:40
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.207 | 19.1 it/s | left 01:00 | total left 29:34
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.207 | 19.1 it/s | left 00:54 | total left 29:28
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.204 | 19.1 it/s | left 00:49 | total left 29:22
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.199 | 19.1 it/s | left 00:44 | total left 29:17
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.201 | 19.1 it/s | left 00:39 | total left 29:11
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.197 | 19.1 it/s | left 00:33 | total left 29:04
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.193 | 19.1 it/s | left 00:28 | total left 29:00
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.191 | 19.2 it/s | left 00:23 | total left 28:54
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.189 | 19.2 it/s | left 00:18 | total left 28:49
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | █████████████████████░░░ 1800/2048  88% | loss 1.188 | 19.1 it/s | left 00:12 | total left 28:44
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ██████████████████████░░ 1900/2048  93% | loss 1.188 | 19.1 it/s | left 00:07 | total left 28:40
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ███████████████████████░ 2000/2048  98% | loss 1.185 | 19.1 it/s | left 00:02 | total left 28:35
+IMAGE centernet_ssl_barlow_e200 | epoch 14/30 | ████████████████████████ 2048/2048 100% | loss 1.185 | 19.1 it/s | left 00:00 | total left 28:32
+Epoch 14 done  loss=1.1854  time=107.1s  conf_obj=0.3672  conf_noobj=0.0033  cls_acc=47.1963
+Elapsed 0.43 h  |  ETA for remaining 16 epoch(s): 0.49 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.112 | 18.6 it/s | left 01:44 | total left 29:17
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.128 | 18.9 it/s | left 01:37 | total left 28:46
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.133 | 19.0 it/s | left 01:32 | total left 28:31
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.140 | 19.0 it/s | left 01:26 | total left 28:20
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.138 | 19.1 it/s | left 01:21 | total left 28:08
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.141 | 19.1 it/s | left 01:15 | total left 28:03
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.137 | 19.1 it/s | left 01:10 | total left 28:00
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.133 | 19.1 it/s | left 01:05 | total left 27:55
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.130 | 19.1 it/s | left 01:00 | total left 27:49
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.128 | 19.1 it/s | left 00:54 | total left 27:43
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.125 | 19.1 it/s | left 00:49 | total left 27:39
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.125 | 19.1 it/s | left 00:44 | total left 27:33
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.123 | 19.1 it/s | left 00:39 | total left 27:28
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.122 | 19.1 it/s | left 00:33 | total left 27:24
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.124 | 19.1 it/s | left 00:28 | total left 27:17
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.124 | 19.1 it/s | left 00:23 | total left 27:11
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.122 | 19.1 it/s | left 00:18 | total left 27:06
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | █████████████████████░░░ 1800/2048  88% | loss 1.120 | 19.1 it/s | left 00:12 | total left 27:00
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ██████████████████████░░ 1900/2048  93% | loss 1.117 | 19.1 it/s | left 00:07 | total left 26:55
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ███████████████████████░ 2000/2048  98% | loss 1.118 | 19.1 it/s | left 00:02 | total left 26:50
+IMAGE centernet_ssl_barlow_e200 | epoch 15/30 | ████████████████████████ 2048/2048 100% | loss 1.117 | 19.1 it/s | left 00:00 | total left 26:48
+Epoch 15 done  loss=1.1166  time=107.2s  conf_obj=0.3881  conf_noobj=0.0030  cls_acc=51.9270
+Elapsed 0.46 h  |  ETA for remaining 15 epoch(s): 0.46 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (14 s)
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 66.6 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 69.3 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 70.0 it/s | left 00:03
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 69.4 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 70.1 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 70.3 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.5949  0.5856  0.1454  0.7552     192     997
+trouser         0.9717  0.9091  0.0276  0.9724     181    6372
+pullover        0.3422  0.3479  0.1946  0.7262     168     627
+dress           0.6910  0.6922  0.4015  0.8071     197     396
+coat            0.2470  0.2847  0.1474  0.3164     177     380
+sandal          0.7610  0.7249  0.3419  0.7644     208     465
+shirt           0.1471  0.1464  0.1368  0.3966     179     519
+sneaker         0.8969  0.8628  0.2850  0.9477     172     572
+bag             0.9134  0.9058  0.2575  0.9162     179     637
+ankle_boot      0.8340  0.8309  0.4615  0.9091     198     390
+A               0.2144  0.2649  0.2116  0.3091     165     241
+B               0.3234  0.3537  0.2648  0.5202     198     389
+C               0.2831  0.3155  0.3746  0.5677     192     291
+D               0.0613  0.1329  0.0504  0.1011     178     357
+E               0.2856  0.3116  0.3734  0.4579     190     233
+F               0.4647  0.4755  0.3043  0.6400     175     368
+G               0.0366  0.1116  0.1324  0.1023     176     136
+H               0.6748  0.6888  0.4800  0.8000     195     325
+I               0.0271  0.0909  0.0419  0.0508     177     215
+J               0.0847  0.1169  0.0480  0.3182     176    1167
+K               0.3874  0.4067  0.2913  0.5474     190     357
+L               0.3342  0.3367  0.2219  0.7473     182     613
+M               0.8962  0.8969  0.4483  0.9051     158     319
+N               0.6547  0.6653  0.3894  0.8048     210     434
+O               0.6805  0.6576  0.3843  0.9661     177     445
+P               0.3367  0.3103  0.1890  0.5947     190     598
+Q               0.2204  0.2226  0.2154  0.6582     196     599
+R               0.1650  0.2052  0.0617  0.2708     192     843
+S               0.1398  0.1552  0.3125  0.1707     205     112
+T               0.4843  0.4681  0.3061  0.6959     194     441
+U               0.5730  0.5889  0.2848  0.7017     181     446
+V               0.7133  0.6733  0.2022  0.7788     208     801
+W               0.9237  0.8972  0.0272  0.9343     198    6798
+X               0.5878  0.5822  0.1317  0.8089     157     964
+Y               0.7202  0.7200  0.0690  0.8333     198    2392
+Z               0.6502  0.6444  0.1688  0.9211     190    1037
+mean            0.4812  0.4884  0.2329  0.6310
+Inference speed incl. post-process: 139.9 img/s
+Eval curve   : epoch 15  ap50=0.4812
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/eval_curve.json
+
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.066 | 18.4 it/s | left 01:45 | total left 27:43
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.086 | 18.6 it/s | left 01:39 | total left 27:16
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.072 | 18.8 it/s | left 01:32 | total left 26:54
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.075 | 18.9 it/s | left 01:27 | total left 26:45
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.071 | 18.9 it/s | left 01:21 | total left 26:40
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.067 | 18.9 it/s | left 01:16 | total left 26:32
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.059 | 19.0 it/s | left 01:11 | total left 26:23
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.070 | 19.0 it/s | left 01:05 | total left 26:16
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.072 | 19.0 it/s | left 01:00 | total left 26:09
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.071 | 19.0 it/s | left 00:55 | total left 26:00
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.068 | 19.1 it/s | left 00:49 | total left 25:54
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.064 | 19.1 it/s | left 00:44 | total left 25:48
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.060 | 19.1 it/s | left 00:39 | total left 25:40
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.058 | 19.1 it/s | left 00:33 | total left 25:36
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.057 | 19.1 it/s | left 00:28 | total left 25:29
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.056 | 19.1 it/s | left 00:23 | total left 25:24
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.056 | 19.1 it/s | left 00:18 | total left 25:19
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | █████████████████████░░░ 1800/2048  88% | loss 1.053 | 19.1 it/s | left 00:12 | total left 25:14
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ██████████████████████░░ 1900/2048  93% | loss 1.054 | 19.1 it/s | left 00:07 | total left 25:08
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ███████████████████████░ 2000/2048  98% | loss 1.054 | 19.1 it/s | left 00:02 | total left 25:03
+IMAGE centernet_ssl_barlow_e200 | epoch 16/30 | ████████████████████████ 2048/2048 100% | loss 1.055 | 19.1 it/s | left 00:00 | total left 25:01
+Epoch 16 done  loss=1.0547  time=107.3s  conf_obj=0.4084  conf_noobj=0.0029  cls_acc=56.9113
+Elapsed 0.49 h  |  ETA for remaining 14 epoch(s): 0.43 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.010 | 18.6 it/s | left 01:44 | total left 25:39
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.977 | 19.0 it/s | left 01:37 | total left 25:01
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.010 | 19.0 it/s | left 01:31 | total left 24:50
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.006 | 19.1 it/s | left 01:26 | total left 24:42
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.011 | 19.1 it/s | left 01:21 | total left 24:35
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.008 | 19.1 it/s | left 01:15 | total left 24:29
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.005 | 19.1 it/s | left 01:10 | total left 24:24
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.002 | 19.1 it/s | left 01:05 | total left 24:18
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.000 | 19.1 it/s | left 01:00 | total left 24:13
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.002 | 19.1 it/s | left 00:54 | total left 24:07
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.999 | 19.1 it/s | left 00:49 | total left 24:02
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.995 | 19.1 it/s | left 00:44 | total left 23:57
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.996 | 19.1 it/s | left 00:39 | total left 23:53
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.994 | 19.1 it/s | left 00:33 | total left 23:47
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.994 | 19.1 it/s | left 00:28 | total left 23:42
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.994 | 19.1 it/s | left 00:23 | total left 23:37
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.993 | 19.1 it/s | left 00:18 | total left 23:32
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | █████████████████████░░░ 1800/2048  88% | loss 0.993 | 19.1 it/s | left 00:12 | total left 23:27
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ██████████████████████░░ 1900/2048  93% | loss 0.991 | 19.1 it/s | left 00:07 | total left 23:21
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ███████████████████████░ 2000/2048  98% | loss 0.989 | 19.1 it/s | left 00:02 | total left 23:17
+IMAGE centernet_ssl_barlow_e200 | epoch 17/30 | ████████████████████████ 2048/2048 100% | loss 0.989 | 19.1 it/s | left 00:00 | total left 23:14
+Epoch 17 done  loss=0.9890  time=107.4s  conf_obj=0.4311  conf_noobj=0.0027  cls_acc=61.6143
+Elapsed 0.52 h  |  ETA for remaining 13 epoch(s): 0.40 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.953 | 18.5 it/s | left 01:45 | total left 23:53
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.957 | 18.8 it/s | left 01:38 | total left 23:23
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.952 | 19.0 it/s | left 01:31 | total left 23:04
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.943 | 19.0 it/s | left 01:26 | total left 22:58
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.940 | 19.0 it/s | left 01:21 | total left 22:52
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.946 | 19.1 it/s | left 01:15 | total left 22:45
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.946 | 19.1 it/s | left 01:10 | total left 22:37
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.943 | 19.1 it/s | left 01:05 | total left 22:33
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.940 | 19.1 it/s | left 01:00 | total left 22:26
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.938 | 19.1 it/s | left 00:54 | total left 22:21
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.938 | 19.1 it/s | left 00:49 | total left 22:14
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.938 | 19.1 it/s | left 00:44 | total left 22:10
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.939 | 19.1 it/s | left 00:39 | total left 22:04
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.939 | 19.1 it/s | left 00:33 | total left 21:59
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.939 | 19.1 it/s | left 00:28 | total left 21:53
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.937 | 19.1 it/s | left 00:23 | total left 21:48
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.939 | 19.1 it/s | left 00:18 | total left 21:43
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | █████████████████████░░░ 1800/2048  88% | loss 0.938 | 19.1 it/s | left 00:12 | total left 21:37
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ██████████████████████░░ 1900/2048  93% | loss 0.936 | 19.1 it/s | left 00:07 | total left 21:32
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ███████████████████████░ 2000/2048  98% | loss 0.935 | 19.1 it/s | left 00:02 | total left 21:26
+IMAGE centernet_ssl_barlow_e200 | epoch 18/30 | ████████████████████████ 2048/2048 100% | loss 0.935 | 19.1 it/s | left 00:00 | total left 21:23
+Epoch 18 done  loss=0.9354  time=107.0s  conf_obj=0.4519  conf_noobj=0.0027  cls_acc=65.2609
+Elapsed 0.55 h  |  ETA for remaining 12 epoch(s): 0.37 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.899 | 18.2 it/s | left 01:47 | total left 22:24
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.891 | 18.8 it/s | left 01:38 | total left 21:35
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.872 | 19.0 it/s | left 01:32 | total left 21:20
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.872 | 19.0 it/s | left 01:26 | total left 21:13
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.880 | 19.0 it/s | left 01:21 | total left 21:08
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.883 | 19.1 it/s | left 01:15 | total left 20:57
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.879 | 19.1 it/s | left 01:10 | total left 20:52
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.877 | 19.1 it/s | left 01:05 | total left 20:45
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.877 | 19.1 it/s | left 01:00 | total left 20:40
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.878 | 19.1 it/s | left 00:54 | total left 20:33
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.875 | 19.1 it/s | left 00:49 | total left 20:28
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.874 | 19.1 it/s | left 00:44 | total left 20:23
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.876 | 19.1 it/s | left 00:39 | total left 20:18
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.876 | 19.1 it/s | left 00:33 | total left 20:12
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.875 | 19.1 it/s | left 00:28 | total left 20:06
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.876 | 19.1 it/s | left 00:23 | total left 20:00
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.876 | 19.1 it/s | left 00:18 | total left 19:56
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | █████████████████████░░░ 1800/2048  88% | loss 0.877 | 19.1 it/s | left 00:12 | total left 19:51
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ██████████████████████░░ 1900/2048  93% | loss 0.878 | 19.1 it/s | left 00:07 | total left 19:46
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ███████████████████████░ 2000/2048  98% | loss 0.878 | 19.1 it/s | left 00:02 | total left 19:41
+IMAGE centernet_ssl_barlow_e200 | epoch 19/30 | ████████████████████████ 2048/2048 100% | loss 0.878 | 19.1 it/s | left 00:00 | total left 19:38
+Epoch 19 done  loss=0.8778  time=107.2s  conf_obj=0.4740  conf_noobj=0.0026  cls_acc=68.9136
+Elapsed 0.58 h  |  ETA for remaining 11 epoch(s): 0.34 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.876 | 18.4 it/s | left 01:45 | total left 20:18
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.864 | 18.8 it/s | left 01:38 | total left 19:47
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.871 | 18.9 it/s | left 01:32 | total left 19:35
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.868 | 19.0 it/s | left 01:26 | total left 19:24
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.856 | 19.0 it/s | left 01:21 | total left 19:19
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.852 | 19.1 it/s | left 01:15 | total left 19:10
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.851 | 19.1 it/s | left 01:10 | total left 19:04
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.851 | 19.1 it/s | left 01:05 | total left 18:57
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.846 | 19.1 it/s | left 00:59 | total left 18:50
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.844 | 19.1 it/s | left 00:54 | total left 18:45
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.849 | 19.1 it/s | left 00:49 | total left 18:40
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.849 | 19.1 it/s | left 00:44 | total left 18:34
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.848 | 19.2 it/s | left 00:39 | total left 18:28
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.847 | 19.2 it/s | left 00:33 | total left 18:22
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.846 | 19.2 it/s | left 00:28 | total left 18:17
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.845 | 19.2 it/s | left 00:23 | total left 18:12
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.845 | 19.2 it/s | left 00:18 | total left 18:07
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | █████████████████████░░░ 1800/2048  88% | loss 0.844 | 19.2 it/s | left 00:12 | total left 18:01
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ██████████████████████░░ 1900/2048  93% | loss 0.843 | 19.2 it/s | left 00:07 | total left 17:56
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ███████████████████████░ 2000/2048  98% | loss 0.843 | 19.2 it/s | left 00:02 | total left 17:51
+IMAGE centernet_ssl_barlow_e200 | epoch 20/30 | ████████████████████████ 2048/2048 100% | loss 0.842 | 19.2 it/s | left 00:00 | total left 17:48
+Epoch 20 done  loss=0.8420  time=106.9s  conf_obj=0.4894  conf_noobj=0.0025  cls_acc=71.0328
+Elapsed 0.61 h  |  ETA for remaining 10 epoch(s): 0.31 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (13 s)
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 66.2 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 69.1 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 69.8 it/s | left 00:03
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 70.4 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 70.9 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 71.0 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.7175  0.6853  0.3880  0.8750     192     433
+trouser         0.9640  0.9091  0.4147  0.9669     181     422
+pullover        0.3130  0.3132  0.1654  0.3810     168     387
+dress           0.7374  0.6995  0.5468  0.7716     197     278
+coat            0.5399  0.5567  0.3424  0.9209     177     476
+sandal          0.9440  0.9076  0.4130  0.9471     208     477
+shirt           0.0677  0.1329  0.2101  0.1397     179     119
+sneaker         0.9157  0.8603  0.0651  0.9767     172    2580
+bag             0.9421  0.9080  0.2730  0.9441     179     619
+ankle_boot      0.9168  0.9065  0.1287  0.9192     198    1414
+A               0.6374  0.6486  0.5110  0.7030     165     227
+B               0.4766  0.4694  0.3376  0.6667     198     391
+C               0.7903  0.7616  0.6165  0.8542     192     266
+D               0.3270  0.3668  0.3036  0.4213     178     247
+E               0.8402  0.7950  0.5124  0.8684     190     322
+F               0.9125  0.8968  0.2390  0.9314     175     682
+G               0.2986  0.3039  0.4231  0.3750     176     156
+H               0.8320  0.8072  0.6371  0.8462     195     259
+I               0.4192  0.4154  0.2329  0.5763     177     438
+J               0.5912  0.5769  0.2847  0.6648     176     411
+K               0.7897  0.7815  0.5448  0.8316     190     290
+L               0.4412  0.4702  0.3629  0.7198     182     361
+M               0.9514  0.9055  0.4951  0.9557     158     305
+N               0.7599  0.7625  0.5777  0.8143     210     296
+O               0.9402  0.8956  0.5671  0.9548     177     298
+P               0.8312  0.8302  0.2692  0.9053     190     639
+Q               0.4241  0.4323  0.3528  0.6480     196     360
+R               0.7703  0.7555  0.4082  0.8333     192     392
+S               0.7742  0.7592  0.3258  0.8439     205     531
+T               0.8989  0.8581  0.4908  0.9588     194     379
+U               0.7628  0.7303  0.4548  0.8619     181     343
+V               0.8551  0.7979  0.4729  0.8798     208     387
+W               0.9440  0.9091  0.3016  0.9444     198     620
+X               0.9235  0.9032  0.1899  0.9299     157     769
+Y               0.8277  0.7953  0.2674  0.8535     198     632
+Z               0.9218  0.8952  0.3525  0.9368     190     505
+mean            0.7222  0.7056  0.3744  0.7950
+Inference speed incl. post-process: 141.5 img/s
+Eval curve   : epoch 20  ap50=0.7222
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/eval_curve.json
+
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.788 | 18.4 it/s | left 01:45 | total left 18:25
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.800 | 18.8 it/s | left 01:38 | total left 17:58
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.801 | 18.9 it/s | left 01:32 | total left 17:47
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.809 | 19.0 it/s | left 01:26 | total left 17:37
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.808 | 19.0 it/s | left 01:21 | total left 17:29
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.814 | 19.1 it/s | left 01:15 | total left 17:23
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.813 | 19.1 it/s | left 01:10 | total left 17:16
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.810 | 19.1 it/s | left 01:05 | total left 17:11
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.811 | 19.1 it/s | left 01:00 | total left 17:06
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.809 | 19.1 it/s | left 00:54 | total left 17:01
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.807 | 19.1 it/s | left 00:49 | total left 16:56
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.807 | 19.1 it/s | left 00:44 | total left 16:51
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.805 | 19.1 it/s | left 00:39 | total left 16:46
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.805 | 19.0 it/s | left 00:34 | total left 16:41
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.803 | 19.0 it/s | left 00:28 | total left 16:36
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.806 | 19.1 it/s | left 00:23 | total left 16:30
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.805 | 19.0 it/s | left 00:18 | total left 16:26
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | █████████████████████░░░ 1800/2048  88% | loss 0.804 | 19.0 it/s | left 00:13 | total left 16:22
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ██████████████████████░░ 1900/2048  93% | loss 0.800 | 19.0 it/s | left 00:07 | total left 16:17
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ███████████████████████░ 2000/2048  98% | loss 0.796 | 19.0 it/s | left 00:02 | total left 16:12
+IMAGE centernet_ssl_barlow_e200 | epoch 21/30 | ████████████████████████ 2048/2048 100% | loss 0.796 | 19.0 it/s | left 00:00 | total left 16:09
+Epoch 21 done  loss=0.7960  time=107.7s  conf_obj=0.5068  conf_noobj=0.0024  cls_acc=73.6924
+Elapsed 0.65 h  |  ETA for remaining 9 epoch(s): 0.28 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.802 | 18.6 it/s | left 01:44 | total left 16:26
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.787 | 18.9 it/s | left 01:37 | total left 16:04
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.787 | 18.9 it/s | left 01:32 | total left 15:58
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.781 | 19.0 it/s | left 01:26 | total left 15:50
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.778 | 19.0 it/s | left 01:21 | total left 15:43
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.776 | 19.0 it/s | left 01:16 | total left 15:36
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.782 | 19.1 it/s | left 01:10 | total left 15:29
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.782 | 19.1 it/s | left 01:05 | total left 15:24
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.778 | 19.1 it/s | left 01:00 | total left 15:16
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.778 | 19.1 it/s | left 00:54 | total left 15:11
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.782 | 19.1 it/s | left 00:49 | total left 15:06
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.779 | 19.1 it/s | left 00:44 | total left 15:00
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.779 | 19.1 it/s | left 00:39 | total left 14:55
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.777 | 19.1 it/s | left 00:33 | total left 14:50
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.775 | 19.1 it/s | left 00:28 | total left 14:45
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.775 | 19.1 it/s | left 00:23 | total left 14:39
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.774 | 19.1 it/s | left 00:18 | total left 14:34
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | █████████████████████░░░ 1800/2048  88% | loss 0.773 | 19.1 it/s | left 00:12 | total left 14:29
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ██████████████████████░░ 1900/2048  93% | loss 0.773 | 19.1 it/s | left 00:07 | total left 14:23
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ███████████████████████░ 2000/2048  98% | loss 0.772 | 19.2 it/s | left 00:02 | total left 14:17
+IMAGE centernet_ssl_barlow_e200 | epoch 22/30 | ████████████████████████ 2048/2048 100% | loss 0.772 | 19.2 it/s | left 00:00 | total left 14:14
+Epoch 22 done  loss=0.7717  time=106.9s  conf_obj=0.5187  conf_noobj=0.0024  cls_acc=75.3480
+Elapsed 0.68 h  |  ETA for remaining 8 epoch(s): 0.25 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.751 | 18.7 it/s | left 01:44 | total left 14:31
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.739 | 19.0 it/s | left 01:37 | total left 14:10
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.749 | 19.1 it/s | left 01:31 | total left 14:03
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.753 | 19.1 it/s | left 01:26 | total left 13:56
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.749 | 19.1 it/s | left 01:20 | total left 13:50
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.753 | 19.2 it/s | left 01:15 | total left 13:44
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.750 | 19.2 it/s | left 01:10 | total left 13:37
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.750 | 19.2 it/s | left 01:04 | total left 13:31
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.755 | 19.2 it/s | left 00:59 | total left 13:25
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.754 | 19.2 it/s | left 00:54 | total left 13:21
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.751 | 19.2 it/s | left 00:49 | total left 13:15
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.751 | 19.2 it/s | left 00:44 | total left 13:08
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.751 | 19.3 it/s | left 00:38 | total left 13:03
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.751 | 19.3 it/s | left 00:33 | total left 12:58
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.752 | 19.3 it/s | left 00:28 | total left 12:52
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.752 | 19.3 it/s | left 00:23 | total left 12:46
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.752 | 19.3 it/s | left 00:18 | total left 12:41
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | █████████████████████░░░ 1800/2048  88% | loss 0.753 | 19.3 it/s | left 00:12 | total left 12:35
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ██████████████████████░░ 1900/2048  93% | loss 0.753 | 19.3 it/s | left 00:07 | total left 12:31
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ███████████████████████░ 2000/2048  98% | loss 0.752 | 19.3 it/s | left 00:02 | total left 12:25
+IMAGE centernet_ssl_barlow_e200 | epoch 23/30 | ████████████████████████ 2048/2048 100% | loss 0.752 | 19.3 it/s | left 00:00 | total left 12:23
+Epoch 23 done  loss=0.7521  time=106.2s  conf_obj=0.5292  conf_noobj=0.0023  cls_acc=76.8743
+Elapsed 0.71 h  |  ETA for remaining 7 epoch(s): 0.22 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.709 | 18.7 it/s | left 01:44 | total left 12:42
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.705 | 18.9 it/s | left 01:37 | total left 12:27
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.712 | 19.0 it/s | left 01:32 | total left 12:18
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.717 | 19.1 it/s | left 01:26 | total left 12:11
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.717 | 19.1 it/s | left 01:20 | total left 12:03
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.715 | 19.2 it/s | left 01:15 | total left 11:56
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.716 | 19.2 it/s | left 01:10 | total left 11:50
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.718 | 19.2 it/s | left 01:05 | total left 11:45
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.719 | 19.2 it/s | left 00:59 | total left 11:39
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.722 | 19.2 it/s | left 00:54 | total left 11:34
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.720 | 19.2 it/s | left 00:49 | total left 11:27
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.717 | 19.2 it/s | left 00:44 | total left 11:22
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.717 | 19.3 it/s | left 00:38 | total left 11:17
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.717 | 19.2 it/s | left 00:33 | total left 11:12
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.717 | 19.2 it/s | left 00:28 | total left 11:06
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.714 | 19.3 it/s | left 00:23 | total left 11:01
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.715 | 19.3 it/s | left 00:18 | total left 10:55
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | █████████████████████░░░ 1800/2048  88% | loss 0.715 | 19.3 it/s | left 00:12 | total left 10:50
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ██████████████████████░░ 1900/2048  93% | loss 0.716 | 19.3 it/s | left 00:07 | total left 10:45
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ███████████████████████░ 2000/2048  98% | loss 0.715 | 19.3 it/s | left 00:02 | total left 10:39
+IMAGE centernet_ssl_barlow_e200 | epoch 24/30 | ████████████████████████ 2048/2048 100% | loss 0.714 | 19.3 it/s | left 00:00 | total left 10:37
+Epoch 24 done  loss=0.7139  time=106.2s  conf_obj=0.5436  conf_noobj=0.0022  cls_acc=78.6109
+Elapsed 0.74 h  |  ETA for remaining 6 epoch(s): 0.18 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.691 | 18.6 it/s | left 01:44 | total left 10:55
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.701 | 19.0 it/s | left 01:37 | total left 10:35
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.699 | 19.1 it/s | left 01:31 | total left 10:26
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.694 | 19.1 it/s | left 01:26 | total left 10:20
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.707 | 19.2 it/s | left 01:20 | total left 10:12
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.711 | 19.2 it/s | left 01:15 | total left 10:07
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.707 | 19.3 it/s | left 01:09 | total left 10:01
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.707 | 19.2 it/s | left 01:04 | total left 09:56
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.706 | 19.3 it/s | left 00:59 | total left 09:51
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.706 | 19.3 it/s | left 00:54 | total left 09:46
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.706 | 19.3 it/s | left 00:49 | total left 09:41
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.704 | 19.3 it/s | left 00:43 | total left 09:35
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.701 | 19.3 it/s | left 00:38 | total left 09:29
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.702 | 19.3 it/s | left 00:33 | total left 09:24
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.699 | 19.3 it/s | left 00:28 | total left 09:19
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.700 | 19.3 it/s | left 00:23 | total left 09:14
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.700 | 19.3 it/s | left 00:18 | total left 09:09
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | █████████████████████░░░ 1800/2048  88% | loss 0.701 | 19.3 it/s | left 00:12 | total left 09:04
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ██████████████████████░░ 1900/2048  93% | loss 0.702 | 19.3 it/s | left 00:07 | total left 08:58
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ███████████████████████░ 2000/2048  98% | loss 0.702 | 19.3 it/s | left 00:02 | total left 08:53
+IMAGE centernet_ssl_barlow_e200 | epoch 25/30 | ████████████████████████ 2048/2048 100% | loss 0.701 | 19.3 it/s | left 00:00 | total left 08:51
+Epoch 25 done  loss=0.7010  time=106.2s  conf_obj=0.5519  conf_noobj=0.0022  cls_acc=79.2111
+Elapsed 0.77 h  |  ETA for remaining 5 epoch(s): 0.15 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (13 s)
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 66.2 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 69.5 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 70.7 it/s | left 00:02
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 71.3 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 71.6 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 71.7 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.7400  0.7177  0.3719  0.8542     192     441
+trouser         0.9761  0.9081  0.6344  0.9779     181     279
+pullover        0.6407  0.6532  0.4152  0.7143     168     289
+dress           0.8245  0.7835  0.4658  0.8629     197     365
+coat            0.6848  0.6772  0.4934  0.8475     177     304
+sandal          0.9506  0.9036  0.3692  0.9567     208     539
+shirt           0.1554  0.1806  0.2819  0.2961     179     188
+sneaker         0.9001  0.8615  0.3431  0.9535     172     478
+bag             0.9484  0.9080  0.3640  0.9497     179     467
+ankle_boot      0.9211  0.9056  0.2798  0.9242     198     654
+A               0.7113  0.7191  0.4653  0.8121     165     288
+B               0.5469  0.5607  0.2969  0.6313     198     421
+C               0.8937  0.8853  0.6848  0.9167     192     257
+D               0.6281  0.6086  0.1920  0.7528     178     698
+E               0.9162  0.8986  0.5350  0.9263     190     329
+F               0.9528  0.9057  0.0678  0.9714     175    2506
+G               0.4611  0.4704  0.4774  0.5398     176     199
+H               0.8706  0.8145  0.4191  0.8769     195     408
+I               0.6282  0.6095  0.1653  0.7740     177     829
+J               0.8450  0.8010  0.1765  0.8807     176     878
+K               0.8887  0.8828  0.5406  0.9105     190     320
+L               0.4736  0.5012  0.3675  0.6099     182     302
+M               0.9465  0.9066  0.3650  0.9494     158     411
+N               0.8051  0.7795  0.5875  0.8476     210     303
+O               0.9463  0.9014  0.7071  0.9548     177     239
+P               0.8214  0.7827  0.2531  0.8632     190     648
+Q               0.6131  0.5960  0.4178  0.7653     196     359
+R               0.8224  0.8022  0.5047  0.8385     192     319
+S               0.8497  0.7878  0.3588  0.8927     205     510
+T               0.9563  0.8982  0.4273  0.9691     194     440
+U               0.8836  0.8677  0.4098  0.9282     181     410
+V               0.8496  0.8085  0.3284  0.8606     208     545
+W               0.9723  0.9081  0.3016  0.9747     198     640
+X               0.9535  0.9036  0.2221  0.9618     157     680
+Y               0.8522  0.8049  0.2334  0.8687     198     737
+Z               0.8803  0.8713  0.2876  0.9158     190     605
+mean            0.7975  0.7715  0.3836  0.8480
+Inference speed incl. post-process: 142.8 img/s
+Eval curve   : epoch 25  ap50=0.7975
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/eval_curve.json
+
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.721 | 18.6 it/s | left 01:44 | total left 09:04
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.697 | 18.8 it/s | left 01:38 | total left 08:52
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.694 | 18.9 it/s | left 01:32 | total left 08:46
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.690 | 19.0 it/s | left 01:26 | total left 08:37
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.690 | 19.0 it/s | left 01:21 | total left 08:31
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.685 | 19.1 it/s | left 01:15 | total left 08:25
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.680 | 19.1 it/s | left 01:10 | total left 08:19
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.679 | 19.1 it/s | left 01:05 | total left 08:13
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.684 | 19.1 it/s | left 00:59 | total left 08:07
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.686 | 19.1 it/s | left 00:54 | total left 08:02
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.683 | 19.2 it/s | left 00:49 | total left 07:56
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.681 | 19.2 it/s | left 00:44 | total left 07:51
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.680 | 19.2 it/s | left 00:38 | total left 07:45
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.680 | 19.2 it/s | left 00:33 | total left 07:40
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.679 | 19.2 it/s | left 00:28 | total left 07:34
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.680 | 19.2 it/s | left 00:23 | total left 07:29
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.679 | 19.2 it/s | left 00:18 | total left 07:24
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | █████████████████████░░░ 1800/2048  88% | loss 0.682 | 19.2 it/s | left 00:12 | total left 07:19
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ██████████████████████░░ 1900/2048  93% | loss 0.681 | 19.2 it/s | left 00:07 | total left 07:13
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ███████████████████████░ 2000/2048  98% | loss 0.682 | 19.2 it/s | left 00:02 | total left 07:08
+IMAGE centernet_ssl_barlow_e200 | epoch 26/30 | ████████████████████████ 2048/2048 100% | loss 0.683 | 19.2 it/s | left 00:00 | total left 07:05
+Epoch 26 done  loss=0.6830  time=106.5s  conf_obj=0.5606  conf_noobj=0.0021  cls_acc=79.9776
+Elapsed 0.80 h  |  ETA for remaining 4 epoch(s): 0.12 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.666 | 18.5 it/s | left 01:45 | total left 07:16
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.670 | 18.9 it/s | left 01:37 | total left 07:02
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.662 | 19.0 it/s | left 01:31 | total left 06:55
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.667 | 19.1 it/s | left 01:26 | total left 06:47
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.664 | 19.2 it/s | left 01:20 | total left 06:41
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.659 | 19.2 it/s | left 01:15 | total left 06:35
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.659 | 19.2 it/s | left 01:10 | total left 06:30
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.656 | 19.2 it/s | left 01:05 | total left 06:25
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.657 | 19.2 it/s | left 00:59 | total left 06:19
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.660 | 19.2 it/s | left 00:54 | total left 06:14
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.660 | 19.2 it/s | left 00:49 | total left 06:08
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.658 | 19.3 it/s | left 00:44 | total left 06:03
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.658 | 19.3 it/s | left 00:38 | total left 05:57
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.656 | 19.3 it/s | left 00:33 | total left 05:52
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.656 | 19.3 it/s | left 00:28 | total left 05:46
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.656 | 19.3 it/s | left 00:23 | total left 05:41
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.655 | 19.3 it/s | left 00:18 | total left 05:36
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | █████████████████████░░░ 1800/2048  88% | loss 0.655 | 19.3 it/s | left 00:12 | total left 05:31
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ██████████████████████░░ 1900/2048  93% | loss 0.655 | 19.3 it/s | left 00:07 | total left 05:26
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ███████████████████████░ 2000/2048  98% | loss 0.657 | 19.3 it/s | left 00:02 | total left 05:20
+IMAGE centernet_ssl_barlow_e200 | epoch 27/30 | ████████████████████████ 2048/2048 100% | loss 0.657 | 19.3 it/s | left 00:00 | total left 05:18
+Epoch 27 done  loss=0.6574  time=106.2s  conf_obj=0.5731  conf_noobj=0.0021  cls_acc=81.4420
+Elapsed 0.83 h  |  ETA for remaining 3 epoch(s): 0.09 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.691 | 18.6 it/s | left 01:45 | total left 05:25
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.684 | 18.9 it/s | left 01:37 | total left 05:14
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.672 | 19.0 it/s | left 01:32 | total left 05:08
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.670 | 19.0 it/s | left 01:26 | total left 05:02
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.662 | 19.1 it/s | left 01:21 | total left 04:55
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.663 | 19.1 it/s | left 01:15 | total left 04:50
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.659 | 19.1 it/s | left 01:10 | total left 04:44
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.658 | 19.1 it/s | left 01:05 | total left 04:39
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.655 | 19.2 it/s | left 00:59 | total left 04:33
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.645 | 19.2 it/s | left 00:54 | total left 04:28
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.648 | 19.2 it/s | left 00:49 | total left 04:22
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.648 | 19.2 it/s | left 00:44 | total left 04:17
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.649 | 19.2 it/s | left 00:38 | total left 04:12
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.649 | 19.2 it/s | left 00:33 | total left 04:07
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.648 | 19.2 it/s | left 00:28 | total left 04:02
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.647 | 19.2 it/s | left 00:23 | total left 03:56
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.646 | 19.2 it/s | left 00:18 | total left 03:51
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | █████████████████████░░░ 1800/2048  88% | loss 0.645 | 19.2 it/s | left 00:12 | total left 03:46
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ██████████████████████░░ 1900/2048  93% | loss 0.646 | 19.2 it/s | left 00:07 | total left 03:40
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ███████████████████████░ 2000/2048  98% | loss 0.646 | 19.2 it/s | left 00:02 | total left 03:35
+IMAGE centernet_ssl_barlow_e200 | epoch 28/30 | ████████████████████████ 2048/2048 100% | loss 0.647 | 19.2 it/s | left 00:00 | total left 03:33
+Epoch 28 done  loss=0.6473  time=106.6s  conf_obj=0.5781  conf_noobj=0.0021  cls_acc=81.8172
+Elapsed 0.86 h  |  ETA for remaining 2 epoch(s): 0.06 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.615 | 18.4 it/s | left 01:45 | total left 03:36
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.605 | 18.9 it/s | left 01:38 | total left 03:26
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.606 | 19.0 it/s | left 01:32 | total left 03:19
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.602 | 19.0 it/s | left 01:26 | total left 03:14
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.613 | 19.0 it/s | left 01:21 | total left 03:09
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.620 | 19.0 it/s | left 01:16 | total left 03:03
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.622 | 19.1 it/s | left 01:10 | total left 02:58
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.630 | 19.1 it/s | left 01:05 | total left 02:52
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.628 | 19.1 it/s | left 01:00 | total left 02:47
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.628 | 19.1 it/s | left 00:54 | total left 02:42
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.629 | 19.1 it/s | left 00:49 | total left 02:36
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.627 | 19.1 it/s | left 00:44 | total left 02:31
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.630 | 19.1 it/s | left 00:39 | total left 02:26
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.627 | 19.1 it/s | left 00:33 | total left 02:21
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.630 | 19.1 it/s | left 00:28 | total left 02:15
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.632 | 19.1 it/s | left 00:23 | total left 02:10
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.631 | 19.1 it/s | left 00:18 | total left 02:05
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | █████████████████████░░░ 1800/2048  88% | loss 0.630 | 19.1 it/s | left 00:12 | total left 02:00
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ██████████████████████░░ 1900/2048  93% | loss 0.630 | 19.1 it/s | left 00:07 | total left 01:54
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ███████████████████████░ 2000/2048  98% | loss 0.629 | 19.1 it/s | left 00:02 | total left 01:49
+IMAGE centernet_ssl_barlow_e200 | epoch 29/30 | ████████████████████████ 2048/2048 100% | loss 0.629 | 19.1 it/s | left 00:00 | total left 01:47
+Epoch 29 done  loss=0.6293  time=107.2s  conf_obj=0.5879  conf_noobj=0.0020  cls_acc=82.2101
+Elapsed 0.89 h  |  ETA for remaining 1 epoch(s): 0.03 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.597 | 18.3 it/s | left 01:46
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.591 | 18.7 it/s | left 01:38
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.590 | 18.8 it/s | left 01:32
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.595 | 18.9 it/s | left 01:27
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.596 | 18.9 it/s | left 01:21
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.608 | 19.0 it/s | left 01:16
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.604 | 19.0 it/s | left 01:10
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.607 | 19.0 it/s | left 01:05
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.604 | 19.1 it/s | left 01:00
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.604 | 19.1 it/s | left 00:54
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.602 | 19.1 it/s | left 00:49
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.604 | 19.1 it/s | left 00:44
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.604 | 19.1 it/s | left 00:39
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.604 | 19.1 it/s | left 00:33
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.605 | 19.1 it/s | left 00:28
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.604 | 19.2 it/s | left 00:23
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.604 | 19.2 it/s | left 00:18
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | █████████████████████░░░ 1800/2048  88% | loss 0.607 | 19.2 it/s | left 00:12
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ██████████████████████░░ 1900/2048  93% | loss 0.607 | 19.2 it/s | left 00:07
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ███████████████████████░ 2000/2048  98% | loss 0.608 | 19.2 it/s | left 00:02
+IMAGE centernet_ssl_barlow_e200 | epoch 30/30 | ████████████████████████ 2048/2048 100% | loss 0.609 | 19.2 it/s | left 00:00
+Epoch 30 done  loss=0.6090  time=106.9s  conf_obj=0.5968  conf_noobj=0.0019  cls_acc=83.0573
+Elapsed 0.92 h  |  ETA for remaining 0 epoch(s): 0.00 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_last.pth
+
+Training time: 55.2 min
+Peak VRAM    : 0.98 GB
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (13 s)
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/checkpoints/image_centernet_ssl_barlow_e200_fl36_e030.pth
+================================================================
+ IMAGE centernet_ssl_barlow_e200  |  test evaluation after training
+================================================================
+IMAGE centernet_ssl_barlow_e200 | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 64.4 it/s | left 00:06
+IMAGE centernet_ssl_barlow_e200 | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 67.2 it/s | left 00:04
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 68.1 it/s | left 00:03
+IMAGE centernet_ssl_barlow_e200 | test inference | ██████████████████░░░░░░ 400/512  78% | 68.9 it/s | left 00:01
+IMAGE centernet_ssl_barlow_e200 | test inference | ███████████████████████░ 500/512  98% | 69.3 it/s | left 00:00
+IMAGE centernet_ssl_barlow_e200 | test inference | ████████████████████████ 512/512 100% | 69.5 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.7519  0.7164  0.1501  0.8750     192    1119
+trouser         0.9760  0.9091  0.3020  0.9779     181     586
+pullover        0.5182  0.5085  0.2404  0.5595     168     391
+dress           0.8685  0.8539  0.4629  0.9188     197     391
+coat            0.6709  0.6667  0.5085  0.8418     177     293
+sandal          0.9622  0.9062  0.3648  0.9663     208     551
+shirt           0.2463  0.2809  0.3409  0.4190     179     220
+sneaker         0.9105  0.8569  0.1199  0.9709     172    1393
+bag             0.9376  0.9080  0.5979  0.9385     179     281
+ankle_boot      0.9292  0.9051  0.1453  0.9343     198    1273
+A               0.8097  0.7709  0.5071  0.8667     165     282
+B               0.6988  0.7088  0.3850  0.8030     198     413
+C               0.8939  0.8956  0.6744  0.9062     192     258
+D               0.6553  0.6638  0.2119  0.7191     178     604
+E               0.9187  0.9004  0.7040  0.9263     190     250
+F               0.9519  0.9080  0.2034  0.9543     175     821
+G               0.5995  0.5541  0.5168  0.6989     176     238
+H               0.8978  0.8986  0.3951  0.9077     195     448
+I               0.6879  0.6759  0.3130  0.8418     177     476
+J               0.8423  0.8002  0.2955  0.8864     176     528
+K               0.9382  0.9032  0.4865  0.9474     190     370
+L               0.4149  0.4489  0.5026  0.5220     182     189
+M               0.9712  0.9072  0.3738  0.9747     158     412
+N               0.8333  0.7893  0.6319  0.8667     210     288
+O               0.9646  0.9037  0.5811  0.9718     177     296
+P               0.8712  0.8670  0.1252  0.9158     190    1390
+Q               0.6618  0.6757  0.4264  0.7092     196     326
+R               0.9025  0.8896  0.3627  0.9219     192     488
+S               0.9025  0.8912  0.4700  0.9171     205     400
+T               0.9569  0.9002  0.2897  0.9691     194     649
+U               0.8505  0.7838  0.4186  0.8950     181     387
+V               0.8791  0.8069  0.4450  0.8942     208     418
+W               0.9775  0.9081  0.3857  0.9798     198     503
+X               0.9192  0.9051  0.4028  0.9236     157     360
+Y               0.8962  0.8835  0.3237  0.9091     198     556
+Z               0.9304  0.8990  0.4202  0.9421     190     426
+mean            0.8221  0.7959  0.3912  0.8659
+Inference speed incl. post-process: 138.3 img/s
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet_ssl_barlow_e200/eval/test_after_train_20261109_093823.json

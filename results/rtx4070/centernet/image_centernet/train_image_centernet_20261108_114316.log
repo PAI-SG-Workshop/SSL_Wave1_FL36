@@ -1,0 +1,1067 @@
+Log file     : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/logs/train_image_centernet_20261108_114316.log
+================================================================
+ IMAGE centernet  |  train
+================================================================
+Device       : cuda
+Profile      : OD-Small v1.1  seed=777  img_size=608
+Parameters   : 14,434,489
+Recipe       : controlled
+Train images : 4096
+Batches/epoch: 2048  (micro batch 2 x accum 4 = effective 8)
+Optimizer    : Adam  lr=0.0001  schedule=constant
+
+IMAGE centernet | epoch 01/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 140.858 | 20.1 it/s | left 01:36 | total left 50:47
+IMAGE centernet | epoch 01/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 114.833 | 21.3 it/s | left 01:26 | total left 48:01
+IMAGE centernet | epoch 01/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 88.316 | 21.7 it/s | left 01:20 | total left 47:03
+IMAGE centernet | epoch 01/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 70.074 | 21.8 it/s | left 01:15 | total left 46:35
+IMAGE centernet | epoch 01/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 58.033 | 22.0 it/s | left 01:10 | total left 46:14
+IMAGE centernet | epoch 01/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 49.623 | 22.1 it/s | left 01:05 | total left 45:58
+IMAGE centernet | epoch 01/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 43.465 | 22.1 it/s | left 01:00 | total left 45:46
+IMAGE centernet | epoch 01/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 38.780 | 22.1 it/s | left 00:56 | total left 45:38
+IMAGE centernet | epoch 01/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 35.088 | 22.2 it/s | left 00:51 | total left 45:30
+IMAGE centernet | epoch 01/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 32.105 | 22.2 it/s | left 00:47 | total left 45:23
+IMAGE centernet | epoch 01/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 29.645 | 22.2 it/s | left 00:42 | total left 45:15
+IMAGE centernet | epoch 01/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 27.571 | 22.2 it/s | left 00:38 | total left 45:08
+IMAGE centernet | epoch 01/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 25.802 | 22.3 it/s | left 00:33 | total left 45:02
+IMAGE centernet | epoch 01/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 24.268 | 22.3 it/s | left 00:29 | total left 44:56
+IMAGE centernet | epoch 01/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 22.924 | 22.3 it/s | left 00:24 | total left 44:50
+IMAGE centernet | epoch 01/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 21.738 | 22.3 it/s | left 00:20 | total left 44:45
+IMAGE centernet | epoch 01/30 | ███████████████████░░░░░ 1700/2048  83% | loss 20.685 | 22.3 it/s | left 00:15 | total left 44:39
+IMAGE centernet | epoch 01/30 | █████████████████████░░░ 1800/2048  88% | loss 19.745 | 22.3 it/s | left 00:11 | total left 44:34
+IMAGE centernet | epoch 01/30 | ██████████████████████░░ 1900/2048  93% | loss 18.897 | 22.3 it/s | left 00:06 | total left 44:29
+IMAGE centernet | epoch 01/30 | ███████████████████████░ 2000/2048  98% | loss 18.127 | 22.3 it/s | left 00:02 | total left 44:24
+IMAGE centernet | epoch 01/30 | ████████████████████████ 2048/2048 100% | loss 17.781 | 22.3 it/s | left 00:00 | total left 44:21
+Epoch 01 done  loss=17.7813  time=91.8s  conf_obj=0.0659  conf_noobj=0.0370  cls_acc=3.0770
+Elapsed 0.03 h  |  ETA for remaining 29 epoch(s): 0.74 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 02/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 3.289 | 22.0 it/s | left 01:28 | total left 44:57
+IMAGE centernet | epoch 02/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 3.263 | 22.2 it/s | left 01:23 | total left 44:26
+IMAGE centernet | epoch 02/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 3.242 | 22.3 it/s | left 01:18 | total left 44:13
+IMAGE centernet | epoch 02/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 3.210 | 22.3 it/s | left 01:13 | total left 44:03
+IMAGE centernet | epoch 02/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 3.178 | 22.3 it/s | left 01:09 | total left 43:55
+IMAGE centernet | epoch 02/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 3.141 | 22.4 it/s | left 01:04 | total left 43:49
+IMAGE centernet | epoch 02/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 3.118 | 22.4 it/s | left 01:00 | total left 43:43
+IMAGE centernet | epoch 02/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 3.095 | 22.4 it/s | left 00:55 | total left 43:37
+IMAGE centernet | epoch 02/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 3.071 | 22.4 it/s | left 00:51 | total left 43:32
+IMAGE centernet | epoch 02/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 3.052 | 22.4 it/s | left 00:46 | total left 43:28
+IMAGE centernet | epoch 02/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 3.033 | 22.4 it/s | left 00:42 | total left 43:23
+IMAGE centernet | epoch 02/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 3.013 | 22.4 it/s | left 00:37 | total left 43:18
+IMAGE centernet | epoch 02/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.992 | 22.4 it/s | left 00:33 | total left 43:13
+IMAGE centernet | epoch 02/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.973 | 22.4 it/s | left 00:28 | total left 43:08
+IMAGE centernet | epoch 02/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.953 | 22.4 it/s | left 00:24 | total left 43:03
+IMAGE centernet | epoch 02/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.937 | 22.4 it/s | left 00:19 | total left 42:58
+IMAGE centernet | epoch 02/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.916 | 22.4 it/s | left 00:15 | total left 42:54
+IMAGE centernet | epoch 02/30 | █████████████████████░░░ 1800/2048  88% | loss 2.899 | 22.4 it/s | left 00:11 | total left 42:50
+IMAGE centernet | epoch 02/30 | ██████████████████████░░ 1900/2048  93% | loss 2.882 | 22.4 it/s | left 00:06 | total left 42:46
+IMAGE centernet | epoch 02/30 | ███████████████████████░ 2000/2048  98% | loss 2.866 | 22.4 it/s | left 00:02 | total left 42:42
+IMAGE centernet | epoch 02/30 | ████████████████████████ 2048/2048 100% | loss 2.857 | 22.4 it/s | left 00:00 | total left 42:39
+Epoch 02 done  loss=2.8574  time=91.4s  conf_obj=0.1143  conf_noobj=0.0116  cls_acc=3.1575
+Elapsed 0.05 h  |  ETA for remaining 28 epoch(s): 0.71 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 03/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.548 | 22.0 it/s | left 01:28 | total left 43:27
+IMAGE centernet | epoch 03/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.520 | 22.2 it/s | left 01:23 | total left 42:52
+IMAGE centernet | epoch 03/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.555 | 22.3 it/s | left 01:18 | total left 42:37
+IMAGE centernet | epoch 03/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.562 | 22.3 it/s | left 01:13 | total left 42:29
+IMAGE centernet | epoch 03/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.547 | 22.3 it/s | left 01:09 | total left 42:24
+IMAGE centernet | epoch 03/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.539 | 22.4 it/s | left 01:04 | total left 42:17
+IMAGE centernet | epoch 03/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.530 | 22.4 it/s | left 01:00 | total left 42:11
+IMAGE centernet | epoch 03/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.520 | 22.4 it/s | left 00:55 | total left 42:06
+IMAGE centernet | epoch 03/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.514 | 22.4 it/s | left 00:51 | total left 42:01
+IMAGE centernet | epoch 03/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.510 | 22.4 it/s | left 00:46 | total left 41:56
+IMAGE centernet | epoch 03/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.513 | 22.4 it/s | left 00:42 | total left 41:51
+IMAGE centernet | epoch 03/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.509 | 22.4 it/s | left 00:37 | total left 41:46
+IMAGE centernet | epoch 03/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.502 | 22.4 it/s | left 00:33 | total left 41:41
+IMAGE centernet | epoch 03/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.498 | 22.4 it/s | left 00:28 | total left 41:36
+IMAGE centernet | epoch 03/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.496 | 22.4 it/s | left 00:24 | total left 41:31
+IMAGE centernet | epoch 03/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.488 | 22.4 it/s | left 00:19 | total left 41:26
+IMAGE centernet | epoch 03/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.484 | 22.4 it/s | left 00:15 | total left 41:22
+IMAGE centernet | epoch 03/30 | █████████████████████░░░ 1800/2048  88% | loss 2.482 | 22.4 it/s | left 00:11 | total left 41:18
+IMAGE centernet | epoch 03/30 | ██████████████████████░░ 1900/2048  93% | loss 2.479 | 22.4 it/s | left 00:06 | total left 41:13
+IMAGE centernet | epoch 03/30 | ███████████████████████░ 2000/2048  98% | loss 2.477 | 22.4 it/s | left 00:02 | total left 41:08
+IMAGE centernet | epoch 03/30 | ████████████████████████ 2048/2048 100% | loss 2.475 | 22.4 it/s | left 00:00 | total left 41:06
+Epoch 03 done  loss=2.4751  time=91.4s  conf_obj=0.1449  conf_noobj=0.0078  cls_acc=3.0954
+Elapsed 0.08 h  |  ETA for remaining 27 epoch(s): 0.69 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 04/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.411 | 21.9 it/s | left 01:28 | total left 42:00
+IMAGE centernet | epoch 04/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.369 | 22.2 it/s | left 01:23 | total left 41:27
+IMAGE centernet | epoch 04/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.366 | 22.2 it/s | left 01:18 | total left 41:12
+IMAGE centernet | epoch 04/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.375 | 22.3 it/s | left 01:13 | total left 41:03
+IMAGE centernet | epoch 04/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.378 | 22.3 it/s | left 01:09 | total left 40:58
+IMAGE centernet | epoch 04/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.363 | 22.3 it/s | left 01:04 | total left 40:52
+IMAGE centernet | epoch 04/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.365 | 22.3 it/s | left 01:00 | total left 40:46
+IMAGE centernet | epoch 04/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.361 | 22.3 it/s | left 00:55 | total left 40:40
+IMAGE centernet | epoch 04/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.355 | 22.3 it/s | left 00:51 | total left 40:35
+IMAGE centernet | epoch 04/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.351 | 22.3 it/s | left 00:46 | total left 40:30
+IMAGE centernet | epoch 04/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.347 | 22.3 it/s | left 00:42 | total left 40:25
+IMAGE centernet | epoch 04/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.348 | 22.4 it/s | left 00:37 | total left 40:19
+IMAGE centernet | epoch 04/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.347 | 22.4 it/s | left 00:33 | total left 40:14
+IMAGE centernet | epoch 04/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.344 | 22.4 it/s | left 00:28 | total left 40:09
+IMAGE centernet | epoch 04/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.344 | 22.4 it/s | left 00:24 | total left 40:03
+IMAGE centernet | epoch 04/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.339 | 22.4 it/s | left 00:20 | total left 39:58
+IMAGE centernet | epoch 04/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.338 | 22.4 it/s | left 00:15 | total left 39:53
+IMAGE centernet | epoch 04/30 | █████████████████████░░░ 1800/2048  88% | loss 2.337 | 22.4 it/s | left 00:11 | total left 39:49
+IMAGE centernet | epoch 04/30 | ██████████████████████░░ 1900/2048  93% | loss 2.332 | 22.4 it/s | left 00:06 | total left 39:44
+IMAGE centernet | epoch 04/30 | ███████████████████████░ 2000/2048  98% | loss 2.328 | 22.4 it/s | left 00:02 | total left 39:39
+IMAGE centernet | epoch 04/30 | ████████████████████████ 2048/2048 100% | loss 2.327 | 22.4 it/s | left 00:00 | total left 39:37
+Epoch 04 done  loss=2.3268  time=91.5s  conf_obj=0.1600  conf_noobj=0.0062  cls_acc=3.3516
+Elapsed 0.10 h  |  ETA for remaining 26 epoch(s): 0.66 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 05/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.276 | 21.9 it/s | left 01:29 | total left 40:28
+IMAGE centernet | epoch 05/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.268 | 22.2 it/s | left 01:23 | total left 39:51
+IMAGE centernet | epoch 05/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.290 | 22.3 it/s | left 01:18 | total left 39:36
+IMAGE centernet | epoch 05/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.297 | 22.3 it/s | left 01:13 | total left 39:28
+IMAGE centernet | epoch 05/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.294 | 22.3 it/s | left 01:09 | total left 39:21
+IMAGE centernet | epoch 05/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.284 | 22.3 it/s | left 01:04 | total left 39:16
+IMAGE centernet | epoch 05/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.281 | 22.3 it/s | left 01:00 | total left 39:11
+IMAGE centernet | epoch 05/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.278 | 22.4 it/s | left 00:55 | total left 39:06
+IMAGE centernet | epoch 05/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.278 | 22.4 it/s | left 00:51 | total left 39:01
+IMAGE centernet | epoch 05/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.280 | 22.4 it/s | left 00:46 | total left 38:56
+IMAGE centernet | epoch 05/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.278 | 22.4 it/s | left 00:42 | total left 38:51
+IMAGE centernet | epoch 05/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.278 | 22.4 it/s | left 00:37 | total left 38:47
+IMAGE centernet | epoch 05/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.274 | 22.4 it/s | left 00:33 | total left 38:41
+IMAGE centernet | epoch 05/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.270 | 22.4 it/s | left 00:28 | total left 38:37
+IMAGE centernet | epoch 05/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.268 | 22.4 it/s | left 00:24 | total left 38:32
+IMAGE centernet | epoch 05/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.267 | 22.4 it/s | left 00:20 | total left 38:26
+IMAGE centernet | epoch 05/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.267 | 22.4 it/s | left 00:15 | total left 38:21
+IMAGE centernet | epoch 05/30 | █████████████████████░░░ 1800/2048  88% | loss 2.264 | 22.4 it/s | left 00:11 | total left 38:17
+IMAGE centernet | epoch 05/30 | ██████████████████████░░ 1900/2048  93% | loss 2.261 | 22.4 it/s | left 00:06 | total left 38:12
+IMAGE centernet | epoch 05/30 | ███████████████████████░ 2000/2048  98% | loss 2.258 | 22.4 it/s | left 00:02 | total left 38:07
+IMAGE centernet | epoch 05/30 | ████████████████████████ 2048/2048 100% | loss 2.256 | 22.4 it/s | left 00:00 | total left 38:05
+Epoch 05 done  loss=2.2562  time=91.4s  conf_obj=0.1667  conf_noobj=0.0054  cls_acc=3.6528
+Elapsed 0.13 h  |  ETA for remaining 25 epoch(s): 0.64 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (12 s)
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 68.4 it/s | left 00:06
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 75.8 it/s | left 00:04
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 78.6 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 79.9 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 80.8 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 80.9 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.0062  0.0455  0.0400  0.0417     192     200
+trouser         0.0004  0.0027  0.0014  0.0166     181    2202
+pullover        0.0452  0.1181  0.0546  0.4762     168    1465
+dress           0.0002  0.0028  0.0118  0.0051     197      85
+coat            0.0150  0.0535  0.0228  0.3785     177    2942
+sandal          0.0009  0.0083  0.0667  0.0096     208      30
+shirt           0.0003  0.0057  0.0270  0.0056     179      37
+sneaker         0.0000  0.0000  0.0000  0.0000     172      73
+bag             0.0000  0.0000  0.0000  0.0000     179     182
+ankle_boot      0.0026  0.0455  0.0040  0.0101     198     499
+A               0.0000  0.0000  0.0000  0.0000     165      74
+B               0.0000  0.0000  0.0000  0.0000     198      73
+C               0.0000  0.0000  0.0000  0.0000     192      13
+D               0.0059  0.0303  0.1471  0.0281     178      34
+E               0.0000  0.0000  0.0000  0.0000     190      14
+F               0.0000  0.0000  0.0000  0.0000     175     135
+G               0.0007  0.0114  0.0294  0.0057     176      34
+H               0.0000  0.0000  0.0000  0.0000     195      81
+I               0.0005  0.0025  0.0102  0.0169     177     295
+J               0.0017  0.0121  0.0003  0.0398     176   25466
+K               0.0000  0.0000  0.0000  0.0000     190      44
+L               0.0000  0.0000  0.0000  0.0000     182     306
+M               0.0000  0.0002  0.0014  0.0063     158     692
+N               0.0190  0.0240  0.0418  0.3048     210    1531
+O               0.0104  0.0143  0.0350  0.2034     177    1028
+P               0.0000  0.0000  0.0000  0.0000     190     128
+Q               0.0000  0.0000  0.0000  0.0000     196       2
+R               0.0010  0.0182  0.0333  0.0052     192      30
+S               0.0000  0.0000  0.0000  0.0000     205     232
+T               0.0000  0.0000  0.0000  0.0000     194      13
+U               0.0000  0.0000  0.0000  0.0000     181     414
+V               0.0000  0.0000  0.0000  0.0000     208     391
+W               0.0000  0.0000  0.0000  0.0000     198      79
+X               0.0000  0.0000  0.0000  0.0000     157      40
+Y               0.0000  0.0000  0.0000  0.0000     198     834
+Z               0.0000  0.0000  0.0000  0.0000     190      21
+mean            0.0031  0.0110  0.0146  0.0432
+Inference speed incl. post-process: 161.3 img/s
+Eval curve   : epoch 5  ap50=0.0031
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/eval_curve.json
+
+IMAGE centernet | epoch 06/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 2.190 | 21.8 it/s | left 01:29 | total left 39:03
+IMAGE centernet | epoch 06/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 2.183 | 22.0 it/s | left 01:23 | total left 38:33
+IMAGE centernet | epoch 06/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 2.189 | 22.1 it/s | left 01:18 | total left 38:18
+IMAGE centernet | epoch 06/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 2.173 | 22.2 it/s | left 01:14 | total left 38:08
+IMAGE centernet | epoch 06/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 2.171 | 22.2 it/s | left 01:09 | total left 38:00
+IMAGE centernet | epoch 06/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 2.164 | 22.2 it/s | left 01:05 | total left 37:54
+IMAGE centernet | epoch 06/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 2.148 | 22.3 it/s | left 01:00 | total left 37:47
+IMAGE centernet | epoch 06/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 2.147 | 22.3 it/s | left 00:55 | total left 37:41
+IMAGE centernet | epoch 06/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 2.137 | 22.3 it/s | left 00:51 | total left 37:35
+IMAGE centernet | epoch 06/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 2.130 | 22.3 it/s | left 00:46 | total left 37:29
+IMAGE centernet | epoch 06/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 2.120 | 22.3 it/s | left 00:42 | total left 37:24
+IMAGE centernet | epoch 06/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 2.117 | 22.3 it/s | left 00:37 | total left 37:18
+IMAGE centernet | epoch 06/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 2.113 | 22.3 it/s | left 00:33 | total left 37:13
+IMAGE centernet | epoch 06/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 2.105 | 22.3 it/s | left 00:28 | total left 37:08
+IMAGE centernet | epoch 06/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 2.102 | 22.3 it/s | left 00:24 | total left 37:04
+IMAGE centernet | epoch 06/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 2.093 | 22.3 it/s | left 00:20 | total left 36:59
+IMAGE centernet | epoch 06/30 | ███████████████████░░░░░ 1700/2048  83% | loss 2.086 | 22.3 it/s | left 00:15 | total left 36:54
+IMAGE centernet | epoch 06/30 | █████████████████████░░░ 1800/2048  88% | loss 2.080 | 22.3 it/s | left 00:11 | total left 36:50
+IMAGE centernet | epoch 06/30 | ██████████████████████░░ 1900/2048  93% | loss 2.072 | 22.3 it/s | left 00:06 | total left 36:46
+IMAGE centernet | epoch 06/30 | ███████████████████████░ 2000/2048  98% | loss 2.065 | 22.3 it/s | left 00:02 | total left 36:41
+IMAGE centernet | epoch 06/30 | ████████████████████████ 2048/2048 100% | loss 2.063 | 22.4 it/s | left 00:00 | total left 36:39
+Epoch 06 done  loss=2.0629  time=91.7s  conf_obj=0.1848  conf_noobj=0.0051  cls_acc=6.7595
+Elapsed 0.16 h  |  ETA for remaining 24 epoch(s): 0.63 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 07/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.966 | 21.9 it/s | left 01:28 | total left 37:18
+IMAGE centernet | epoch 07/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.946 | 22.2 it/s | left 01:23 | total left 36:49
+IMAGE centernet | epoch 07/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.927 | 22.2 it/s | left 01:18 | total left 36:37
+IMAGE centernet | epoch 07/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.913 | 22.3 it/s | left 01:13 | total left 36:28
+IMAGE centernet | epoch 07/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.914 | 22.3 it/s | left 01:09 | total left 36:21
+IMAGE centernet | epoch 07/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.912 | 22.3 it/s | left 01:04 | total left 36:15
+IMAGE centernet | epoch 07/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.911 | 22.3 it/s | left 01:00 | total left 36:09
+IMAGE centernet | epoch 07/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.909 | 22.3 it/s | left 00:55 | total left 36:04
+IMAGE centernet | epoch 07/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.906 | 22.3 it/s | left 00:51 | total left 35:59
+IMAGE centernet | epoch 07/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.904 | 22.4 it/s | left 00:46 | total left 35:54
+IMAGE centernet | epoch 07/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.902 | 22.4 it/s | left 00:42 | total left 35:49
+IMAGE centernet | epoch 07/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.900 | 22.4 it/s | left 00:37 | total left 35:44
+IMAGE centernet | epoch 07/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.897 | 22.4 it/s | left 00:33 | total left 35:39
+IMAGE centernet | epoch 07/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.893 | 22.4 it/s | left 00:28 | total left 35:34
+IMAGE centernet | epoch 07/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.893 | 22.4 it/s | left 00:24 | total left 35:30
+IMAGE centernet | epoch 07/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.891 | 22.4 it/s | left 00:20 | total left 35:25
+IMAGE centernet | epoch 07/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.888 | 22.4 it/s | left 00:15 | total left 35:20
+IMAGE centernet | epoch 07/30 | █████████████████████░░░ 1800/2048  88% | loss 1.885 | 22.4 it/s | left 00:11 | total left 35:16
+IMAGE centernet | epoch 07/30 | ██████████████████████░░ 1900/2048  93% | loss 1.881 | 22.4 it/s | left 00:06 | total left 35:11
+IMAGE centernet | epoch 07/30 | ███████████████████████░ 2000/2048  98% | loss 1.879 | 22.4 it/s | left 00:02 | total left 35:06
+IMAGE centernet | epoch 07/30 | ████████████████████████ 2048/2048 100% | loss 1.877 | 22.4 it/s | left 00:00 | total left 35:04
+Epoch 07 done  loss=1.8771  time=91.5s  conf_obj=0.2109  conf_noobj=0.0046  cls_acc=9.8301
+Elapsed 0.18 h  |  ETA for remaining 23 epoch(s): 0.60 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 08/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.861 | 21.9 it/s | left 01:28 | total left 35:46
+IMAGE centernet | epoch 08/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.838 | 22.1 it/s | left 01:23 | total left 35:19
+IMAGE centernet | epoch 08/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.837 | 22.2 it/s | left 01:18 | total left 35:06
+IMAGE centernet | epoch 08/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.840 | 22.3 it/s | left 01:14 | total left 34:57
+IMAGE centernet | epoch 08/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.837 | 22.3 it/s | left 01:09 | total left 34:51
+IMAGE centernet | epoch 08/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.833 | 22.3 it/s | left 01:04 | total left 34:44
+IMAGE centernet | epoch 08/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.833 | 22.3 it/s | left 01:00 | total left 34:38
+IMAGE centernet | epoch 08/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.834 | 22.3 it/s | left 00:55 | total left 34:33
+IMAGE centernet | epoch 08/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.835 | 22.3 it/s | left 00:51 | total left 34:27
+IMAGE centernet | epoch 08/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.830 | 22.4 it/s | left 00:46 | total left 34:22
+IMAGE centernet | epoch 08/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.828 | 22.4 it/s | left 00:42 | total left 34:18
+IMAGE centernet | epoch 08/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.828 | 22.4 it/s | left 00:37 | total left 34:13
+IMAGE centernet | epoch 08/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.826 | 22.4 it/s | left 00:33 | total left 34:08
+IMAGE centernet | epoch 08/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.825 | 22.4 it/s | left 00:28 | total left 34:04
+IMAGE centernet | epoch 08/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.821 | 22.4 it/s | left 00:24 | total left 33:59
+IMAGE centernet | epoch 08/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.819 | 22.4 it/s | left 00:20 | total left 33:54
+IMAGE centernet | epoch 08/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.818 | 22.4 it/s | left 00:15 | total left 33:49
+IMAGE centernet | epoch 08/30 | █████████████████████░░░ 1800/2048  88% | loss 1.818 | 22.4 it/s | left 00:11 | total left 33:45
+IMAGE centernet | epoch 08/30 | ██████████████████████░░ 1900/2048  93% | loss 1.815 | 22.4 it/s | left 00:06 | total left 33:41
+IMAGE centernet | epoch 08/30 | ███████████████████████░ 2000/2048  98% | loss 1.813 | 22.4 it/s | left 00:02 | total left 33:36
+IMAGE centernet | epoch 08/30 | ████████████████████████ 2048/2048 100% | loss 1.813 | 22.4 it/s | left 00:00 | total left 33:34
+Epoch 08 done  loss=1.8131  time=91.6s  conf_obj=0.2221  conf_noobj=0.0042  cls_acc=10.6803
+Elapsed 0.21 h  |  ETA for remaining 22 epoch(s): 0.57 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 09/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.763 | 21.8 it/s | left 01:29 | total left 34:22
+IMAGE centernet | epoch 09/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.772 | 22.1 it/s | left 01:23 | total left 33:49
+IMAGE centernet | epoch 09/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.761 | 22.2 it/s | left 01:18 | total left 33:36
+IMAGE centernet | epoch 09/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.773 | 22.3 it/s | left 01:14 | total left 33:26
+IMAGE centernet | epoch 09/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.773 | 22.3 it/s | left 01:09 | total left 33:19
+IMAGE centernet | epoch 09/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.777 | 22.3 it/s | left 01:04 | total left 33:12
+IMAGE centernet | epoch 09/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.774 | 22.3 it/s | left 01:00 | total left 33:07
+IMAGE centernet | epoch 09/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.775 | 22.3 it/s | left 00:55 | total left 33:01
+IMAGE centernet | epoch 09/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.778 | 22.3 it/s | left 00:51 | total left 32:57
+IMAGE centernet | epoch 09/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.775 | 22.3 it/s | left 00:46 | total left 32:52
+IMAGE centernet | epoch 09/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.775 | 22.3 it/s | left 00:42 | total left 32:48
+IMAGE centernet | epoch 09/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.771 | 22.3 it/s | left 00:37 | total left 32:43
+IMAGE centernet | epoch 09/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.769 | 22.3 it/s | left 00:33 | total left 32:39
+IMAGE centernet | epoch 09/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.772 | 22.3 it/s | left 00:29 | total left 32:34
+IMAGE centernet | epoch 09/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.771 | 22.3 it/s | left 00:24 | total left 32:29
+IMAGE centernet | epoch 09/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.772 | 22.3 it/s | left 00:20 | total left 32:24
+IMAGE centernet | epoch 09/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.773 | 22.4 it/s | left 00:15 | total left 32:19
+IMAGE centernet | epoch 09/30 | █████████████████████░░░ 1800/2048  88% | loss 1.772 | 22.4 it/s | left 00:11 | total left 32:15
+IMAGE centernet | epoch 09/30 | ██████████████████████░░ 1900/2048  93% | loss 1.769 | 22.4 it/s | left 00:06 | total left 32:10
+IMAGE centernet | epoch 09/30 | ███████████████████████░ 2000/2048  98% | loss 1.767 | 22.3 it/s | left 00:02 | total left 32:06
+IMAGE centernet | epoch 09/30 | ████████████████████████ 2048/2048 100% | loss 1.764 | 22.4 it/s | left 00:00 | total left 32:04
+Epoch 09 done  loss=1.7639  time=91.7s  conf_obj=0.2308  conf_noobj=0.0040  cls_acc=11.2616
+Elapsed 0.23 h  |  ETA for remaining 21 epoch(s): 0.55 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 10/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.727 | 21.7 it/s | left 01:29 | total left 32:58
+IMAGE centernet | epoch 10/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.733 | 22.0 it/s | left 01:24 | total left 32:26
+IMAGE centernet | epoch 10/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.740 | 22.1 it/s | left 01:18 | total left 32:09
+IMAGE centernet | epoch 10/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.745 | 22.2 it/s | left 01:14 | total left 32:00
+IMAGE centernet | epoch 10/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.736 | 22.2 it/s | left 01:09 | total left 31:53
+IMAGE centernet | epoch 10/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.740 | 22.2 it/s | left 01:05 | total left 31:47
+IMAGE centernet | epoch 10/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.733 | 22.2 it/s | left 01:00 | total left 31:43
+IMAGE centernet | epoch 10/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.727 | 22.2 it/s | left 00:56 | total left 31:37
+IMAGE centernet | epoch 10/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.726 | 22.3 it/s | left 00:51 | total left 31:31
+IMAGE centernet | epoch 10/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.724 | 22.3 it/s | left 00:47 | total left 31:25
+IMAGE centernet | epoch 10/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.721 | 22.3 it/s | left 00:42 | total left 31:20
+IMAGE centernet | epoch 10/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.720 | 22.3 it/s | left 00:38 | total left 31:14
+IMAGE centernet | epoch 10/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.718 | 22.3 it/s | left 00:33 | total left 31:09
+IMAGE centernet | epoch 10/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.716 | 22.3 it/s | left 00:29 | total left 31:05
+IMAGE centernet | epoch 10/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.715 | 22.3 it/s | left 00:24 | total left 31:00
+IMAGE centernet | epoch 10/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.715 | 22.3 it/s | left 00:20 | total left 30:56
+IMAGE centernet | epoch 10/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.717 | 22.3 it/s | left 00:15 | total left 30:51
+IMAGE centernet | epoch 10/30 | █████████████████████░░░ 1800/2048  88% | loss 1.717 | 22.3 it/s | left 00:11 | total left 30:46
+IMAGE centernet | epoch 10/30 | ██████████████████████░░ 1900/2048  93% | loss 1.714 | 22.3 it/s | left 00:06 | total left 30:42
+IMAGE centernet | epoch 10/30 | ███████████████████████░ 2000/2048  98% | loss 1.715 | 22.3 it/s | left 00:02 | total left 30:38
+IMAGE centernet | epoch 10/30 | ████████████████████████ 2048/2048 100% | loss 1.713 | 22.3 it/s | left 00:00 | total left 30:35
+Epoch 10 done  loss=1.7134  time=91.8s  conf_obj=0.2398  conf_noobj=0.0038  cls_acc=11.9203
+Elapsed 0.26 h  |  ETA for remaining 20 epoch(s): 0.52 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (12 s)
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 72.4 it/s | left 00:05
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 78.9 it/s | left 00:03
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 81.6 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 83.0 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 83.7 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 83.8 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.0344  0.0909  0.0909  0.0573     192     121
+trouser         0.6743  0.6692  0.0757  0.9227     181    2206
+pullover        0.0296  0.0342  0.1224  0.1726     168     237
+dress           0.2233  0.2373  0.1060  0.5482     197    1019
+coat            0.0573  0.0956  0.0484  0.3164     177    1158
+sandal          0.0199  0.0239  0.0052  0.1442     208    5779
+shirt           0.0231  0.1000  0.0763  0.1117     179     262
+sneaker         0.4069  0.4346  0.1521  0.9535     172    1078
+bag             0.0016  0.0182  0.0079  0.0112     179     254
+ankle_boot      0.0238  0.0455  0.0894  0.0808     198     179
+A               0.0062  0.0101  0.0502  0.0848     165     279
+B               0.0209  0.0266  0.0800  0.2121     198     525
+C               0.0078  0.0909  0.0625  0.0104     192      32
+D               0.0008  0.0130  0.0263  0.0056     178      38
+E               0.0065  0.0140  0.0511  0.1000     190     372
+F               0.0315  0.0909  0.0862  0.0857     175     174
+G               0.0000  0.0000  0.0000  0.0000     176       6
+H               0.0000  0.0000  0.0000  0.0000     195      34
+I               0.0003  0.0053  0.0063  0.0056     177     159
+J               0.0179  0.0932  0.0038  0.2557     176   11838
+K               0.0103  0.0129  0.0426  0.1789     190     798
+L               0.0059  0.0909  0.0028  0.0165     182    1074
+M               0.0764  0.1435  0.0686  0.4494     158    1035
+N               0.0010  0.0182  0.0303  0.0048     210      33
+O               0.0231  0.0436  0.0542  0.2486     177     812
+P               0.0004  0.0023  0.0236  0.0158     190     127
+Q               0.0023  0.0130  0.0359  0.0306     196     167
+R               0.0063  0.0303  0.0583  0.0625     192     206
+S               0.0012  0.0227  0.0147  0.0049     205      68
+T               0.0048  0.0303  0.0625  0.0258     194      80
+U               0.0189  0.0455  0.0794  0.0939     181     214
+V               0.0002  0.0029  0.0172  0.0048     208      58
+W               0.0408  0.0796  0.0506  0.1263     198     494
+X               0.0000  0.0000  0.0000  0.0000     157      95
+Y               0.0149  0.0174  0.0405  0.1919     198     938
+Z               0.0105  0.0186  0.0691  0.1000     190     275
+mean            0.0501  0.0740  0.0497  0.1565
+Inference speed incl. post-process: 167.0 img/s
+Eval curve   : epoch 10  ap50=0.0501
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/eval_curve.json
+
+IMAGE centernet | epoch 11/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.695 | 21.8 it/s | left 01:29 | total left 31:15
+IMAGE centernet | epoch 11/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.699 | 22.1 it/s | left 01:23 | total left 30:48
+IMAGE centernet | epoch 11/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.690 | 22.1 it/s | left 01:19 | total left 30:39
+IMAGE centernet | epoch 11/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.685 | 22.2 it/s | left 01:14 | total left 30:29
+IMAGE centernet | epoch 11/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.686 | 22.2 it/s | left 01:09 | total left 30:22
+IMAGE centernet | epoch 11/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.686 | 22.2 it/s | left 01:05 | total left 30:15
+IMAGE centernet | epoch 11/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.683 | 22.2 it/s | left 01:00 | total left 30:09
+IMAGE centernet | epoch 11/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.677 | 22.3 it/s | left 00:56 | total left 30:04
+IMAGE centernet | epoch 11/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.673 | 22.3 it/s | left 00:51 | total left 29:59
+IMAGE centernet | epoch 11/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.671 | 22.3 it/s | left 00:47 | total left 29:53
+IMAGE centernet | epoch 11/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.671 | 22.3 it/s | left 00:42 | total left 29:48
+IMAGE centernet | epoch 11/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.670 | 22.3 it/s | left 00:38 | total left 29:43
+IMAGE centernet | epoch 11/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.667 | 22.3 it/s | left 00:33 | total left 29:38
+IMAGE centernet | epoch 11/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.665 | 22.3 it/s | left 00:29 | total left 29:33
+IMAGE centernet | epoch 11/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.665 | 22.3 it/s | left 00:24 | total left 29:28
+IMAGE centernet | epoch 11/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.664 | 22.3 it/s | left 00:20 | total left 29:23
+IMAGE centernet | epoch 11/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.662 | 22.3 it/s | left 00:15 | total left 29:18
+IMAGE centernet | epoch 11/30 | █████████████████████░░░ 1800/2048  88% | loss 1.662 | 22.3 it/s | left 00:11 | total left 29:13
+IMAGE centernet | epoch 11/30 | ██████████████████████░░ 1900/2048  93% | loss 1.661 | 22.3 it/s | left 00:06 | total left 29:09
+IMAGE centernet | epoch 11/30 | ███████████████████████░ 2000/2048  98% | loss 1.659 | 22.3 it/s | left 00:02 | total left 29:04
+IMAGE centernet | epoch 11/30 | ████████████████████████ 2048/2048 100% | loss 1.659 | 22.3 it/s | left 00:00 | total left 29:01
+Epoch 11 done  loss=1.6590  time=91.7s  conf_obj=0.2474  conf_noobj=0.0035  cls_acc=13.7236
+Elapsed 0.29 h  |  ETA for remaining 19 epoch(s): 0.50 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 12/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.661 | 21.9 it/s | left 01:29 | total left 29:34
+IMAGE centernet | epoch 12/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.651 | 22.1 it/s | left 01:23 | total left 29:07
+IMAGE centernet | epoch 12/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.653 | 22.2 it/s | left 01:18 | total left 28:57
+IMAGE centernet | epoch 12/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.648 | 22.2 it/s | left 01:14 | total left 28:52
+IMAGE centernet | epoch 12/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.637 | 22.3 it/s | left 01:09 | total left 28:45
+IMAGE centernet | epoch 12/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.633 | 22.3 it/s | left 01:04 | total left 28:39
+IMAGE centernet | epoch 12/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.631 | 22.3 it/s | left 01:00 | total left 28:33
+IMAGE centernet | epoch 12/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.632 | 22.3 it/s | left 00:55 | total left 28:27
+IMAGE centernet | epoch 12/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.626 | 22.3 it/s | left 00:51 | total left 28:22
+IMAGE centernet | epoch 12/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.621 | 22.3 it/s | left 00:46 | total left 28:17
+IMAGE centernet | epoch 12/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.619 | 22.3 it/s | left 00:42 | total left 28:12
+IMAGE centernet | epoch 12/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.616 | 22.3 it/s | left 00:37 | total left 28:08
+IMAGE centernet | epoch 12/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.617 | 22.3 it/s | left 00:33 | total left 28:04
+IMAGE centernet | epoch 12/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.613 | 22.3 it/s | left 00:29 | total left 27:59
+IMAGE centernet | epoch 12/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.611 | 22.3 it/s | left 00:24 | total left 27:54
+IMAGE centernet | epoch 12/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.610 | 22.3 it/s | left 00:20 | total left 27:50
+IMAGE centernet | epoch 12/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.607 | 22.3 it/s | left 00:15 | total left 27:45
+IMAGE centernet | epoch 12/30 | █████████████████████░░░ 1800/2048  88% | loss 1.605 | 22.3 it/s | left 00:11 | total left 27:40
+IMAGE centernet | epoch 12/30 | ██████████████████████░░ 1900/2048  93% | loss 1.603 | 22.3 it/s | left 00:06 | total left 27:36
+IMAGE centernet | epoch 12/30 | ███████████████████████░ 2000/2048  98% | loss 1.602 | 22.3 it/s | left 00:02 | total left 27:31
+IMAGE centernet | epoch 12/30 | ████████████████████████ 2048/2048 100% | loss 1.601 | 22.3 it/s | left 00:00 | total left 27:29
+Epoch 12 done  loss=1.6008  time=91.7s  conf_obj=0.2588  conf_noobj=0.0033  cls_acc=16.2802
+Elapsed 0.32 h  |  ETA for remaining 18 epoch(s): 0.47 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 13/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.544 | 21.9 it/s | left 01:29 | total left 28:00
+IMAGE centernet | epoch 13/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.561 | 22.1 it/s | left 01:23 | total left 27:36
+IMAGE centernet | epoch 13/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.571 | 22.2 it/s | left 01:18 | total left 27:26
+IMAGE centernet | epoch 13/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.566 | 22.3 it/s | left 01:14 | total left 27:18
+IMAGE centernet | epoch 13/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.565 | 22.3 it/s | left 01:09 | total left 27:11
+IMAGE centernet | epoch 13/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.558 | 22.3 it/s | left 01:04 | total left 27:05
+IMAGE centernet | epoch 13/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.553 | 22.3 it/s | left 01:00 | total left 27:00
+IMAGE centernet | epoch 13/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.548 | 22.3 it/s | left 00:55 | total left 26:55
+IMAGE centernet | epoch 13/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.550 | 22.3 it/s | left 00:51 | total left 26:50
+IMAGE centernet | epoch 13/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.552 | 22.3 it/s | left 00:46 | total left 26:45
+IMAGE centernet | epoch 13/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.549 | 22.3 it/s | left 00:42 | total left 26:40
+IMAGE centernet | epoch 13/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.547 | 22.3 it/s | left 00:37 | total left 26:35
+IMAGE centernet | epoch 13/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.545 | 22.4 it/s | left 00:33 | total left 26:31
+IMAGE centernet | epoch 13/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.546 | 22.3 it/s | left 00:29 | total left 26:27
+IMAGE centernet | epoch 13/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.545 | 22.3 it/s | left 00:24 | total left 26:22
+IMAGE centernet | epoch 13/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.540 | 22.3 it/s | left 00:20 | total left 26:18
+IMAGE centernet | epoch 13/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.538 | 22.3 it/s | left 00:15 | total left 26:13
+IMAGE centernet | epoch 13/30 | █████████████████████░░░ 1800/2048  88% | loss 1.538 | 22.3 it/s | left 00:11 | total left 26:09
+IMAGE centernet | epoch 13/30 | ██████████████████████░░ 1900/2048  93% | loss 1.536 | 22.3 it/s | left 00:06 | total left 26:04
+IMAGE centernet | epoch 13/30 | ███████████████████████░ 2000/2048  98% | loss 1.537 | 22.3 it/s | left 00:02 | total left 26:00
+IMAGE centernet | epoch 13/30 | ████████████████████████ 2048/2048 100% | loss 1.537 | 22.3 it/s | left 00:00 | total left 25:58
+Epoch 13 done  loss=1.5369  time=91.7s  conf_obj=0.2741  conf_noobj=0.0031  cls_acc=19.6230
+Elapsed 0.34 h  |  ETA for remaining 17 epoch(s): 0.45 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 14/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.531 | 21.7 it/s | left 01:29 | total left 26:38
+IMAGE centernet | epoch 14/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.516 | 22.0 it/s | left 01:23 | total left 26:10
+IMAGE centernet | epoch 14/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.517 | 22.1 it/s | left 01:19 | total left 26:01
+IMAGE centernet | epoch 14/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.528 | 22.2 it/s | left 01:14 | total left 25:52
+IMAGE centernet | epoch 14/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.520 | 22.2 it/s | left 01:09 | total left 25:45
+IMAGE centernet | epoch 14/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.521 | 22.2 it/s | left 01:05 | total left 25:38
+IMAGE centernet | epoch 14/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.519 | 22.3 it/s | left 01:00 | total left 25:32
+IMAGE centernet | epoch 14/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.518 | 22.3 it/s | left 00:56 | total left 25:26
+IMAGE centernet | epoch 14/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.514 | 22.3 it/s | left 00:51 | total left 25:21
+IMAGE centernet | epoch 14/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.512 | 22.3 it/s | left 00:46 | total left 25:16
+IMAGE centernet | epoch 14/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.511 | 22.3 it/s | left 00:42 | total left 25:11
+IMAGE centernet | epoch 14/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.505 | 22.3 it/s | left 00:38 | total left 25:07
+IMAGE centernet | epoch 14/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.506 | 22.3 it/s | left 00:33 | total left 25:02
+IMAGE centernet | epoch 14/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.504 | 22.3 it/s | left 00:29 | total left 24:57
+IMAGE centernet | epoch 14/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.504 | 22.3 it/s | left 00:24 | total left 24:52
+IMAGE centernet | epoch 14/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.502 | 22.3 it/s | left 00:20 | total left 24:47
+IMAGE centernet | epoch 14/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.496 | 22.3 it/s | left 00:15 | total left 24:42
+IMAGE centernet | epoch 14/30 | █████████████████████░░░ 1800/2048  88% | loss 1.493 | 22.3 it/s | left 00:11 | total left 24:38
+IMAGE centernet | epoch 14/30 | ██████████████████████░░ 1900/2048  93% | loss 1.491 | 22.3 it/s | left 00:06 | total left 24:34
+IMAGE centernet | epoch 14/30 | ███████████████████████░ 2000/2048  98% | loss 1.488 | 22.3 it/s | left 00:02 | total left 24:29
+IMAGE centernet | epoch 14/30 | ████████████████████████ 2048/2048 100% | loss 1.487 | 22.3 it/s | left 00:00 | total left 24:27
+Epoch 14 done  loss=1.4867  time=91.7s  conf_obj=0.2870  conf_noobj=0.0030  cls_acc=22.3324
+Elapsed 0.37 h  |  ETA for remaining 16 epoch(s): 0.42 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 15/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.417 | 21.8 it/s | left 01:29 | total left 24:55
+IMAGE centernet | epoch 15/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.417 | 22.1 it/s | left 01:23 | total left 24:32
+IMAGE centernet | epoch 15/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.432 | 22.2 it/s | left 01:18 | total left 24:22
+IMAGE centernet | epoch 15/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.440 | 22.2 it/s | left 01:14 | total left 24:15
+IMAGE centernet | epoch 15/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.443 | 22.2 it/s | left 01:09 | total left 24:10
+IMAGE centernet | epoch 15/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.442 | 22.3 it/s | left 01:05 | total left 24:04
+IMAGE centernet | epoch 15/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.440 | 22.3 it/s | left 01:00 | total left 23:59
+IMAGE centernet | epoch 15/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.436 | 22.3 it/s | left 00:55 | total left 23:53
+IMAGE centernet | epoch 15/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.435 | 22.3 it/s | left 00:51 | total left 23:49
+IMAGE centernet | epoch 15/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.434 | 22.3 it/s | left 00:47 | total left 23:45
+IMAGE centernet | epoch 15/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.436 | 22.3 it/s | left 00:42 | total left 23:40
+IMAGE centernet | epoch 15/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.433 | 22.3 it/s | left 00:38 | total left 23:35
+IMAGE centernet | epoch 15/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.433 | 22.3 it/s | left 00:33 | total left 23:30
+IMAGE centernet | epoch 15/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.428 | 22.3 it/s | left 00:29 | total left 23:25
+IMAGE centernet | epoch 15/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.430 | 22.3 it/s | left 00:24 | total left 23:21
+IMAGE centernet | epoch 15/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.429 | 22.3 it/s | left 00:20 | total left 23:16
+IMAGE centernet | epoch 15/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.427 | 22.3 it/s | left 00:15 | total left 23:11
+IMAGE centernet | epoch 15/30 | █████████████████████░░░ 1800/2048  88% | loss 1.426 | 22.3 it/s | left 00:11 | total left 23:06
+IMAGE centernet | epoch 15/30 | ██████████████████████░░ 1900/2048  93% | loss 1.423 | 22.3 it/s | left 00:06 | total left 23:02
+IMAGE centernet | epoch 15/30 | ███████████████████████░ 2000/2048  98% | loss 1.421 | 22.3 it/s | left 00:02 | total left 22:57
+IMAGE centernet | epoch 15/30 | ████████████████████████ 2048/2048 100% | loss 1.419 | 22.3 it/s | left 00:00 | total left 22:55
+Epoch 15 done  loss=1.4193  time=91.7s  conf_obj=0.3040  conf_noobj=0.0029  cls_acc=26.2123
+Elapsed 0.39 h  |  ETA for remaining 15 epoch(s): 0.39 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (12 s)
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 72.5 it/s | left 00:05
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 79.0 it/s | left 00:03
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 80.4 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 81.9 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 82.8 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 82.9 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.0156  0.0909  0.0211  0.0208     192     190
+trouser         0.9363  0.8980  0.0351  0.9503     181    4906
+pullover        0.2373  0.2764  0.2251  0.5655     168     422
+dress           0.4792  0.4941  0.2867  0.6345     197     436
+coat            0.0976  0.1534  0.0167  0.2486     177    2640
+sandal          0.2550  0.2635  0.0069  0.4279     208   12972
+shirt           0.1195  0.1259  0.1193  0.3966     179     595
+sneaker         0.7889  0.7698  0.1653  0.9419     172     980
+bag             0.6686  0.6581  0.3500  0.7430     179     380
+ankle_boot      0.3819  0.4171  0.3301  0.5202     198     312
+A               0.0504  0.0735  0.1366  0.1333     165     161
+B               0.0281  0.0434  0.1164  0.1111     198     189
+C               0.0300  0.0799  0.1709  0.1042     192     117
+D               0.0115  0.0227  0.0137  0.0955     178    1245
+E               0.0058  0.0303  0.1250  0.0211     190      32
+F               0.1629  0.2125  0.1323  0.3371     175     446
+G               0.0051  0.0227  0.0614  0.0398     176     114
+H               0.2191  0.2470  0.1942  0.4769     195     479
+I               0.0163  0.0455  0.0461  0.0395     177     152
+J               0.0634  0.1308  0.0225  0.5227     176    4083
+K               0.0493  0.0978  0.1362  0.2158     190     301
+L               0.3015  0.3202  0.1572  0.7143     182     827
+M               0.1354  0.2027  0.2412  0.3038     158     199
+N               0.2349  0.2850  0.1972  0.6048     210     644
+O               0.2609  0.2631  0.2505  0.7571     177     535
+P               0.1746  0.1944  0.2358  0.4158     190     335
+Q               0.1529  0.1989  0.1385  0.3265     196     462
+R               0.0121  0.0909  0.0065  0.0312     192     922
+S               0.0010  0.0079  0.0203  0.0146     205     148
+T               0.0307  0.0372  0.0947  0.1649     194     338
+U               0.1091  0.1615  0.2333  0.2707     181     210
+V               0.0525  0.0846  0.0992  0.1250     208     262
+W               0.3826  0.4001  0.0638  0.6364     198    1974
+X               0.0553  0.0629  0.1275  0.2420     157     298
+Y               0.1967  0.1964  0.0550  0.6869     198    2472
+Z               0.1433  0.1534  0.1449  0.7316     190     959
+mean            0.1907  0.2170  0.1327  0.3770
+Inference speed incl. post-process: 165.3 img/s
+Eval curve   : epoch 15  ap50=0.1907
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/eval_curve.json
+
+IMAGE centernet | epoch 16/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.366 | 21.7 it/s | left 01:29 | total left 23:28
+IMAGE centernet | epoch 16/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.363 | 22.0 it/s | left 01:24 | total left 23:07
+IMAGE centernet | epoch 16/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.355 | 22.1 it/s | left 01:19 | total left 22:56
+IMAGE centernet | epoch 16/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.358 | 22.1 it/s | left 01:14 | total left 22:50
+IMAGE centernet | epoch 16/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.348 | 22.2 it/s | left 01:09 | total left 22:44
+IMAGE centernet | epoch 16/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.345 | 22.2 it/s | left 01:05 | total left 22:37
+IMAGE centernet | epoch 16/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.341 | 22.2 it/s | left 01:00 | total left 22:32
+IMAGE centernet | epoch 16/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.342 | 22.2 it/s | left 00:56 | total left 22:27
+IMAGE centernet | epoch 16/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.350 | 22.2 it/s | left 00:51 | total left 22:22
+IMAGE centernet | epoch 16/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.347 | 22.2 it/s | left 00:47 | total left 22:17
+IMAGE centernet | epoch 16/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.345 | 22.2 it/s | left 00:42 | total left 22:12
+IMAGE centernet | epoch 16/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.344 | 22.2 it/s | left 00:38 | total left 22:07
+IMAGE centernet | epoch 16/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.345 | 22.2 it/s | left 00:33 | total left 22:02
+IMAGE centernet | epoch 16/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.346 | 22.3 it/s | left 00:29 | total left 21:57
+IMAGE centernet | epoch 16/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.342 | 22.3 it/s | left 00:24 | total left 21:52
+IMAGE centernet | epoch 16/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.339 | 22.3 it/s | left 00:20 | total left 21:47
+IMAGE centernet | epoch 16/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.337 | 22.3 it/s | left 00:15 | total left 21:43
+IMAGE centernet | epoch 16/30 | █████████████████████░░░ 1800/2048  88% | loss 1.335 | 22.3 it/s | left 00:11 | total left 21:39
+IMAGE centernet | epoch 16/30 | ██████████████████████░░ 1900/2048  93% | loss 1.333 | 22.3 it/s | left 00:06 | total left 21:34
+IMAGE centernet | epoch 16/30 | ███████████████████████░ 2000/2048  98% | loss 1.332 | 22.3 it/s | left 00:02 | total left 21:29
+IMAGE centernet | epoch 16/30 | ████████████████████████ 2048/2048 100% | loss 1.333 | 22.3 it/s | left 00:00 | total left 21:27
+Epoch 16 done  loss=1.3326  time=92.0s  conf_obj=0.3260  conf_noobj=0.0029  cls_acc=31.6331
+Elapsed 0.42 h  |  ETA for remaining 14 epoch(s): 0.37 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 17/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.279 | 21.8 it/s | left 01:29 | total left 21:49
+IMAGE centernet | epoch 17/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.254 | 22.1 it/s | left 01:23 | total left 21:30
+IMAGE centernet | epoch 17/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.270 | 22.1 it/s | left 01:18 | total left 21:21
+IMAGE centernet | epoch 17/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.271 | 22.2 it/s | left 01:14 | total left 21:14
+IMAGE centernet | epoch 17/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.267 | 22.2 it/s | left 01:09 | total left 21:07
+IMAGE centernet | epoch 17/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.262 | 22.2 it/s | left 01:05 | total left 21:02
+IMAGE centernet | epoch 17/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.263 | 22.3 it/s | left 01:00 | total left 20:56
+IMAGE centernet | epoch 17/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.267 | 22.3 it/s | left 00:56 | total left 20:51
+IMAGE centernet | epoch 17/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.267 | 22.3 it/s | left 00:51 | total left 20:47
+IMAGE centernet | epoch 17/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.267 | 22.3 it/s | left 00:47 | total left 20:42
+IMAGE centernet | epoch 17/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.266 | 22.3 it/s | left 00:42 | total left 20:37
+IMAGE centernet | epoch 17/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.267 | 22.3 it/s | left 00:38 | total left 20:32
+IMAGE centernet | epoch 17/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.271 | 22.3 it/s | left 00:33 | total left 20:27
+IMAGE centernet | epoch 17/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.270 | 22.3 it/s | left 00:29 | total left 20:23
+IMAGE centernet | epoch 17/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.269 | 22.3 it/s | left 00:24 | total left 20:18
+IMAGE centernet | epoch 17/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.270 | 22.3 it/s | left 00:20 | total left 20:13
+IMAGE centernet | epoch 17/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.270 | 22.3 it/s | left 00:15 | total left 20:09
+IMAGE centernet | epoch 17/30 | █████████████████████░░░ 1800/2048  88% | loss 1.271 | 22.3 it/s | left 00:11 | total left 20:04
+IMAGE centernet | epoch 17/30 | ██████████████████████░░ 1900/2048  93% | loss 1.270 | 22.3 it/s | left 00:06 | total left 20:00
+IMAGE centernet | epoch 17/30 | ███████████████████████░ 2000/2048  98% | loss 1.268 | 22.3 it/s | left 00:02 | total left 19:55
+IMAGE centernet | epoch 17/30 | ████████████████████████ 2048/2048 100% | loss 1.268 | 22.3 it/s | left 00:00 | total left 19:53
+Epoch 17 done  loss=1.2681  time=91.8s  conf_obj=0.3444  conf_noobj=0.0029  cls_acc=36.3450
+Elapsed 0.45 h  |  ETA for remaining 13 epoch(s): 0.34 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 18/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.219 | 21.8 it/s | left 01:29 | total left 20:14
+IMAGE centernet | epoch 18/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.239 | 22.1 it/s | left 01:23 | total left 19:56
+IMAGE centernet | epoch 18/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.235 | 22.1 it/s | left 01:18 | total left 19:49
+IMAGE centernet | epoch 18/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.221 | 22.2 it/s | left 01:14 | total left 19:42
+IMAGE centernet | epoch 18/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.218 | 22.2 it/s | left 01:09 | total left 19:37
+IMAGE centernet | epoch 18/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.222 | 22.2 it/s | left 01:05 | total left 19:31
+IMAGE centernet | epoch 18/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.224 | 22.2 it/s | left 01:00 | total left 19:26
+IMAGE centernet | epoch 18/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.228 | 22.2 it/s | left 00:56 | total left 19:21
+IMAGE centernet | epoch 18/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.229 | 22.3 it/s | left 00:51 | total left 19:15
+IMAGE centernet | epoch 18/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.227 | 22.3 it/s | left 00:47 | total left 19:10
+IMAGE centernet | epoch 18/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.226 | 22.3 it/s | left 00:42 | total left 19:05
+IMAGE centernet | epoch 18/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.224 | 22.3 it/s | left 00:38 | total left 19:00
+IMAGE centernet | epoch 18/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.219 | 22.3 it/s | left 00:33 | total left 18:55
+IMAGE centernet | epoch 18/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.218 | 22.3 it/s | left 00:29 | total left 18:50
+IMAGE centernet | epoch 18/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.219 | 22.3 it/s | left 00:24 | total left 18:45
+IMAGE centernet | epoch 18/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.219 | 22.3 it/s | left 00:20 | total left 18:41
+IMAGE centernet | epoch 18/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.221 | 22.3 it/s | left 00:15 | total left 18:36
+IMAGE centernet | epoch 18/30 | █████████████████████░░░ 1800/2048  88% | loss 1.218 | 22.3 it/s | left 00:11 | total left 18:31
+IMAGE centernet | epoch 18/30 | ██████████████████████░░ 1900/2048  93% | loss 1.215 | 22.3 it/s | left 00:06 | total left 18:27
+IMAGE centernet | epoch 18/30 | ███████████████████████░ 2000/2048  98% | loss 1.214 | 22.3 it/s | left 00:02 | total left 18:22
+IMAGE centernet | epoch 18/30 | ████████████████████████ 2048/2048 100% | loss 1.213 | 22.3 it/s | left 00:00 | total left 18:20
+Epoch 18 done  loss=1.2131  time=91.7s  conf_obj=0.3580  conf_noobj=0.0028  cls_acc=39.6297
+Elapsed 0.47 h  |  ETA for remaining 12 epoch(s): 0.32 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 19/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.185 | 21.8 it/s | left 01:29 | total left 18:40
+IMAGE centernet | epoch 19/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.182 | 22.1 it/s | left 01:23 | total left 18:23
+IMAGE centernet | epoch 19/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.166 | 22.2 it/s | left 01:18 | total left 18:15
+IMAGE centernet | epoch 19/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.167 | 22.2 it/s | left 01:14 | total left 18:09
+IMAGE centernet | epoch 19/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.169 | 22.2 it/s | left 01:09 | total left 18:02
+IMAGE centernet | epoch 19/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.167 | 22.3 it/s | left 01:05 | total left 17:57
+IMAGE centernet | epoch 19/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.161 | 22.3 it/s | left 01:00 | total left 17:51
+IMAGE centernet | epoch 19/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.161 | 22.3 it/s | left 00:56 | total left 17:47
+IMAGE centernet | epoch 19/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.166 | 22.3 it/s | left 00:51 | total left 17:42
+IMAGE centernet | epoch 19/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.168 | 22.3 it/s | left 00:47 | total left 17:38
+IMAGE centernet | epoch 19/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.168 | 22.3 it/s | left 00:42 | total left 17:33
+IMAGE centernet | epoch 19/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.167 | 22.3 it/s | left 00:38 | total left 17:28
+IMAGE centernet | epoch 19/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.167 | 22.3 it/s | left 00:33 | total left 17:24
+IMAGE centernet | epoch 19/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.165 | 22.3 it/s | left 00:29 | total left 17:19
+IMAGE centernet | epoch 19/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.168 | 22.3 it/s | left 00:24 | total left 17:14
+IMAGE centernet | epoch 19/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.167 | 22.3 it/s | left 00:20 | total left 17:10
+IMAGE centernet | epoch 19/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.164 | 22.3 it/s | left 00:15 | total left 17:05
+IMAGE centernet | epoch 19/30 | █████████████████████░░░ 1800/2048  88% | loss 1.166 | 22.3 it/s | left 00:11 | total left 17:00
+IMAGE centernet | epoch 19/30 | ██████████████████████░░ 1900/2048  93% | loss 1.165 | 22.3 it/s | left 00:06 | total left 16:56
+IMAGE centernet | epoch 19/30 | ███████████████████████░ 2000/2048  98% | loss 1.166 | 22.3 it/s | left 00:02 | total left 16:51
+IMAGE centernet | epoch 19/30 | ████████████████████████ 2048/2048 100% | loss 1.166 | 22.3 it/s | left 00:00 | total left 16:49
+Epoch 19 done  loss=1.1656  time=91.8s  conf_obj=0.3717  conf_noobj=0.0026  cls_acc=42.4573
+Elapsed 0.50 h  |  ETA for remaining 11 epoch(s): 0.29 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 20/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.154 | 21.9 it/s | left 01:29 | total left 17:06
+IMAGE centernet | epoch 20/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.141 | 22.1 it/s | left 01:23 | total left 16:50
+IMAGE centernet | epoch 20/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.135 | 22.2 it/s | left 01:18 | total left 16:41
+IMAGE centernet | epoch 20/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.135 | 22.2 it/s | left 01:14 | total left 16:35
+IMAGE centernet | epoch 20/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.125 | 22.3 it/s | left 01:09 | total left 16:29
+IMAGE centernet | epoch 20/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.122 | 22.3 it/s | left 01:04 | total left 16:24
+IMAGE centernet | epoch 20/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.120 | 22.3 it/s | left 01:00 | total left 16:19
+IMAGE centernet | epoch 20/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.120 | 22.3 it/s | left 00:55 | total left 16:14
+IMAGE centernet | epoch 20/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.123 | 22.3 it/s | left 00:51 | total left 16:09
+IMAGE centernet | epoch 20/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.123 | 22.3 it/s | left 00:46 | total left 16:05
+IMAGE centernet | epoch 20/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.130 | 22.3 it/s | left 00:42 | total left 16:00
+IMAGE centernet | epoch 20/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.130 | 22.3 it/s | left 00:38 | total left 15:55
+IMAGE centernet | epoch 20/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.130 | 22.3 it/s | left 00:33 | total left 15:51
+IMAGE centernet | epoch 20/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.129 | 22.3 it/s | left 00:29 | total left 15:46
+IMAGE centernet | epoch 20/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.128 | 22.3 it/s | left 00:24 | total left 15:41
+IMAGE centernet | epoch 20/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.127 | 22.3 it/s | left 00:20 | total left 15:37
+IMAGE centernet | epoch 20/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.127 | 22.3 it/s | left 00:15 | total left 15:32
+IMAGE centernet | epoch 20/30 | █████████████████████░░░ 1800/2048  88% | loss 1.128 | 22.3 it/s | left 00:11 | total left 15:28
+IMAGE centernet | epoch 20/30 | ██████████████████████░░ 1900/2048  93% | loss 1.126 | 22.3 it/s | left 00:06 | total left 15:23
+IMAGE centernet | epoch 20/30 | ███████████████████████░ 2000/2048  98% | loss 1.128 | 22.3 it/s | left 00:02 | total left 15:18
+IMAGE centernet | epoch 20/30 | ████████████████████████ 2048/2048 100% | loss 1.126 | 22.3 it/s | left 00:00 | total left 15:16
+Epoch 20 done  loss=1.1258  time=91.7s  conf_obj=0.3841  conf_noobj=0.0025  cls_acc=45.5461
+Elapsed 0.52 h  |  ETA for remaining 10 epoch(s): 0.26 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (12 s)
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 72.9 it/s | left 00:05
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 79.2 it/s | left 00:03
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 81.8 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 83.1 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 83.8 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 83.9 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.5857  0.5820  0.1497  0.7500     192     962
+trouser         0.9130  0.9031  0.0706  0.9171     181    2350
+pullover        0.1632  0.2094  0.1022  0.2202     168     362
+dress           0.5040  0.5158  0.4145  0.6396     197     304
+coat            0.2629  0.2656  0.1960  0.7175     177     648
+sandal          0.3262  0.3372  0.1101  0.3606     208     681
+shirt           0.0205  0.0303  0.0134  0.0670     179     894
+sneaker         0.8123  0.7681  0.1215  0.9942     172    1407
+bag             0.8093  0.7556  0.3727  0.8994     179     432
+ankle_boot      0.4128  0.4283  0.2151  0.5455     198     502
+A               0.1825  0.2176  0.1874  0.4848     165     427
+B               0.1339  0.2030  0.1066  0.3030     198     563
+C               0.2552  0.2625  0.4088  0.3854     192     181
+D               0.0579  0.0607  0.1218  0.1854     178     271
+E               0.3145  0.3127  0.3701  0.4947     190     254
+F               0.6324  0.6416  0.1487  0.8343     175     982
+G               0.0516  0.0864  0.1543  0.1420     176     162
+H               0.5051  0.5127  0.2475  0.6462     195     509
+I               0.0475  0.0909  0.0903  0.0791     177     155
+J               0.2352  0.2629  0.0541  0.5227     176    1699
+K               0.2118  0.2302  0.2792  0.3895     190     265
+L               0.2633  0.2849  0.2861  0.6099     182     388
+M               0.7211  0.7039  0.3301  0.8544     158     409
+N               0.2753  0.2838  0.1843  0.3905     210     445
+O               0.2457  0.2863  0.3090  0.5028     177     288
+P               0.3832  0.3947  0.1799  0.6211     190     656
+Q               0.1250  0.1528  0.1903  0.3010     196     310
+R               0.0473  0.1151  0.0401  0.3021     192    1445
+S               0.2857  0.3074  0.3174  0.5512     205     356
+T               0.5655  0.5626  0.2500  0.7268     194     564
+U               0.3673  0.3773  0.3127  0.5856     181     339
+V               0.6099  0.6191  0.3063  0.7260     208     493
+W               0.8355  0.7986  0.0521  0.9091     198    3457
+X               0.1452  0.2036  0.2857  0.2038     157     112
+Y               0.4579  0.4618  0.2256  0.7020     198     616
+Z               0.3125  0.3256  0.2803  0.4632     190     314
+mean            0.3633  0.3765  0.2079  0.5286
+Inference speed incl. post-process: 167.3 img/s
+Eval curve   : epoch 20  ap50=0.3633
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/eval_curve.json
+
+IMAGE centernet | epoch 21/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.074 | 21.7 it/s | left 01:29 | total left 15:39
+IMAGE centernet | epoch 21/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.100 | 22.0 it/s | left 01:24 | total left 15:22
+IMAGE centernet | epoch 21/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.110 | 22.1 it/s | left 01:19 | total left 15:13
+IMAGE centernet | epoch 21/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.112 | 22.2 it/s | left 01:14 | total left 15:06
+IMAGE centernet | epoch 21/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.106 | 22.2 it/s | left 01:09 | total left 14:59
+IMAGE centernet | epoch 21/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.104 | 22.2 it/s | left 01:05 | total left 14:54
+IMAGE centernet | epoch 21/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.103 | 22.2 it/s | left 01:00 | total left 14:49
+IMAGE centernet | epoch 21/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.101 | 22.2 it/s | left 00:56 | total left 14:45
+IMAGE centernet | epoch 21/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.100 | 22.2 it/s | left 00:51 | total left 14:40
+IMAGE centernet | epoch 21/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.097 | 22.3 it/s | left 00:47 | total left 14:35
+IMAGE centernet | epoch 21/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.098 | 22.3 it/s | left 00:42 | total left 14:30
+IMAGE centernet | epoch 21/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.097 | 22.3 it/s | left 00:38 | total left 14:25
+IMAGE centernet | epoch 21/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.097 | 22.3 it/s | left 00:33 | total left 14:21
+IMAGE centernet | epoch 21/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.096 | 22.3 it/s | left 00:29 | total left 14:16
+IMAGE centernet | epoch 21/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.094 | 22.3 it/s | left 00:24 | total left 14:12
+IMAGE centernet | epoch 21/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.098 | 22.3 it/s | left 00:20 | total left 14:07
+IMAGE centernet | epoch 21/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.097 | 22.3 it/s | left 00:15 | total left 14:02
+IMAGE centernet | epoch 21/30 | █████████████████████░░░ 1800/2048  88% | loss 1.096 | 22.3 it/s | left 00:11 | total left 13:57
+IMAGE centernet | epoch 21/30 | ██████████████████████░░ 1900/2048  93% | loss 1.091 | 22.3 it/s | left 00:06 | total left 13:53
+IMAGE centernet | epoch 21/30 | ███████████████████████░ 2000/2048  98% | loss 1.087 | 22.3 it/s | left 00:02 | total left 13:48
+IMAGE centernet | epoch 21/30 | ████████████████████████ 2048/2048 100% | loss 1.087 | 22.3 it/s | left 00:00 | total left 13:46
+Epoch 21 done  loss=1.0873  time=91.8s  conf_obj=0.3958  conf_noobj=0.0024  cls_acc=48.1712
+Elapsed 0.56 h  |  ETA for remaining 9 epoch(s): 0.24 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 22/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.033 | 21.8 it/s | left 01:29 | total left 14:00
+IMAGE centernet | epoch 22/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.051 | 22.1 it/s | left 01:23 | total left 13:45
+IMAGE centernet | epoch 22/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.055 | 22.2 it/s | left 01:18 | total left 13:37
+IMAGE centernet | epoch 22/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.063 | 22.2 it/s | left 01:14 | total left 13:30
+IMAGE centernet | epoch 22/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.061 | 22.3 it/s | left 01:09 | total left 13:25
+IMAGE centernet | epoch 22/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.057 | 22.3 it/s | left 01:04 | total left 13:20
+IMAGE centernet | epoch 22/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.060 | 22.3 it/s | left 01:00 | total left 13:15
+IMAGE centernet | epoch 22/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.062 | 22.3 it/s | left 00:55 | total left 13:10
+IMAGE centernet | epoch 22/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.060 | 22.3 it/s | left 00:51 | total left 13:05
+IMAGE centernet | epoch 22/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.059 | 22.3 it/s | left 00:46 | total left 13:00
+IMAGE centernet | epoch 22/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.060 | 22.3 it/s | left 00:42 | total left 12:56
+IMAGE centernet | epoch 22/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.058 | 22.3 it/s | left 00:37 | total left 12:51
+IMAGE centernet | epoch 22/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.057 | 22.3 it/s | left 00:33 | total left 12:47
+IMAGE centernet | epoch 22/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.054 | 22.3 it/s | left 00:29 | total left 12:42
+IMAGE centernet | epoch 22/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.054 | 22.3 it/s | left 00:24 | total left 12:38
+IMAGE centernet | epoch 22/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.054 | 22.3 it/s | left 00:20 | total left 12:33
+IMAGE centernet | epoch 22/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.055 | 22.3 it/s | left 00:15 | total left 12:29
+IMAGE centernet | epoch 22/30 | █████████████████████░░░ 1800/2048  88% | loss 1.054 | 22.3 it/s | left 00:11 | total left 12:24
+IMAGE centernet | epoch 22/30 | ██████████████████████░░ 1900/2048  93% | loss 1.052 | 22.3 it/s | left 00:06 | total left 12:20
+IMAGE centernet | epoch 22/30 | ███████████████████████░ 2000/2048  98% | loss 1.052 | 22.3 it/s | left 00:02 | total left 12:15
+IMAGE centernet | epoch 22/30 | ████████████████████████ 2048/2048 100% | loss 1.052 | 22.3 it/s | left 00:00 | total left 12:13
+Epoch 22 done  loss=1.0524  time=91.7s  conf_obj=0.4065  conf_noobj=0.0024  cls_acc=50.4952
+Elapsed 0.58 h  |  ETA for remaining 8 epoch(s): 0.21 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 23/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.036 | 21.8 it/s | left 01:29 | total left 12:26
+IMAGE centernet | epoch 23/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.041 | 22.1 it/s | left 01:23 | total left 12:13
+IMAGE centernet | epoch 23/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.054 | 22.1 it/s | left 01:18 | total left 12:06
+IMAGE centernet | epoch 23/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.066 | 22.2 it/s | left 01:14 | total left 12:00
+IMAGE centernet | epoch 23/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.058 | 22.2 it/s | left 01:09 | total left 11:55
+IMAGE centernet | epoch 23/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.063 | 22.2 it/s | left 01:05 | total left 11:49
+IMAGE centernet | epoch 23/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.057 | 22.3 it/s | left 01:00 | total left 11:44
+IMAGE centernet | epoch 23/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.059 | 22.3 it/s | left 00:56 | total left 11:40
+IMAGE centernet | epoch 23/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.058 | 22.3 it/s | left 00:51 | total left 11:35
+IMAGE centernet | epoch 23/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.055 | 22.3 it/s | left 00:47 | total left 11:30
+IMAGE centernet | epoch 23/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.051 | 22.3 it/s | left 00:42 | total left 11:25
+IMAGE centernet | epoch 23/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.050 | 22.3 it/s | left 00:38 | total left 11:21
+IMAGE centernet | epoch 23/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.048 | 22.3 it/s | left 00:33 | total left 11:16
+IMAGE centernet | epoch 23/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.048 | 22.3 it/s | left 00:29 | total left 11:11
+IMAGE centernet | epoch 23/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.048 | 22.3 it/s | left 00:24 | total left 11:07
+IMAGE centernet | epoch 23/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.046 | 22.3 it/s | left 00:20 | total left 11:02
+IMAGE centernet | epoch 23/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.047 | 22.3 it/s | left 00:15 | total left 10:58
+IMAGE centernet | epoch 23/30 | █████████████████████░░░ 1800/2048  88% | loss 1.048 | 22.3 it/s | left 00:11 | total left 10:53
+IMAGE centernet | epoch 23/30 | ██████████████████████░░ 1900/2048  93% | loss 1.047 | 22.3 it/s | left 00:06 | total left 10:48
+IMAGE centernet | epoch 23/30 | ███████████████████████░ 2000/2048  98% | loss 1.045 | 22.3 it/s | left 00:02 | total left 10:44
+IMAGE centernet | epoch 23/30 | ████████████████████████ 2048/2048 100% | loss 1.045 | 22.3 it/s | left 00:00 | total left 10:42
+Epoch 23 done  loss=1.0446  time=91.8s  conf_obj=0.4126  conf_noobj=0.0025  cls_acc=51.4958
+Elapsed 0.61 h  |  ETA for remaining 7 epoch(s): 0.18 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 24/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 1.008 | 21.8 it/s | left 01:29 | total left 10:53
+IMAGE centernet | epoch 24/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 1.005 | 22.1 it/s | left 01:23 | total left 10:40
+IMAGE centernet | epoch 24/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 1.007 | 22.1 it/s | left 01:18 | total left 10:34
+IMAGE centernet | epoch 24/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 1.012 | 22.2 it/s | left 01:14 | total left 10:28
+IMAGE centernet | epoch 24/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 1.014 | 22.2 it/s | left 01:09 | total left 10:22
+IMAGE centernet | epoch 24/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 1.012 | 22.2 it/s | left 01:05 | total left 10:17
+IMAGE centernet | epoch 24/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 1.007 | 22.3 it/s | left 01:00 | total left 10:12
+IMAGE centernet | epoch 24/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 1.010 | 22.3 it/s | left 00:56 | total left 10:07
+IMAGE centernet | epoch 24/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 1.011 | 22.3 it/s | left 00:51 | total left 10:03
+IMAGE centernet | epoch 24/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 1.010 | 22.3 it/s | left 00:47 | total left 09:58
+IMAGE centernet | epoch 24/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 1.009 | 22.3 it/s | left 00:42 | total left 09:53
+IMAGE centernet | epoch 24/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 1.004 | 22.3 it/s | left 00:38 | total left 09:49
+IMAGE centernet | epoch 24/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 1.001 | 22.3 it/s | left 00:33 | total left 09:44
+IMAGE centernet | epoch 24/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 1.002 | 22.3 it/s | left 00:29 | total left 09:39
+IMAGE centernet | epoch 24/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 1.000 | 22.3 it/s | left 00:24 | total left 09:35
+IMAGE centernet | epoch 24/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 1.001 | 22.3 it/s | left 00:20 | total left 09:30
+IMAGE centernet | epoch 24/30 | ███████████████████░░░░░ 1700/2048  83% | loss 1.002 | 22.3 it/s | left 00:15 | total left 09:26
+IMAGE centernet | epoch 24/30 | █████████████████████░░░ 1800/2048  88% | loss 1.002 | 22.3 it/s | left 00:11 | total left 09:21
+IMAGE centernet | epoch 24/30 | ██████████████████████░░ 1900/2048  93% | loss 1.002 | 22.3 it/s | left 00:06 | total left 09:17
+IMAGE centernet | epoch 24/30 | ███████████████████████░ 2000/2048  98% | loss 1.001 | 22.3 it/s | left 00:02 | total left 09:12
+IMAGE centernet | epoch 24/30 | ████████████████████████ 2048/2048 100% | loss 1.000 | 22.3 it/s | left 00:00 | total left 09:10
+Epoch 24 done  loss=0.9997  time=91.8s  conf_obj=0.4243  conf_noobj=0.0023  cls_acc=54.2577
+Elapsed 0.63 h  |  ETA for remaining 6 epoch(s): 0.16 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 25/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.962 | 21.8 it/s | left 01:29 | total left 09:19
+IMAGE centernet | epoch 25/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.972 | 22.1 it/s | left 01:23 | total left 09:07
+IMAGE centernet | epoch 25/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.976 | 22.2 it/s | left 01:18 | total left 09:00
+IMAGE centernet | epoch 25/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.969 | 22.2 it/s | left 01:14 | total left 08:54
+IMAGE centernet | epoch 25/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.973 | 22.3 it/s | left 01:09 | total left 08:49
+IMAGE centernet | epoch 25/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.977 | 22.3 it/s | left 01:04 | total left 08:44
+IMAGE centernet | epoch 25/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.975 | 22.3 it/s | left 01:00 | total left 08:39
+IMAGE centernet | epoch 25/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.973 | 22.3 it/s | left 00:55 | total left 08:34
+IMAGE centernet | epoch 25/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.977 | 22.3 it/s | left 00:51 | total left 08:30
+IMAGE centernet | epoch 25/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.977 | 22.3 it/s | left 00:46 | total left 08:25
+IMAGE centernet | epoch 25/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.977 | 22.3 it/s | left 00:42 | total left 08:21
+IMAGE centernet | epoch 25/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.978 | 22.3 it/s | left 00:37 | total left 08:16
+IMAGE centernet | epoch 25/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.973 | 22.3 it/s | left 00:33 | total left 08:12
+IMAGE centernet | epoch 25/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.973 | 22.3 it/s | left 00:29 | total left 08:07
+IMAGE centernet | epoch 25/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.972 | 22.3 it/s | left 00:24 | total left 08:03
+IMAGE centernet | epoch 25/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.970 | 22.3 it/s | left 00:20 | total left 07:58
+IMAGE centernet | epoch 25/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.970 | 22.3 it/s | left 00:15 | total left 07:54
+IMAGE centernet | epoch 25/30 | █████████████████████░░░ 1800/2048  88% | loss 0.970 | 22.3 it/s | left 00:11 | total left 07:49
+IMAGE centernet | epoch 25/30 | ██████████████████████░░ 1900/2048  93% | loss 0.970 | 22.3 it/s | left 00:06 | total left 07:45
+IMAGE centernet | epoch 25/30 | ███████████████████████░ 2000/2048  98% | loss 0.970 | 22.3 it/s | left 00:02 | total left 07:40
+IMAGE centernet | epoch 25/30 | ████████████████████████ 2048/2048 100% | loss 0.970 | 22.3 it/s | left 00:00 | total left 07:38
+Epoch 25 done  loss=0.9703  time=91.7s  conf_obj=0.4361  conf_noobj=0.0023  cls_acc=56.3588
+Elapsed 0.66 h  |  ETA for remaining 5 epoch(s): 0.13 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (11 s)
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 73.3 it/s | left 00:05
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 79.5 it/s | left 00:03
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 82.0 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 83.1 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 83.8 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 83.9 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.6247  0.6051  0.1004  0.7865     192    1504
+trouser         0.9658  0.9091  0.1453  0.9669     181    1204
+pullover        0.4740  0.4720  0.3084  0.7619     168     415
+dress           0.6505  0.6659  0.3763  0.7107     197     372
+coat            0.2291  0.2601  0.1706  0.4520     177     469
+sandal          0.7429  0.7024  0.0998  0.7740     208    1614
+shirt           0.0447  0.0769  0.1290  0.1117     179     155
+sneaker         0.8593  0.8417  0.3368  0.9302     172     475
+bag             0.9139  0.8766  0.3672  0.9497     179     463
+ankle_boot      0.8074  0.7817  0.2054  0.8485     198     818
+A               0.2534  0.2572  0.0422  0.5515     165    2158
+B               0.2218  0.2338  0.0848  0.3535     198     825
+C               0.3411  0.3709  0.4103  0.4167     192     195
+D               0.2124  0.2412  0.0866  0.3483     178     716
+E               0.7559  0.7512  0.2886  0.9053     190     596
+F               0.8379  0.8133  0.0898  0.9486     175    1848
+G               0.0795  0.1250  0.0649  0.1761     176     478
+H               0.6554  0.6373  0.0760  0.8051     195    2065
+I               0.4082  0.4174  0.1444  0.5141     177     630
+J               0.5647  0.5556  0.0649  0.7614     176    2064
+K               0.1417  0.1591  0.2734  0.1842     190     128
+L               0.3078  0.2992  0.1286  0.5934     182     840
+M               0.8857  0.8168  0.2814  0.8924     158     501
+N               0.4996  0.4681  0.1236  0.6905     210    1173
+O               0.6016  0.5893  0.4203  0.8644     177     364
+P               0.4792  0.5022  0.0186  0.8684     190    8867
+Q               0.2289  0.2562  0.1315  0.4133     196     616
+R               0.1199  0.1581  0.1242  0.2135     192     330
+S               0.3741  0.3800  0.2193  0.5756     205     538
+T               0.7994  0.7790  0.2188  0.8505     194     754
+U               0.5782  0.6046  0.3499  0.7017     181     363
+V               0.7143  0.6891  0.4745  0.7596     208     333
+W               0.9330  0.9007  0.0593  0.9646     198    3221
+X               0.5915  0.5912  0.2320  0.8217     157     556
+Y               0.6697  0.6641  0.1550  0.7828     198    1000
+Z               0.5797  0.5836  0.3966  0.7368     190     353
+mean            0.5319  0.5288  0.2000  0.6663
+Inference speed incl. post-process: 167.3 img/s
+Eval curve   : epoch 25  ap50=0.5319
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/eval_curve.json
+
+IMAGE centernet | epoch 26/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.970 | 21.7 it/s | left 01:29 | total left 07:46
+IMAGE centernet | epoch 26/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.955 | 22.0 it/s | left 01:23 | total left 07:35
+IMAGE centernet | epoch 26/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.948 | 22.2 it/s | left 01:18 | total left 07:28
+IMAGE centernet | epoch 26/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.936 | 22.2 it/s | left 01:14 | total left 07:23
+IMAGE centernet | epoch 26/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.945 | 22.2 it/s | left 01:09 | total left 07:17
+IMAGE centernet | epoch 26/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.943 | 22.3 it/s | left 01:05 | total left 07:13
+IMAGE centernet | epoch 26/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.940 | 22.3 it/s | left 01:00 | total left 07:08
+IMAGE centernet | epoch 26/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.940 | 22.3 it/s | left 00:56 | total left 07:03
+IMAGE centernet | epoch 26/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.940 | 22.3 it/s | left 00:51 | total left 06:58
+IMAGE centernet | epoch 26/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.939 | 22.3 it/s | left 00:46 | total left 06:54
+IMAGE centernet | epoch 26/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.935 | 22.3 it/s | left 00:42 | total left 06:49
+IMAGE centernet | epoch 26/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.935 | 22.3 it/s | left 00:38 | total left 06:45
+IMAGE centernet | epoch 26/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.936 | 22.3 it/s | left 00:33 | total left 06:40
+IMAGE centernet | epoch 26/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.935 | 22.3 it/s | left 00:29 | total left 06:36
+IMAGE centernet | epoch 26/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.934 | 22.3 it/s | left 00:24 | total left 06:31
+IMAGE centernet | epoch 26/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.934 | 22.3 it/s | left 00:20 | total left 06:27
+IMAGE centernet | epoch 26/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.933 | 22.3 it/s | left 00:15 | total left 06:22
+IMAGE centernet | epoch 26/30 | █████████████████████░░░ 1800/2048  88% | loss 0.935 | 22.3 it/s | left 00:11 | total left 06:18
+IMAGE centernet | epoch 26/30 | ██████████████████████░░ 1900/2048  93% | loss 0.935 | 22.3 it/s | left 00:06 | total left 06:13
+IMAGE centernet | epoch 26/30 | ███████████████████████░ 2000/2048  98% | loss 0.935 | 22.3 it/s | left 00:02 | total left 06:08
+IMAGE centernet | epoch 26/30 | ████████████████████████ 2048/2048 100% | loss 0.937 | 22.3 it/s | left 00:00 | total left 06:06
+Epoch 26 done  loss=0.9370  time=91.7s  conf_obj=0.4480  conf_noobj=0.0022  cls_acc=58.1788
+Elapsed 0.69 h  |  ETA for remaining 4 epoch(s): 0.11 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 27/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.923 | 21.8 it/s | left 01:29 | total left 06:11
+IMAGE centernet | epoch 27/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.931 | 22.1 it/s | left 01:23 | total left 06:02
+IMAGE centernet | epoch 27/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.935 | 22.2 it/s | left 01:18 | total left 05:56
+IMAGE centernet | epoch 27/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.940 | 22.2 it/s | left 01:14 | total left 05:50
+IMAGE centernet | epoch 27/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.935 | 22.3 it/s | left 01:09 | total left 05:45
+IMAGE centernet | epoch 27/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.926 | 22.3 it/s | left 01:05 | total left 05:40
+IMAGE centernet | epoch 27/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.928 | 22.3 it/s | left 01:00 | total left 05:36
+IMAGE centernet | epoch 27/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.929 | 22.3 it/s | left 00:56 | total left 05:31
+IMAGE centernet | epoch 27/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.928 | 22.3 it/s | left 00:51 | total left 05:27
+IMAGE centernet | epoch 27/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.929 | 22.3 it/s | left 00:47 | total left 05:22
+IMAGE centernet | epoch 27/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.925 | 22.3 it/s | left 00:42 | total left 05:18
+IMAGE centernet | epoch 27/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.921 | 22.3 it/s | left 00:38 | total left 05:13
+IMAGE centernet | epoch 27/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.919 | 22.3 it/s | left 00:33 | total left 05:08
+IMAGE centernet | epoch 27/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.918 | 22.3 it/s | left 00:29 | total left 05:04
+IMAGE centernet | epoch 27/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.916 | 22.3 it/s | left 00:24 | total left 04:59
+IMAGE centernet | epoch 27/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.915 | 22.3 it/s | left 00:20 | total left 04:55
+IMAGE centernet | epoch 27/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.915 | 22.3 it/s | left 00:15 | total left 04:50
+IMAGE centernet | epoch 27/30 | █████████████████████░░░ 1800/2048  88% | loss 0.914 | 22.3 it/s | left 00:11 | total left 04:46
+IMAGE centernet | epoch 27/30 | ██████████████████████░░ 1900/2048  93% | loss 0.914 | 22.3 it/s | left 00:06 | total left 04:41
+IMAGE centernet | epoch 27/30 | ███████████████████████░ 2000/2048  98% | loss 0.912 | 22.3 it/s | left 00:02 | total left 04:37
+IMAGE centernet | epoch 27/30 | ████████████████████████ 2048/2048 100% | loss 0.912 | 22.3 it/s | left 00:00 | total left 04:35
+Epoch 27 done  loss=0.9118  time=91.7s  conf_obj=0.4563  conf_noobj=0.0021  cls_acc=60.7549
+Elapsed 0.71 h  |  ETA for remaining 3 epoch(s): 0.08 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 28/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.910 | 21.9 it/s | left 01:29 | total left 04:36
+IMAGE centernet | epoch 28/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.915 | 22.1 it/s | left 01:23 | total left 04:28
+IMAGE centernet | epoch 28/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.903 | 22.2 it/s | left 01:18 | total left 04:23
+IMAGE centernet | epoch 28/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.906 | 22.2 it/s | left 01:14 | total left 04:18
+IMAGE centernet | epoch 28/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.902 | 22.2 it/s | left 01:09 | total left 04:13
+IMAGE centernet | epoch 28/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.910 | 22.3 it/s | left 01:05 | total left 04:09
+IMAGE centernet | epoch 28/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.911 | 22.3 it/s | left 01:00 | total left 04:04
+IMAGE centernet | epoch 28/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.916 | 22.3 it/s | left 00:55 | total left 03:59
+IMAGE centernet | epoch 28/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.914 | 22.3 it/s | left 00:51 | total left 03:55
+IMAGE centernet | epoch 28/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.910 | 22.3 it/s | left 00:46 | total left 03:50
+IMAGE centernet | epoch 28/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.909 | 22.3 it/s | left 00:42 | total left 03:46
+IMAGE centernet | epoch 28/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.906 | 22.3 it/s | left 00:38 | total left 03:41
+IMAGE centernet | epoch 28/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.906 | 22.3 it/s | left 00:33 | total left 03:37
+IMAGE centernet | epoch 28/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.904 | 22.3 it/s | left 00:29 | total left 03:32
+IMAGE centernet | epoch 28/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.901 | 22.3 it/s | left 00:24 | total left 03:28
+IMAGE centernet | epoch 28/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.899 | 22.3 it/s | left 00:20 | total left 03:23
+IMAGE centernet | epoch 28/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.897 | 22.3 it/s | left 00:15 | total left 03:19
+IMAGE centernet | epoch 28/30 | █████████████████████░░░ 1800/2048  88% | loss 0.894 | 22.3 it/s | left 00:11 | total left 03:14
+IMAGE centernet | epoch 28/30 | ██████████████████████░░ 1900/2048  93% | loss 0.894 | 22.3 it/s | left 00:06 | total left 03:10
+IMAGE centernet | epoch 28/30 | ███████████████████████░ 2000/2048  98% | loss 0.893 | 22.3 it/s | left 00:02 | total left 03:05
+IMAGE centernet | epoch 28/30 | ████████████████████████ 2048/2048 100% | loss 0.893 | 22.3 it/s | left 00:00 | total left 03:03
+Epoch 28 done  loss=0.8925  time=91.8s  conf_obj=0.4649  conf_noobj=0.0022  cls_acc=61.9032
+Elapsed 0.74 h  |  ETA for remaining 2 epoch(s): 0.05 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 29/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.854 | 21.8 it/s | left 01:29 | total left 03:02
+IMAGE centernet | epoch 29/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.849 | 22.1 it/s | left 01:23 | total left 02:56
+IMAGE centernet | epoch 29/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.850 | 22.2 it/s | left 01:18 | total left 02:51
+IMAGE centernet | epoch 29/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.850 | 22.2 it/s | left 01:14 | total left 02:46
+IMAGE centernet | epoch 29/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.854 | 22.3 it/s | left 01:09 | total left 02:41
+IMAGE centernet | epoch 29/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.862 | 22.3 it/s | left 01:05 | total left 02:37
+IMAGE centernet | epoch 29/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.864 | 22.3 it/s | left 01:00 | total left 02:32
+IMAGE centernet | epoch 29/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.871 | 22.3 it/s | left 00:56 | total left 02:27
+IMAGE centernet | epoch 29/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.873 | 22.3 it/s | left 00:51 | total left 02:23
+IMAGE centernet | epoch 29/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.875 | 22.3 it/s | left 00:46 | total left 02:18
+IMAGE centernet | epoch 29/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.875 | 22.3 it/s | left 00:42 | total left 02:14
+IMAGE centernet | epoch 29/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.872 | 22.3 it/s | left 00:37 | total left 02:09
+IMAGE centernet | epoch 29/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.871 | 22.3 it/s | left 00:33 | total left 02:05
+IMAGE centernet | epoch 29/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.867 | 22.3 it/s | left 00:29 | total left 02:00
+IMAGE centernet | epoch 29/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.868 | 22.3 it/s | left 00:24 | total left 01:56
+IMAGE centernet | epoch 29/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.867 | 22.3 it/s | left 00:20 | total left 01:51
+IMAGE centernet | epoch 29/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.865 | 22.3 it/s | left 00:15 | total left 01:47
+IMAGE centernet | epoch 29/30 | █████████████████████░░░ 1800/2048  88% | loss 0.863 | 22.3 it/s | left 00:11 | total left 01:42
+IMAGE centernet | epoch 29/30 | ██████████████████████░░ 1900/2048  93% | loss 0.862 | 22.3 it/s | left 00:06 | total left 01:38
+IMAGE centernet | epoch 29/30 | ███████████████████████░ 2000/2048  98% | loss 0.860 | 22.3 it/s | left 00:02 | total left 01:33
+IMAGE centernet | epoch 29/30 | ████████████████████████ 2048/2048 100% | loss 0.860 | 22.3 it/s | left 00:00 | total left 01:31
+Epoch 29 done  loss=0.8603  time=91.7s  conf_obj=0.4760  conf_noobj=0.0022  cls_acc=64.2518
+Elapsed 0.76 h  |  ETA for remaining 1 epoch(s): 0.03 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+IMAGE centernet | epoch 30/30 | █░░░░░░░░░░░░░░░░░░░░░░░ 100/2048   5% | loss 0.837 | 21.7 it/s | left 01:29
+IMAGE centernet | epoch 30/30 | ██░░░░░░░░░░░░░░░░░░░░░░ 200/2048  10% | loss 0.845 | 22.0 it/s | left 01:23
+IMAGE centernet | epoch 30/30 | ███░░░░░░░░░░░░░░░░░░░░░ 300/2048  15% | loss 0.842 | 22.1 it/s | left 01:19
+IMAGE centernet | epoch 30/30 | ████░░░░░░░░░░░░░░░░░░░░ 400/2048  20% | loss 0.841 | 22.2 it/s | left 01:14
+IMAGE centernet | epoch 30/30 | █████░░░░░░░░░░░░░░░░░░░ 500/2048  24% | loss 0.840 | 22.2 it/s | left 01:09
+IMAGE centernet | epoch 30/30 | ███████░░░░░░░░░░░░░░░░░ 600/2048  29% | loss 0.849 | 22.2 it/s | left 01:05
+IMAGE centernet | epoch 30/30 | ████████░░░░░░░░░░░░░░░░ 700/2048  34% | loss 0.844 | 22.3 it/s | left 01:00
+IMAGE centernet | epoch 30/30 | █████████░░░░░░░░░░░░░░░ 800/2048  39% | loss 0.846 | 22.3 it/s | left 00:56
+IMAGE centernet | epoch 30/30 | ██████████░░░░░░░░░░░░░░ 900/2048  44% | loss 0.842 | 22.3 it/s | left 00:51
+IMAGE centernet | epoch 30/30 | ███████████░░░░░░░░░░░░░ 1000/2048  49% | loss 0.845 | 22.3 it/s | left 00:47
+IMAGE centernet | epoch 30/30 | ████████████░░░░░░░░░░░░ 1100/2048  54% | loss 0.839 | 22.3 it/s | left 00:42
+IMAGE centernet | epoch 30/30 | ██████████████░░░░░░░░░░ 1200/2048  59% | loss 0.838 | 22.3 it/s | left 00:38
+IMAGE centernet | epoch 30/30 | ███████████████░░░░░░░░░ 1300/2048  63% | loss 0.836 | 22.3 it/s | left 00:33
+IMAGE centernet | epoch 30/30 | ████████████████░░░░░░░░ 1400/2048  68% | loss 0.836 | 22.3 it/s | left 00:29
+IMAGE centernet | epoch 30/30 | █████████████████░░░░░░░ 1500/2048  73% | loss 0.836 | 22.3 it/s | left 00:24
+IMAGE centernet | epoch 30/30 | ██████████████████░░░░░░ 1600/2048  78% | loss 0.835 | 22.3 it/s | left 00:20
+IMAGE centernet | epoch 30/30 | ███████████████████░░░░░ 1700/2048  83% | loss 0.835 | 22.3 it/s | left 00:15
+IMAGE centernet | epoch 30/30 | █████████████████████░░░ 1800/2048  88% | loss 0.839 | 22.3 it/s | left 00:11
+IMAGE centernet | epoch 30/30 | ██████████████████████░░ 1900/2048  93% | loss 0.841 | 22.3 it/s | left 00:06
+IMAGE centernet | epoch 30/30 | ███████████████████████░ 2000/2048  98% | loss 0.841 | 22.3 it/s | left 00:02
+IMAGE centernet | epoch 30/30 | ████████████████████████ 2048/2048 100% | loss 0.841 | 22.3 it/s | left 00:00
+Epoch 30 done  loss=0.8414  time=91.7s  conf_obj=0.4850  conf_noobj=0.0022  cls_acc=65.0629
+Elapsed 0.79 h  |  ETA for remaining 0 epoch(s): 0.00 h
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_last.pth
+
+Training time: 47.4 min
+Peak VRAM    : 0.98 GB
+PreciseBN    : 26 BN layers re-estimated on 1600 training images (12 s)
+Checkpoint   : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/checkpoints/image_centernet_fl36_e030.pth
+================================================================
+ IMAGE centernet  |  test evaluation after training
+================================================================
+IMAGE centernet | test inference | ████░░░░░░░░░░░░░░░░░░░░ 100/512  20% | 71.6 it/s | left 00:05
+IMAGE centernet | test inference | █████████░░░░░░░░░░░░░░░ 200/512  39% | 78.2 it/s | left 00:03
+IMAGE centernet | test inference | ██████████████░░░░░░░░░░ 300/512  59% | 80.6 it/s | left 00:02
+IMAGE centernet | test inference | ██████████████████░░░░░░ 400/512  78% | 81.5 it/s | left 00:01
+IMAGE centernet | test inference | ███████████████████████░ 500/512  98% | 81.9 it/s | left 00:00
+IMAGE centernet | test inference | ████████████████████████ 512/512 100% | 82.0 it/s | left 00:00
+
+FL36 test (1024 images)  (IoU >= 0.5)
+class               AP    AP11       P       R     #GT    #Det
+tshirt          0.6701  0.6404  0.1262  0.8906     192    1355
+trouser         0.9500  0.9091  0.1903  0.9503     181     904
+pullover        0.4108  0.4216  0.3193  0.4524     168     238
+dress           0.6377  0.6440  0.2106  0.7259     197     679
+coat            0.3626  0.3710  0.3843  0.5819     177     268
+sandal          0.9006  0.8848  0.1888  0.9231     208    1017
+shirt           0.0216  0.0364  0.1250  0.0838     179     120
+sneaker         0.8734  0.8544  0.2020  0.9360     172     797
+bag             0.8868  0.8169  0.3730  0.8939     179     429
+ankle_boot      0.9104  0.8992  0.0963  0.9242     198    1901
+A               0.3970  0.3962  0.3609  0.5818     165     266
+B               0.3675  0.3920  0.1497  0.6313     198     835
+C               0.7084  0.7032  0.5679  0.8281     192     280
+D               0.1917  0.2253  0.0605  0.3989     178    1174
+E               0.8268  0.7909  0.4253  0.8684     190     388
+F               0.9032  0.8723  0.0652  0.9486     175    2547
+G               0.1982  0.2061  0.2051  0.4148     176     356
+H               0.8057  0.7899  0.1212  0.9282     195    1494
+I               0.4047  0.4063  0.1551  0.4689     177     535
+J               0.6127  0.5948  0.1193  0.7614     176    1123
+K               0.4587  0.4704  0.1844  0.7211     190     743
+L               0.3364  0.3649  0.4008  0.5549     182     252
+M               0.9039  0.8971  0.1910  0.9114     158     754
+N               0.5488  0.5471  0.3333  0.6476     210     408
+O               0.8600  0.8123  0.4701  0.9774     177     368
+P               0.6981  0.6918  0.0128  0.9211     190   13632
+Q               0.1972  0.2461  0.2414  0.3214     196     261
+R               0.4755  0.4902  0.2627  0.6198     192     453
+S               0.6815  0.6766  0.2757  0.7463     205     555
+T               0.8655  0.8272  0.2252  0.9124     194     786
+U               0.4342  0.4528  0.3865  0.5359     181     251
+V               0.6076  0.6253  0.6000  0.6202     208     215
+W               0.9146  0.9071  0.1218  0.9343     198    1519
+X               0.4266  0.4490  0.2014  0.5414     157     422
+Y               0.6992  0.6798  0.2468  0.7677     198     616
+Z               0.8423  0.8156  0.3215  0.9526     190     563
+mean            0.6108  0.6058  0.2478  0.7188
+Inference speed incl. post-process: 163.3 img/s
+Saved        : /home/minsoogo/SSL_Wave1/code/OD_Image_1-Stage_CenterNet/runs/image_centernet/eval/test_after_train_20261108_123100.json

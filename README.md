@@ -29,7 +29,7 @@ A supervised reference (ResNet-18 trained *with* labels on Crop36) is included.
 
 Two machines: **GTX 1060 6 GB** (Windows 10, Wave 1a: 4 methods x 50 epochs, `results/gtx1060/`) and
 **RTX 4070 Laptop 8 GB** (Ubuntu, everything else, `results/rtx4070/`). The same code and seed reproduce across the
-two GPUs within 0.016 kNN (stored BN). All CenterNet runs: `results/rtx4070/centernet_summary.md`.
+two GPUs within 0.016 kNN (stored BN). All CenterNet runs (30 and 90 epochs): `results/rtx4070/centernet_summary.md`.
 
 ### 1. Representation and detection (RTX 4070, CenterNet 30 epochs, 100 % labels)
 
@@ -51,37 +51,47 @@ SSL seeds (CenterNet mAP50, seeds 777 / 778 / 779): 50 epochs - VICReg 0.757 / 0
 ### 2. Label efficiency and training budget (CenterNet mAP50)
 
 Labeled subsets: nested, seed 777, repeated to ~4,100 samples per epoch so every ratio takes the same number of
-optimizer steps (`code/make_label_splits.py`).
+optimizer steps (`code/make_label_splits.py`). Two budgets: the series' 30 epochs and 3x (90 epochs).
 
-| Init | 1 % | 5 % | 10 % | 25 % | 100 % |
-| --- | --- | --- | --- | --- | --- |
-| from scratch | 0.139 | 0.463 | 0.564 | 0.583 | 0.611 |
-| SimCLR 200 | 0.241 | 0.561 | 0.638 | 0.679 | 0.701 |
-| VICReg 200 | 0.214 | 0.611 | 0.715 | 0.785 | 0.770 |
-| Barlow 200 | 0.319 | 0.676 | 0.771 | 0.806 | 0.813 (3 seeds) |
+| Init | Budget | 1 % | 5 % | 10 % | 25 % | 100 % |
+| --- | --- | --- | --- | --- | --- | --- |
+| from scratch | 30 ep | 0.139 | 0.463 | 0.564 | 0.583 | 0.611 |
+| SimCLR 200 | 30 ep | 0.241 | 0.561 | 0.638 | 0.679 | 0.701 |
+| VICReg 200 | 30 ep | 0.214 | 0.611 | 0.715 | 0.785 | 0.770 |
+| Barlow 200 | 30 ep | 0.319 | 0.676 | 0.771 | 0.806 | 0.813 (3 SSL seeds) |
+| from scratch | 90 ep | 0.131 | 0.605 | 0.725 / 0.720 (2 fine-tune seeds) | 0.814 | 0.862 / 0.859 |
+| Barlow 200 | 90 ep | 0.330 | 0.711 | 0.770 / 0.774 / 0.775 (3 SSL seeds) | 0.831 | 0.867 / 0.872 |
+| **gap at 90 ep** | | **+0.20** | **+0.11** | **+0.05** | **+0.02** | **+0.01** |
 
-| Budget | scratch 100 % | Barlow 200 100 % | scratch 10 % | Barlow 200 10 % |
-| --- | --- | --- | --- | --- |
-| 30 epochs | 0.611 | 0.813 | 0.564 | 0.771 |
-| 90 epochs | 0.862 | 0.867 | 0.725 | 0.770 |
+Also at 90 epochs: VICReg 200 - 10 % 0.741, 100 % 0.881; Barlow 800 - 10 % 0.775, 100 % 0.884 (one seed each).
+
+### 3. Longer SSL (800 epochs)
+
+| Backbone | kNN (BN re-est.) 200 / 800 ep | CenterNet 100 %, 30 ep, 200 / 800 ep |
+| --- | --- | --- |
+| Barlow Twins | 0.886 / 0.893 | 0.813 (3-seed mean) / 0.814 |
+| VICReg | 0.893 / 0.899 | 0.772 (3-seed mean) / 0.771 |
 
 ### Conclusions
 
-1. **The main benefit of SSL pre-training here is faster convergence.** At the series' 30-epoch budget it adds
-   +0.20 mAP50; with 3x the training and all labels, from-scratch catches up (+0.005).
-2. **With few labels the benefit persists**: at 10 % labels and 90 epochs Barlow 200 still leads by +0.045
-   (one seed). Barlow 200 with 25 % labels reaches 99 % of its 100 % result.
-3. **Redundancy-reduction methods win.** At 200 epochs Barlow Twins is higher and steadier than VICReg; the
-   asymmetric methods (BYOL, SimSiam) lag, and DINO did not train on this data (loss fixed near ln 4096 = 8.32 from
-   epoch 3, kNN flat - uniform collapse of the 2-view solo-learn recipe).
-4. **kNN / probe separate strong from weak methods but not the top methods**: Barlow and VICReg 200 differ by
-   < 0.01 in kNN / probe and by 0.04 in detection (seed means). Supervised Crop36 features are the best
-   representation and a weak detection backbone.
+1. **SSL pre-training mainly speeds up convergence.** At the series' 30-epoch budget it adds +0.20 mAP50.
+2. **After sufficient training, the benefit falls with the number of labels**: +0.20 (1 %), +0.11 (5 %), +0.05
+   (10 %, outside the seed spread of 0.006), +0.02 (25 %), +0.01 (100 %, both seeds in favour of SSL).
+3. **SSL saturates at ~200 epochs** on these 4,096 images: 800 epochs raise kNN slightly but not detection.
+4. **Redundancy-reduction methods win.** At 200 epochs Barlow Twins is higher and steadier than VICReg at
+   30 fine-tuning epochs (seed means 0.813 vs 0.772); the asymmetric methods (BYOL, SimSiam) lag, and DINO did not
+   train on this data (loss fixed near ln 4096 = 8.32 from epoch 3 - uniform collapse of the 2-view recipe).
+5. **kNN / probe separate strong from weak methods but not the top methods**: Barlow and VICReg 200 differ by
+   < 0.01 in kNN / probe and by 0.04 in detection. Supervised Crop36 features are the best representation and a
+   weak detection backbone.
+6. **Method lesson: conclusions drawn at one short budget flipped** (here and for semi-supervised detection in
+   SemiSL_Wave2_FL36). Compare methods at two budgets or more and with two seeds or more.
 
 ## Weights
 
-Releases: `gtx1060-wave1a` (4 backbones, Windows run) and `rtx4070-wave1` (16 backbones: 50 epochs x 6 methods +
-supervised, 200 epochs x 5, 200-epoch seeds 778 / 779 for Barlow and VICReg; SHA-256 in `SHA256SUMS.txt`).
+Releases: `gtx1060-wave1a` (4 backbones, Windows run), `rtx4070-wave1` (16 backbones: 50 epochs x 6 methods +
+supervised, 200 epochs x 5, 200-epoch seeds 778 / 779 for Barlow and VICReg) and `rtx4070-e800` (Barlow Twins and
+VICReg, 800 epochs); SHA-256 in each `SHA256SUMS.txt`.
 
 ```python
 import torch, torchvision

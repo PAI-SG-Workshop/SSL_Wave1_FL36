@@ -242,3 +242,60 @@
 2026-11-12 15:09:19  DONE det2_p10_scratch_bi60 in 81 min
 2026-11-12 15:45:24  cutoff reached - queue ends
 2026-11-12 15:45:24  queue end
+2026-11-12 19:03:13  queue start: cutoff 2026-11-16 05:20, hard stop 2026-11-16 06:00, python /home/minsoogo/miniforge3/envs/ssl_env/bin/python
+2026-11-12 19:03:13  START lab_p01_scratch_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_scratch_e90 --epochs 90
+2026-11-12 21:41:59  DONE lab_p01_scratch_e90 in 158 min
+2026-11-12 21:41:59  START lab_p100_vicreg200_e90 (~160 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_vicreg200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-13 00:20:05  DONE lab_p100_vicreg200_e90 in 158 min
+2026-11-13 00:20:05  START lab_p01_barlow200_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p01 python train_image_centernet_lab.py --tag lab_p01_barlow200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-13 02:58:12  DONE lab_p01_barlow200_e90 in 158 min
+2026-11-13 02:58:12  START lab_p05_scratch_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_scratch_e90 --epochs 90
+2026-11-13 05:36:38  DONE lab_p05_scratch_e90 in 158 min
+2026-11-13 05:36:38  START lab_p05_barlow200_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p05 python train_image_centernet_lab.py --tag lab_p05_barlow200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-13 08:15:04  DONE lab_p05_barlow200_e90 in 158 min
+2026-11-13 08:15:04  START lab_p25_scratch_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_scratch_e90 --epochs 90
+2026-11-13 10:52:50  DONE lab_p25_scratch_e90 in 157 min
+2026-11-13 10:52:50  START lab_p25_barlow200_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p25 python train_image_centernet_lab.py --tag lab_p25_barlow200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth
+2026-11-13 13:30:56  DONE lab_p25_barlow200_e90 in 158 min
+2026-11-13 13:30:57  START lab_p10_barlow200_s778_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow200_s778_e90 --epochs 90 --pretrained ~/SSL_Wave1bs/s778/runs/ssl_barlow/backbone_e200.pth
+2026-11-13 16:09:03  DONE lab_p10_barlow200_s778_e90 in 158 min
+2026-11-13 16:09:03  START lab_p10_barlow200_s779_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow200_s779_e90 --epochs 90 --pretrained ~/SSL_Wave1bs/s779/runs/ssl_barlow/backbone_e200.pth
+2026-11-13 18:47:49  DONE lab_p10_barlow200_s779_e90 in 158 min
+2026-11-13 18:47:49  START lab_p10_scratch_ft778_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_scratch_ft778_e90 --epochs 90 --seed 778
+2026-11-13 21:25:55  DONE lab_p10_scratch_ft778_e90 in 158 min
+2026-11-13 21:25:55  START det2_p10_scratch_e90 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init scratch --epochs 90 --burnin 0.6 --tag det2_p10_scratch_e90
+2026-11-14 01:12:44  DONE det2_p10_scratch_e90 in 226 min
+2026-11-14 01:12:44  START det2_p10_barlow200_e90 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --epochs 90 --burnin 0.6 --tag det2_p10_barlow200_e90
+2026-11-14 04:59:32  DONE det2_p10_barlow200_e90 in 226 min
+2026-11-14 04:59:32  START barlow800 (~280 min): mkdir -p ~/SSL_Wave1c/datasets && ln -sfn ~/SSL_Wave1/datasets/ssl ~/SSL_Wave1c/datasets/ssl && cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1c python ssl_train_ext.py --method barlow --epochs 800 --workers 8 --gate-margin -1 --knn-every 100
+2026-11-14 09:34:03  DONE barlow800 in 274 min
+2026-11-14 09:34:03  START cn_barlow800 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_barlow_e800 --pretrained ~/SSL_Wave1c/runs/ssl_barlow/backbone_e800.pth
+2026-11-14 10:29:45  DONE cn_barlow800 in 55 min
+2026-11-14 10:29:46  START lab_p10_barlow800 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow800 --pretrained ~/SSL_Wave1c/runs/ssl_barlow/backbone_e800.pth
+2026-11-14 11:25:28  DONE lab_p10_barlow800 in 55 min
+2026-11-14 11:25:28  START lab_p10_vicreg200_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_vicreg200_e90 --epochs 90 --pretrained ~/SSL_Wave1b/runs/ssl_vicreg/backbone_e200.pth
+2026-11-14 14:11:35  DONE lab_p10_vicreg200_e90 in 166 min
+2026-11-14 14:11:35  START vicreg800 (~280 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1c python ssl_train_ext.py --method vicreg --epochs 800 --workers 8 --gate-margin -1 --knn-every 100
+2026-11-14 18:50:06  DONE vicreg800 in 278 min
+2026-11-14 18:50:06  START cn_vicreg800 (~55 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag ssl_vicreg_e800 --pretrained ~/SSL_Wave1c/runs/ssl_vicreg/backbone_e800.pth
+2026-11-14 19:45:28  DONE cn_vicreg800 in 55 min
+2026-11-14 19:45:29  START final_eval_1c (~10 min): cd ~/SSL_Wave1/code/ssl && PHYSICAL_AI_ROOT=$HOME/SSL_Wave1c python final_eval.py
+2026-11-14 19:46:29  DONE final_eval_1c in 1 min
+2026-11-14 19:46:29  START det2_p05_scratch_e90 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p05 --init scratch --epochs 90 --burnin 0.6 --tag det2_p05_scratch_e90
+2026-11-14 23:36:57  DONE det2_p05_scratch_e90 in 230 min
+2026-11-14 23:36:58  START det2_p05_barlow200_e90 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p05 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --epochs 90 --burnin 0.6 --tag det2_p05_barlow200_e90
+2026-11-15 03:25:06  DONE det2_p05_barlow200_e90 in 228 min
+2026-11-15 03:25:06  START lab_p100_barlow800_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_barlow800_e90 --epochs 90 --pretrained ~/SSL_Wave1c/runs/ssl_barlow/backbone_e800.pth
+2026-11-15 06:04:12  DONE lab_p100_barlow800_e90 in 159 min
+2026-11-15 06:04:13  START lab_p10_barlow800_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && PHYSICAL_AI_ROOT=$HOME/SSL_Wave2/roots/p10 python train_image_centernet_lab.py --tag lab_p10_barlow800_e90 --epochs 90 --pretrained ~/SSL_Wave1c/runs/ssl_barlow/backbone_e800.pth
+2026-11-15 08:43:39  DONE lab_p10_barlow800_e90 in 159 min
+2026-11-15 14:12:40  START lab_p100_scratch_ft778_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_scratch_ft778_e90 --epochs 90 --seed 778
+2026-11-15 16:52:06  DONE lab_p100_scratch_ft778_e90 in 159 min
+2026-11-15 16:52:06  START det2_p10_scratch_e90_s778 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p10 --init scratch --epochs 90 --burnin 0.6 --seed 778 --tag det2_p10_scratch_e90_s778
+2026-11-15 20:40:54  DONE det2_p10_scratch_e90_s778 in 228 min
+2026-11-15 20:40:55  START lab_p100_barlow200_s778_e90 (~175 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python train_image_centernet_lab.py --tag lab_p100_barlow200_s778_e90 --epochs 90 --pretrained ~/SSL_Wave1bs/s778/runs/ssl_barlow/backbone_e200.pth
+2026-11-15 23:19:21  DONE lab_p100_barlow200_s778_e90 in 158 min
+2026-11-15 23:19:21  START det2_p01_barlow200_e90 (~230 min): cd ~/SSL_Wave1/code/OD_Image_1-Stage_CenterNet && python semisl_det_v2.py --ratio p01 --init ~/SSL_Wave1b/runs/ssl_barlow/backbone_e200.pth --epochs 90 --burnin 0.6 --tag det2_p01_barlow200_e90
+2026-11-16 03:07:49  DONE det2_p01_barlow200_e90 in 228 min
+2026-11-16 05:20:15  cutoff reached - queue ends
+2026-11-16 05:20:15  queue end
